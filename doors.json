@@ -1,3 +1,4 @@
+
 [
     {
       "code": "BRE",
@@ -43,7 +44,7 @@
       "code": "Usurper",
       "gameTitle": "Usurper Dungeon Crawl",
       "doorCmd": "C:\\doors\\bin\\usurper.bat",
-      "dropFileFormat": "DorInfo",
+      "dropFileFormat": "DoorSys",
       "multiNode": true,
       "description": "A competitive dungeon crawl where players vie for supremacy.",
       "category": "Adventure",
