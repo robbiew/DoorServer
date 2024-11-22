@@ -1,0 +1,34 @@
+[
+    {
+      "name": "BRE",
+      "doorCmd": "C:\\doors\\bin\\bre.bat",
+      "dropFileFormat": "DoorFileSR",
+      "dropFileDir": "/doors/bre",
+      "removeLockFile": "/doors/bre/INUSE.FLG"
+    },
+    {
+      "name": "Exitilus",
+      "doorCmd": "C:\\doors\\bin\\exitilus.bat",
+      "multiNode": true,
+      "dropFileFormat": "DorInfo"
+    },
+    {
+      "name": "LOD",
+      "doorCmd": "C:\\doors\\bin\\lod.bat",
+      "multiNode": true,
+      "dropFileFormat": "DorInfo"
+    },
+    {
+      "name": "TW2002",
+      "doorCmd": "C:\\doors\\bin\\tw2002.bat",
+      "dropFileFormat": "DoorSys",
+      "multiNode": true
+    },
+    {
+      "name": "Usurper",
+      "doorCmd": "C:\\doors\\bin\\usurper.bat",
+      "dropFileFormat": "DorInfo",
+      "multiNode": true
+    }
+  ]
+  

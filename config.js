@@ -1,114 +1,75 @@
 /**
- * This is the doornode configuration file.  This file is for defining basic dosbox launch
+ * This is the doorserver configuration file.  This file is for defining basic dosbox launch
  * configuration and setting up door modules.
  */
 
+const path = require("path");
+const fs = require("fs");
+const Ajv = require("ajv");
+
+const ajv = new Ajv();
+
+// Define the schema for the doors configuration
+const doorSchema = {
+  type: "array",
+  items: {
+    type: "object",
+    properties: {
+      name: { type: "string" },
+      doorCmd: { type: "string" },
+      dropFileFormat: { type: "string" },
+      dropFileDir: { type: "string" },
+      removeLockFile: { type: "string" },
+      multiNode: { type: "boolean" },
+    },
+    required: ["name", "doorCmd", "dropFileFormat"],
+  },
+};
+
+// Define the path to the external doors configuration file
+const doorsConfigPath = path.join(__dirname, "doors.json");
+let doors = [];
+
+try {
+  const rawData = fs.readFileSync(doorsConfigPath, "utf8");
+  doors = JSON.parse(rawData);
+
+  // Validate the loaded configuration
+  if (!ajv.validate(doorSchema, doors)) {
+    console.error(`Invalid doors configuration: ${ajv.errorsText(ajv.errors)}`);
+    doors = []; // Set doors to an empty array if validation fails
+  }
+} catch (error) {
+  console.error(`Failed to load doors configuration: ${error.message}`);
+}
+
 module.exports = {
-  /**
-   * Rlogin listen port
-   */
+  // Rlogin listen port
   port: 3513,
 
-  /**
-   * Use your terminal program to connect to this port and manually launch modules.
-   */
+  // Use your terminal program to connect to this port and manually launch modules.
   debugPort: 3333,
 
-  /**
-   * Dosbox launch configuration
-   */
   dosbox: {
     // the path to the dosbox executable
-    dosboxPath: '/usr/bin/dosbox',
+    dosboxPath: "/usr/bin/dosbox",
 
     // the path to the dosbox config files
-    configPath: __dirname + '/dosbox',
+    configPath: path.join(__dirname, "dosbox"),
 
     // the path to the dosbox drive
-    drivePath: __dirname + '/dosbox/drive',
+    drivePath: path.join(__dirname, "dosbox/drive"),
 
     // communication is done using a nullmodem serial port mapping in dosbox
-    // define the startpoint port number.  actual port numbers will be:
+    // define the startpoint port number. Actual port numbers will be:
     // startPort + nodeNumber
+
     startPort: 10000,
 
-    // launch dosbox instances in 'headless' mode (SDL_VIDEODRIVER=dummy)
-    headless: true
+    // launch dosbox instances in 'headless' mode (no window)
+    headless: true,
   },
 
-  /**
-   * Define your door modules here.  Example:
-   *
-   * {
-   *  // module name with no spaces
-   *  name: 'ExampleDoor',
-   * 
-   *  // path to a .BAT file to load fossil drivers and launch the door.  see the examples folder.
-   *  doorCmd: 'C:\\doors\\bin\\bre.bat',
-   * 
-   *  // drop file format, current supported formats are: DoorSys, DoorFileSR, DorInfo
-   *  dropFileFormat: 'DoorFileSR',
-   * 
-   *  // where to write the dropfile (relative to drivePath)
-   *  dropFileDir: '/doors/bre',
-   * 
-   *  // optional, if a lock file should be deleted after the user exits the door (relative to drivePath)
-   *  removeLockFile: '/doors/bre/INUSE.FLG',
-   * 
-   *  // if the door has multinode support
-   *  multinode: true
-   * },
-   */
-  doors: [
-  {
-    name: 'BRE',
-    doorCmd: 'C:\\doors\\bin\\bre.bat',
-    dropFileFormat: 'DoorFileSR',
-    dropFileDir: '/doors/bre',
-    removeLockFile: '/doors/bre/INUSE.FLG'
-  },
-  {
-    name: 'Exitilus',
-    doorCmd: 'C:\\doors\\bin\\exitilus.bat',
-    multiNode: true,
-    dropFileFormat: 'DorInfo'
-  },
-  {
-    name: 'LOD',
-    doorCmd: 'C:\\doors\\bin\\lod.bat',
-    multiNode: true,
-    dropFileFormat: 'DorInfo'
-  },
-  // {
-  //   name: 'LORD',
-  //   doorCmd: 'C:\\doors\\bin\\lord.bat',
-  //   multiNode: true,
-  //   dropFileFormat: 'DorInfo'
-  // },
-  // {
-  //   name: 'SRE',
-  //   doorCmd: 'C:\\doors\\bin\\sre.bat',
-  //   dropFileFormat: 'DoorFileSR',
-  //   dropFileDir: '/doors/sre',
-  //   removeLockFile: '/doors/sre/INUSE.FLG'
-  // },
-  // {
-  //   name: 'Pit',
-  //   doorCmd: 'C:\\doors\\bin\\pit.bat',
-  //   dropFileFormat: 'DorInfo',
-  //   multiNode: true
-  // },
-  {
-    name: 'TW2002',
-    doorCmd: 'C:\\doors\\bin\\tw2002.bat',
-    dropFileFormat: 'DoorSys',
-    multiNode: true
-  },
-  {
-    name: 'Usurper',
-    doorCmd: 'C:\\doors\\bin\\usurper.bat',
-    dropFileFormat: 'DorInfo',
-    multiNode: true
-  }
-  ]
-}
+  // Doors metadata loaded from external file
+  doors,
+};

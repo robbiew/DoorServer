@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.17.1",
     "ansi-escape-sequences": "^2.0.0"
   }
 }
