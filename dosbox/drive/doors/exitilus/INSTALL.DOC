@@ -1,0 +1,150 @@
+                            Exitilus v3.20 Installer
+                           --------------------------
+                      (C)opyright 1999, ECI Software, LLC
+INTRODUCTION
+-------------
+This program is to be used to Install Exitilus files into their correct
+locations and to upgrade your Exitilus game.
+
+DISCLAIMER
+-----------
+ECI Software, LLC has taken every precaution to insure that no harm or damage
+will come to any computer system operating this package. However, ECI
+Software, LLC will not be held liable for whatever may happen to your
+computer system or to any computer systems which connect to your own. The
+user assumes full responsibility for the correct operation of this software
+package, whether harm or damage results from software error, hardware
+malfunction, or operator error. No warranties are offered, expressly stated,
+or implied. The software comes as is, with no guarantees. If you do not agree
+with this, then do not use this program. By using this program, you agree to
+the above.
+
+LICENSE AGREEMENT
+------------------
+This program, support files, documentation, and name are copyrighted products
+of ECI Software, LLC. ECI Software, LLC reserves all rights to these products.
+This is protected by the USA and International Copyright Laws. In no way can
+the components of this software package be reproduced or modified in any form
+or method without prior written permission from ECI Software, LLC. Tampering
+with or altering the contents or integrity of this software package is
+prohibited. No fee may be charged by any agency other than ECI Software, LLC,
+beyond the cost of distributing unregistered copies without prior written
+permission from ECI Software, LLC.
+
+INSTRUCTIONS
+-------------
+Simply run the install.exe program and follow the prompts.
+
+If the program comes back with any errors, please refer to the following:
+
+1) If it says it can't find pkunzip.exe, then you must copy pkunzip.exe into
+   the Exitilus directory or put pkunzip.exe into your path statement.
+
+2) If it says it can't change directories, please see the manual installation
+   instructions below
+
+3) If it says it can't copy the files, please see the manual installation
+   instructions below
+
+4) If it says it can't unzip the files correctly, please see the manual
+   instructions below
+
+MANUAL INSTRUCTIONS
+--------------------
+If (for some unknown reason), the installation program won't run correctly,
+please follow these instructions to get Exitilus up and running...
+
+1) Make an ANSI, QUESTS, and PNEWS Directory by typing:
+
+   mkdir ansi
+   mkdir quests
+   mkdir pnews
+
+2) Copy the ANSI.ZIP and QUESTS.ZIP file to the ANSI and QUESTS Directories
+   by typing:
+
+   copy ansi.zip ansi
+   copy quests.zip quests
+
+3) Change to the ANSI Directory by typing:
+
+   cd ansi
+
+4) Unzip the ANSI.ZIP File by typing:
+
+   pkunzip ansi.zip
+
+   NOTE: If you get "Bad Command or File Name," make sure you have
+   pkunzip.exe in your path statement by typing:
+
+   path
+
+   Then look and see if any of those directories contain pkunzip.exe. If they
+   don't, then edit your c:\config.sys file and add a directory to the path
+   statement and reboot.
+
+5) Change to the QUESTS Directory by typing:
+
+   cd ..\quests
+
+6) Unzip the QUESTS.ZIP File by typing:
+
+   pkunzip quests.zip
+
+   NOTE: If you get "Bad Command or File Name," make sure you have
+   pkunzip.exe in your path statement by typing:
+
+   path
+
+   Then look and see if any of those directories contain pkunzip.exe. If they
+   don't, then edit your c:\config.sys file and add a directory to the path
+   statement and reboot.
+
+7) Change back to the Exitilus Directory by typing:
+
+   cd ..
+
+8) Run the exsetup.exe program and continue installation as outlined in the
+   sysop.doc file.
+
+**NOTE: You must be running Exitilus v3.16 or higher in order for this
+program to work. If you are not, please upgrade your files before you run
+this program....**
+
+SUPPORT
+--------
+If you have any questions, comments, or suggestions about this program or any
+other program from ECI Software, LLC, please contact us using any of the
+following addresses:
+
+WWW:
+
+http://www.ecisoftware.com
+
+E-mail:
+
+info@ecisoftware.com -- General Questions
+
+exitilus@ecisoftware.com -- Exitilus related Questions
+
+Snail Mail:
+
+ECI Software, LLC
+PO Box 930061
+Verona, WI 53593-0061
+
+Voice:
+
+(608) 848-5121
+
+Fax:
+
+(608) 848-5121
+
+BBS:
+
+Middle Earth BBS
+(608) 845-9168
+Open 24hrs a day, 7 days a week
+This BBS usually runs a "newer" version of Exitilus. Worth the LD to call...
+

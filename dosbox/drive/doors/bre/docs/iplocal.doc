@@ -1,0 +1,112 @@
+Barren Realms Ellite
+
+InterBBS Local Play Documentation
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Many sysops are unwilling to setup the InterBBS Gaming System, are unsure
+of its workings, or are unwilling to connect to another system.  This file
+explains how to set up several local games to be interconnected so you
+may essentially run an "InterBBS Local Game".
+
+This can be especially interesting if you have a large number of players on
+the board who wish to form "teams" and fight, etc.
+
+How to do this:
+
+  See the INTERBBS.DOC for basic information on how to set up your BRNODES.DAT
+  and BBS.CFG files.
+
+  BRNODES.DAT:
+  ÄÄÄÄÄÄÄÄÄÄÄÄ
+    Each game should have a different Nodelist number and name.  For
+    simplicity, it is recommended that you use 1:1/1 for the first game,
+    1:1/2 for the second, and so forth.
+
+  BBS.CFG:
+  ÄÄÄÄÄÄÄÄ
+    For all games (2..n), the INBOUND FILES directory should be:
+      [GAME(N-1)]\OUTBOUND
+    For game #1, the INBOUND FILES directory should be:
+      [GAME(N)]\OUTBOUND
+
+    For example: Suppose you have a 4-game setup in directories C:\BRE1,
+      C:\BRE2, C:\BRE3, and C:\BRE4.
+      Game            Inbound File Directory
+      1               C:\BRE4\OUTBOUND
+      2               C:\BRE1\OUTBOUND
+      3               C:\BRE2\OUTBOUND
+      4               C:\BRE3\OUTBOUND
+
+  ROUTE.CFG:
+  ÄÄÄÄÄÄÄÄÄÄ
+  All systems should route data to the next system, with the last routing
+  all data to game #1.  For a 4-game system, you should have the following:
+
+    Game 1 should have a route.cfg with: "ROUTE * 2"
+    Game 2 should have a route.cfg with: "ROUTE * 3"
+    Game 3 should have a route.cfg with: "ROUTE * 4"
+    Game 4 should have a route.cfg with: "ROUTE * 1"
+
+  This basically produces a file circle.  Run FE PLANETARY on each system 1Äx
+  in order, and all the necessary information will be properly transmitted
+  between systems.  Running this cycle twice will produce immediate results of
+  all attacks, etc.
+
+SAMPLE FILES (for a 4-Game System)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+This assumes a 4-game system, with a league number of 900.  The four games
+are contained in C:\BRE1, C:\BRE2, C:\BRE3, and C:\BRE4.
+
+BRNODES.DAT (for all 4 games)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+1
+The Northern Lights
+1:1/1
+Houston
+TX
+USA
+
+2
+The Southern Circle
+1:1/2
+Houston
+TX
+USA
+
+3
+The Eastern Winds
+1:1/3
+Houston
+TX
+USA
+
+4
+The Western Hills
+1:1/4
+Houston
+TX
+USA
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+BBS.CFG
+ÄÄÄÄÄÄÄ
+Game-1               Game-2                Game-3              Game-4
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Mehul Patel          Mehul Patel           Mehul Patel         Mehul Patel
+Northern Lights      Southern Circle       Eastern Winds       Western Hills
+1:1/1                1:1/2                 1:1/3               1:1/4
+C:\BRE2\OUTBOUND     C:\BRE3\OUTBOUND      C:\BRE4\OUTBOUND    C:\BRE1\OUTBOUND
+C:\BRE2\OUTBOUND     C:\BRE3\OUTBOUND      C:\BRE4\OUTBOUND    C:\BRE1\OUTBOUND
+900                  900                   900                 900
+NONE                 NONE                  NONE                NONE
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+ROUTE.CFG
+ÄÄÄÄÄÄÄÄÄ
+Game-1               Game-2                Game-3              Game-4
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ROUTE * 2            ROUTE * 3             ROUTE * 4           ROUTE * 1
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+

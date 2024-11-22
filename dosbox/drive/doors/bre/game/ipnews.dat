@@ -1,0 +1,95 @@
+^IP-ATT-INDIVWIN
+InterPlanetary Strikes from %F from %P hit %T and stole a breathtaking %C!
+The I-P Wars continued today as %F from %P defeated %T stealing %C!
+Today we witness the humiliating defeat of %T by %F from %P capturing %C!
+%C were captured in an assault against %T by %F from %P!
+^END
+
+^IP-ATT-INDIVLOSS
+InterPlanetary Strikes from %F from %P hit %T but failed due to marvelous defenses!
+The I-P Wars continued today as %F from %P failed in a strike against %T!
+Today we witness the glorious victories of %T in defense against %F from %P!
+Our planet has fought off yet another attack by %F from %P against %T!
+^END
+
+^IP-ATT-GROUPSINGLEWIN
+InterPlanetary Strikes from %P hit %T and stole a breathtaking %C!
+The I-P Wars continued today as %P defeated %T stealing %C!
+Today we witness the humiliating defeat of %T from %P capturing %C!
+%C were captured in an assault against %T from %P!
+^END
+
+^IP-ATT-GROUPSINGLELOSS
+InterPlanetary Strikes from %P hit %T failed due to marvelous defenses!
+The I-P Wars continued today as forces from %P failed in a strike against %T!
+Today we witness the glorious victories of %T in defense against %P!
+Our planet has fought off yet another attack by %P against %T!
+^END
+
+^IP-ATT-GROUPBBSWIN
+Massive invasion from %P!!  %C were captured!!
+Our baronies have failed to defend %R's realm!  %P captured %C!
+Forces from %P have put disgrace to %R's empire!  They captured %C!
+Our planet suffered a huge loss in the endless wars as forces from %P stole %C!
+Our forces faced catastrophic losses today, as %P invaded and captured %C!
+^END
+
+^IP-ATT-GROUPBBSLOSS
+%R repelled an invasion from %P!!
+Our baronies have proved themselves in defending %R's realm against %P!
+Forces from %P have been disgraced as %R's empire warded off their invasion!
+Our planet gained a huge victory in the endless wars as forces from %P failed to invade us!
+Our forces faced minimal losses today, as forces from %P were blown back to their homes!
+^END
+
+^IP-RET-INDIVWIN
+%F's forces have returned in triumph from %T of %P and captured %C!
+Our realm's glory expands - %F has captured %C from %T of %P!
+The war goes well - %F has captured %C from %T of %P!
+More Military Successes!  %T of %P has lost %C to our %F!
+Congratulations go to %F as our Baron has captured %C from %T of %P!
+^END
+
+^IP-RET-INDIVLOSS
+%F's forces have returned with news of failure from %T of %P!
+Our realm's glory diminishes - %F has failed in a strike against %T of %P!
+The war goes poorly - %F has lost a strategically important battle against %T of %P!
+More Military Failures! %T of %P has defended itself from our %F!
+No congratulations will go to %F today as our Baron has failed in a battle against %T of %P!
+^END
+
+^IP-RET-GROUPSINGLEWIN
+Our planet's forces have returned in triumph from %T of %P and captured %C!
+Our realm's glory expands - We have captured %C from %T of %P!
+The war goes well - We have captured %C from %T of %P!
+More Military Successes!  Our Planet's efforts have earned us %C from %T of %P!
+Congratulations go to %R in leading our realm in capturing %C from %T of %P!
+^END
+
+^IP-RET-GROUPSINGLELOSS
+Our planet's forces have returned in disarray and anger from a loss against %T of %P!
+Our realm's glory is gone!  We have failed in assaults against %T of %P!
+The war goes badly - We have failed in yet another attack on %T of %P!
+More Military Failures!!  Our Planet's efforts have lead us to more losses against %T of %P!
+Anger grows against %R as our realm fails in assaults against %T of %P!
+^END
+
+^IP-RET-GROUPBBSWIN
+Our planet's forces have returned in triumph from %P and captured %C!
+Our realm's glory expands - We have captured %C from %P!
+The wars go well - We have captured %C from %P!
+More Military Successes!  Our Planet's efforts have earned us %C from %P!
+Congratulations go to %R in leading our realm in capturing %C from %P!
+^END
+
+^IP-RET-GROUPBBSLOSS
+Our planet's forces have returned in disarray and anger from a loss against %P!
+Our realm's glory is gone!  We have failed in assaults against %P!
+The wars go badly - We have failed in yet another attack on %P!
+More Military Failures!!  Our Planet's efforts have lead us to more losses against %P!
+Anger grows against %R as our realm fails in assaults against %P!
+^END
+
+^IP-RET-KILL
+%F's forces have returned in triumph from %P, having destroyed %T!
+^END

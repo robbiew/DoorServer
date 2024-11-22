@@ -1,0 +1,48 @@
+Mehul Patel
+The Solar Realm
+106/900
+C:\FD\FILES
+C:\FD\NETMAIL
+900
+FRONTDOOR
+
+
+
+#---------------------------------------------------------------------#
+Sample BBS.CFG file
+
+NOTE:  The BBS.CFG file should be stored in your main BRE directory
+
+Line 1 = Sysop Name
+Line 2 = BBS Name or Planet Name - This is used only to identify your
+         planet in the game, so use whatever you like - to make others
+         see the selected name, request that it be placed in the Nodelist
+         in place of the BBS name
+Line 3 = NodeNumber WITH Net/Node ONLY - Include the ZONE *only* if it is
+         included in the BRNODES.DAT file.  Zones should be used is the
+         zone number is greater than one - be sure to get your coordinator
+         to place it in the BRNODES.DAT.
+Line 4 = Your Front End Incoming FILE Directory
+Line 5 = Your NetMail Directory
+Line 6 = League number - Must be the same throughout the league.  This
+         can be any number between 1 and 999.  It is used if a BBS wishes
+         to be a member of two leagues to separate incoming files.
+         I suggest league coordinators pick a unique number for their league
+         to avoid confusion with other leagues.  Support for this has been
+         installed and you will need this number whether running one or more
+         games.  Enjoy!
+Line 7 = Your Front End Mailer
+         This should be one of the following:
+         FRONTDOOR   BINKLEY   DBRIDGE   INTERMAIL   DBRIDGEOLD   OTHER   NONE
+         If you wish to run BRE PLANETARY more than once a day, you MUST
+         be running Front Door, Binkleyterm, D'Bridge, or Intermail.
+         D'Bridge 1.51 and below do not support the necessary features for
+         BRE to allow multiple files per day to be transferred, and you must
+         therefore use the "DBRIDGEOLD" setting.
+         If you run D'Bridge 1.51- or OTHER, then be SURE to only run
+         BRE PLANETARY during daily maintainence.  Otherwise, you will lose
+         Data.
+         Also, many systems are running BRE *without* a mail system
+         completely (no idea how, but they have succeeded!).  You can use
+         the NONE setting if you delete files after they are sent.
+         Selecting NONE will *not* create a .MSG file.

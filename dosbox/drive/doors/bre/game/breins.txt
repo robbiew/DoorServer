@@ -1,0 +1,578 @@
+                         ^\0EBarren Realms Elite ^\07 - ^\06BRE^\07
+
+                                                       By ^\0FMehul Patel
+
+
+^\0FBarren Realms Elite^\07: What is it?^\07
+^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+^\0EBRE^\07 is an empire based game of strategy and thought.  As a Baron in a vast
+kingdom, your goal is to, ultimately, become supreme to all others.  Using
+everything from diplomacy to war, you must build an empire both economically
+and militarily, all while facing stiff competition from your opponents.
+
+This alone makes ^\0EBRE^\07 enjoyable, or so we hope.  However, the premier feature
+of the game is the ability to link over 200 systems throughout the world and
+bring anywhere up to more than 6,000 players together in a single game.  No
+longer is your goal to become the strongest barony, but instead, the strongest
+world.  Your BBS must come together, facing competition from other planets
+instead of local barons.  Teamwork is the only way to win this type of war.
+
+
+^\0F The Game Itself:^\07
+^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+Barren Realms Elite is divided into a series of menus which appear during
+each turn of play.  The following are the major sections:
+
+Diplomacy (appears only on first turn of the day)
+Status Screen
+Payment / Food Market
+Covert Operations
+Bank
+Spending Menu
+Attacks
+Trading
+Interplanetary Operations (For InterBBS Games)
+Messages
+System Menu
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FDiplomacy^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+The art of diplomacy is a major factor in a successful empire.  Defense
+pacts for local attacks (non-InterBBS) are vital for challenging and
+defeating larger enemies.  Intelligence alliances can multiply the total
+power of Intelligence agencies.  Trade agreements provide tanglible
+benefits in the form of extra cash - if you have a large population.
+
+^Tariff Trade Agreement
+  ^\0BTariff Trade Agreement^\07 - This is an agreement allowing trade between two
+    realms with government taxation of all goods passing boundaries.  It
+    brings an extra income to each empire involved based on population.  This
+    agreement is promising for those empires with large numbers of people.
+^END
+
+^Protective Trade
+  ^\0BProtective Trade Agreement^\07 - This agreement installs guards along trade
+    routes between the two realms, preventing bombing of trade deals and
+    making trade deals cheaper to send and maintain.
+^END
+
+^Free Trade Agreement
+  ^\0BFree Trade Agreement^\07 - This pact declares that people are free to
+    travel between boundaries and trade goods without taxation.  Large
+    amounts of income are gained through income taxes, but due to the
+    contact of peasants between empires, bad morale and support will
+    spread throughout other realms if not controlled quickly.
+^END
+
+^Terrorist Prevention
+  ^\0BTerrorist Prevention Plan^\07 - The terrorist prevention plan is an alliance
+    between two powers' intelligence agencies to aid each other in finding
+    and preventing terrorist and covert actions against the two realms.
+^END
+
+^Intelligence Alliance
+  ^\0BIntelligence Alliance^\07 - This is an agreement between Realms giving
+    covert aid in terrorist and covert operations to other empires on
+    the planet and in Inter-planetary conflict.
+^END
+
+^Technology Agreement
+  ^\0BTechnology Agreement^\07 - An agreement to cooperate in the sciences, this
+    treaty allows an empire to gain some of the technological advances of its
+    partner.
+^END
+
+^Full Defense Alliance
+  ^\0BFull Defense Alliance^\07 - This plan, the most balanced and powerful alliance,
+    puts forth a large amount of all of your forces in defending an ally in
+    need.
+  ^\0ENOTE:^\07  This is effective only in Local Games
+^END
+
+^Declaration Of War
+  ^\0BDeclaration of War^\07 - This is used to break an agreement with another empire
+    without causing internal troubles in your realm.  The treaty is not
+    officially broken until the other realm is notified.
+^END
+
+^View Treaties
+  ^\0BView Treaties^\07 - This option allows you to view relations with the other
+    empires in the game.
+^END
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FStatus Screen^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+At the beginning of each turn, you will be shown your production for the
+year, including gold, food, and industrial output.  After this, you will
+see the current status of your barony, including military, regions,
+your support throughout the realm, etc.
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FPayment / Food Market^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+Paying to maintain your empire is a critical expenditure for any government.
+You must support your military, maintain your land, and pay taxes.  Often,
+you will also need to use money to increase your popular support or military
+morale, lest you risk civil disorder.
+
+Feeding your empire is also critical.  In order to ensure the health of your
+entire populace, the government controls all food supplies, providing to the
+people as necessary.  To aid your empire, there is also a food market
+managed by the entire planet from which you can buy and sell food.  However,
+the supply is limited, and dependence upon the market is dangerous.
+Coordinated attacks can destroy your reserves and the general market, leaving
+you in a dangerous situation.  Without food, morale and public support will
+quickly fall and may lead to internal revolts.
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FCovert Operations^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+Covert Operations are the heart of any successful campaign.  Attacking an
+empire requires only military supremacy.  However, to successfully wage war
+and minimize damage, one must be able to strike at the heart of the enemy
+and remove the opponent's ability to fight back.  Well timed and coordinated
+covert operations can immensely help in this task.  By weakening an enemy
+internally, one takes less losses fighting externally.
+
+^Send Spy
+  ^\09Send Spy^\07 - Allows you to attempt to get military information on another
+    realm.  This operation takes place immediately.
+^END
+
+^Stir Revolts
+  ^\09Stir Revolts^\07 - Through propaganda, your intelligence agency can
+    create doubts in your opponent's populace, causing rioting and revolting,
+    reducing popular support and placing the enemy government in jeopardy.
+^END
+
+^Set Up
+  ^\09Set Up^\07 - This operation will work to make two other empires
+    believe they have declared war on each other, possibly leading to
+    actual combat.  If successful, any treaty between the two empires is
+    void.  Used against empires with defense pacts could make attacking
+    one notably easier.
+^END
+
+^Support Dissensions
+  ^\09Support Dissensions^\07 - Using extremely strong propaganda, your
+    agents may be capable of internally sabotaging an opponent's military,
+    causing a portion of Troopers to flee.
+^END
+
+^Demoralize Forces
+  ^\09Demoralize Forces^\07 - This covert operation infiltrates an enemy's
+    military camps with agents set out to reduce the effectiveness of
+    his or her forces.
+^END
+
+^Spy On Relations
+  ^\09Spy on Relations^\07 - Your agents will work to learn of all treaties
+    of a particular empire.  This is useful pre-war intelligence, in that
+    you can learn of vast alliance networks and/or trade partners.
+^END
+
+^Bomb Enemy Targets
+  ^\09Bomb Enemy Targets^\07 - Using terrorist methods, your intelligence
+    agency will randomly bomb different targets, causing widespread
+    destruction in your opponent's barony.
+^END
+
+^Bribery
+  ^\09Bribery^\07 - Bribing an enemy agent gives you the benefit of learning
+    useful information on the tactics of an opposing intelligence center,
+    allowing your forces to more effectively prevent incoming covert
+    operations.
+^END
+
+^Expose Enemy Ops
+  ^\09Expose Enemy Ops^\07 - This operation takes full advantage of your
+    bribed agent.  By relaying all known information, your bribed agent
+    effectively gives you almost 100% immunity from incoming covert
+    operations from his home empire.  However, because of the level of
+    risk to your agent, this operation is only effective for 24 hours.
+^END
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FThe Bank^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+The bank provides both a safe storage of money and an interest-gaining
+environment.  In addition, you can get cash relief loans from the planetary
+leadership as well as make investments for the future.  Investments provide
+their own interest rates, which often fluctuate depending on the amount of
+investing at any particular time.
+  ^\0ENOTE^\07:  Interest, Loans, and Investments are only accessible in the
+    registered version of this game.
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FSpending Menu^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+The heart of your empire is centered upon having a strong defense and large
+amount of land.  At this menu, you can buy and sell both, depending on the
+setup of the game.  In many setups, the amount of military you can purchase
+is limited or even non-existant, in which case Industrial production is your
+primary or sole option (Industrial production is explained below).
+
+^System Menu
+  ^\0CSystem Menu^\07 - This menu offers a variety of options, explained in
+    a later section of the documentation.
+^END
+
+^Buy / Sell
+  ^\0CBuy / Sell^\07 - This lets to switch between selling and buying.  Depending
+    on your immediate goals, it may be in your best interests to sell off
+    excess equipment, although it can only be sold at a fraction of the
+    buying price.
+^END
+
+^Troopers
+  ^\0CTroopers^\07 - Troopers serve as both offensive and defensive battle
+    units.  While not very strong on either end, they are fairly cheap both
+    to buy and maintain.  One drawback is the added need for food, as
+    compared to other units.
+^END
+
+^Jets
+  ^\0CJets^\07 - These units serve as offensive-only military units.  About
+    twice as powerful as a soldier on offense, they make a formidable attack
+    weapon.  However, they cannot defend and, while cheap to buy, can be
+    relatively expensive to maintain.
+^END
+
+^Turrets
+  ^\0CTurrets^\07 - The counterpart to Jets, Turrets are defensive-only weapons
+    about twice as powerful as the Trooper.  Like Jets, however, they are
+    relatively expensive to maintain.  Nevertheless, Turrets can make a
+    strong, full-time defense and are impossible to destroy through terrorist
+    operations.
+^END
+
+^Bombers
+  ^\0CBombers^\07 - Bombers are special attack forces.  They have no offensive
+    or defensive strength, but can be used in special missions. Interplanetary
+    bombings require bombers to drop the payload, and in attacks, they can
+    be used to target and destroy grounded enemy jets.
+^END
+
+^Headquarters
+  ^\0CHeadquarters^\07 - Your command headquarters is essential in coordinating
+    your military attacks.  A strong HQ gives tanks better coordination and
+    can improve the effectiveness of tanks drastically.
+^END
+
+  ^\0CRegion Buying -^\07
+    You can buy the following types of regions:
+
+^Coastal
+      ^\04Coastal^\07 - Coastal lands are excellent for the tourism and resort
+        industry.  In good conditions, they are an extremely effective
+        money generator.  However, with low public support, your populace
+        loses interest and Coastal territory production slumps drastically.
+^END
+
+^Mountains
+      ^\04Mountains^\07 - The mountains are an excellent source for mining
+        natural resources.  Because there are few factors affecting
+        production, mountains provide the most stable source of income, but
+        at the same time, they do not average as much as other regions.
+        Because mountains are a source of good raw materials, a large
+        number of mountains also tends to boost productivity of your
+        Industrial regions.
+^END
+
+^Desert
+      ^\04Desert^\07 - Dry desert land supports the development of solar
+        power generation extremely well.  Profiting from these generates
+        fluctuates greatly due to climate conditions, but, on the average,
+        produce more gold than do mountains, but less than Coastals in
+        good conditions.
+^END
+
+^Industry
+      ^\04Industry^\07 - Industry is the basis of a strong economy.  While
+        in some setups you can buy any and all military goods you will need
+        during war, others do not allow purchasing at all.  In those cases,
+        Industry is your only source of military power.  Industry, forced
+        into free-market competition, is also more efficient at producing
+        military than you buying from the market.  With a good base of
+        Mountain regions, industrials can produce even more goods.
+^END
+
+^Rivers
+      ^\04Rivers^\07 - Rivers are both an excellent source of revenue
+        through hydroelectric power and a source of food through fishing.
+        While most years the rivers produce vast supplies of gold, more so
+        than any other region, they are often wrought with problems and
+        used instead for fishing to bring extra food into the empire.  The
+        people of the land determine what will be produced yearly, without
+        your input.
+^END
+
+^Agriculture
+      ^\04Agriculture^\07 - Self-sufficiency in terms of food production is
+        almost a necessity in a world wracked by constant conflict.  Without
+        a stable global market to buy and sell food, you may often find
+        yourself with no source of food outside of your barony.  Agricultural
+        regions provide you with a solution to that problem, and in times of
+        global food shortages, could give you bargaining power in selling
+        off surpluses.
+^END
+
+^URBAN
+      ^\04Urban^\07 - By building strong urban centers, you vastly increase
+        the number of people able to live in your empire.  These people
+        bring in more tax revenue, and with strong trade agreements, provide
+        empires with vast new markets from which to produce even more
+        cash.
+^END
+
+^Technology
+      ^\04Technology^\07 - Technology regions are a powerful source of
+        longterm enhancements.  Maintaining these research centers early
+        may prove costly, but with time, they allow you to vastly increase
+        the productivity of your empire economically and militarily.
+        Technology regions lead to the following improvements
+          - Increased military efficiency
+          - Increased region output
+          - Decreased maintenance costs on regions, military, and SDI
+          - Decreased Food spoilage
+          - Increased Tax income
+        As the game progresses, your costs will slowly decrease and efficiency
+        will increase (there will not be specific discoveries).
+^END
+
+^Waste
+      ^\04Waste^\07 - Enemies can use various technological weapons (such as
+        Nuclear Missiles) to reduce your once productive regions to waste.
+        These regions, while still requiring maintenance, produce nothing for
+        your empire.  They can, however, be decontaminated at a much lower
+        cost than buying new regions.
+^END
+
+^Covert Agents
+  ^\0CAgents^\07 - A strong Intelligence Agency is based upon having a
+    large supply of agents.  In general, the larger number of agents you
+    are armed with relative to an opponent, the more successful your covert
+    operations will be and the less successful enemies will be against you.
+^END
+
+^Tanks
+  ^\0CTanks^\07 - The tank is the most advanced general purpose military
+    weapon of your army.  About the equivalent of four Troopers, tanks
+    be used both on offense and defense.  Their low yearly maintenance
+    costs make them a strong long term investment.
+^END
+
+^Carriers
+  ^\0CCarriers^\07 - Carriers are a necessity only in the support role.
+    In order to trade with other realms, often carriers must be sent for
+    transport.  In combat, Jets have to be transported to the battle field
+    as well, and one carrier serves to transport 100 jets.
+^END
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FAttacks^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+The strength of an empire is often determined by its ability to wage war.
+The final blow in waging war is the actual combat between two militaries, and
+here is where you get that opportunity.  All of the building and developing
+to create the most powerful empire is tested in war.
+
+^Regular Attack
+  ^\0ERegular Attack^\07 - This is the only true military battle between two
+    realms.  A successful assault an opposing empire brings you extra regions
+    which you can then recolonize to build as you wish.
+^END
+
+^Nuclear Attack
+  ^\0ENuclear Strike^\07 - Nuclear weapons are a good source of crippling an
+    opponent.  While costly, the nuclear missile transforms a percentage of
+    an enemy's regions into waste, which then must either be dropped or
+    slowly repaired.
+^END
+
+^Chemical Attack
+  ^\0EChemical Attack^\07 - Similar to nuclear strikes, these missiles affect
+    less actual land, but also infect millions of people with deadly chemical
+    gases, significantly reducing an opponent's population.
+^END
+
+^Biological Attack
+  ^\0EBiological Attack^\07 - Biological attacks are similar to the other
+    special attacks, except that they do not damage the land itself.  Instead,
+    they are effective against both the general populace and military
+    Troopers.
+^END
+
+^Attack Pirates
+  ^\0EAttack Pirates^\07 - Pirates often steal military equipment from your
+    empire.  Pirate Raids provide you the opportunity to strike back,
+    stealing away military equipment as well as land from them.
+^END
+
+^Alliance Strength
+  ^\0EAlliance Strength^\07 - This option allows you to see the amount of aid
+    military alliances will provide you if attacked.
+^END
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FTrading^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+Trade between nations is a centerpiece of growth.  In addition to helping
+those in need, many realms with specialized industries coming together and
+trading their goods can build a network of power unattainable individually.
+Besides normal trade between empires, you also can put items for sale on a
+general market at any price you choose.
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FInterplanetary Operations^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+In Interplanetary Games (Games setup to run between several BBSes) you
+experience the most exciting and challenging aspects of BRE.  Instead of
+playing against up to 25 local players, you are now immersed into a universe
+filled with anywhere up to more than 6000 players scattered throughout the
+world.  Instead of being a single entity, you are now part of your BBS, your
+team, working with them to become the most powerful BBS in the league.
+
+^View IPScores
+  ^\0CInterBBS Scores^\07 - This option allows you to view the top players
+    and BBSes throughout the league ranked by various statistics.
+^END
+
+^Terrorist Ops
+  ^\0CTerrorist Operations^\07 - These can be highly beneficial in any assault.
+    Combining the forces of espionage and terrorism, you can do heavy
+    damages to your enemy right before sending the final devastating
+    attack.  As in local covert operations, these operations are vital in
+    destroying an enemy's ability to wage war.
+^END
+
+^Send Trade Deal
+  ^\0CSend Trade Deal^\07 - As in local play, you may send trade deals to other
+    empires on other planets.  However, unlike local trade deals, you may not
+    make any demands in return for the goods you provide, and the target
+    always has to accept that which is sent.
+^END
+
+^Create Group Attack
+  ^\0CCreate InterPlanetary Attack Force^\07 - This will set up a new attack force
+    to be sent to either an entire planet or a single Barony.  You can
+    set when the attack leaves and before that time, anybody on your
+    planet can join in the attack.  Returns will be divided according to
+    the amount of forces you each put in.
+^END
+
+^Join Group Attack
+  ^\0CJoin Interplanetary Attack Force^\07 - This lets to join any of the attack
+    parties waiting to leave.
+^END
+
+^Indiv. Attack Force
+  ^\0CCreate Strike Force^\07 - This allows you to send your own strike force to
+    a single player on another planet.  You get twice as many returns if
+    you send the attack yourself, but you can't attack an entire planet.
+^END
+
+^Send Message
+  ^\0CSend Message^\07 - As in the local messages (mentioned below), this
+    option allows you to send messages to other systems involved in the game.
+^END
+
+^Special Operations
+  ^\0CSpecial Operations^\07
+
+    ^\04Bomb Enemy Food Market^\07 - This operation gives you a chance to bomb
+      the central food market of another planet.  Many of these, combined with
+      other effective operations, have the potential to put enemies through
+      civil war.
+
+    ^\04Undermine Investments^\07 - This option allows your forces to covertly
+      weaken an enemy planet's basic economy, reducing returns on investments
+      due back in the next few days.  Note that only registered systems offer
+      investments.
+
+    ^\04Bomb Enemy Trade Market^\07 - If successful, this operation destroys
+      a portion of all goods stored in an opposing planet's trading market.
+
+    ^\04Bomb Enemy Trade Routes^\07 - This operation attempts to destroy
+      portions of all trade deals in transmit throughout an opposing planet.
+
+    ^\04Nuclear/Chemical/S3-Sabre^\07 - These attacks launch powerful missiles
+      against their targets damaging a variety of areas of the realm.
+
+    ^\04Spy Guy^\07 - This option will send a spy to another BBS.  He(she) will
+      report information on all incoming group attacks and Gooie Kablooies
+      allowing realms to prepare for the incoming onslaughts.
+^END
+
+^Gooie Kablooie Ops
+  ^\0CGooie Kablooie^\07 - The Gooie Kablooie is the ultimate weapon of
+      destruction.  Only one can be created at a time, and it takes a great
+      deal of funding by all members of the BBS.  Once funded (funding depends
+      on the size of the target), the Gooie Kablooie will begin construction.
+      Once construction is complete (a few days), it will be launched to
+      meet it's target.  Immediately upon arrival, 10% of the regions on the
+      planet will be destroyed instantaneously.  Every day of it's existance
+      after the first day, another 5% will be destroyed, up to a max of 5
+      days at which time it will self-destruct.  The only way to destroy this
+      "thing", is to keep battling it with Jets until destroyed.  The
+      destruction of this weapon requires the cooperation of the entire
+      planet, as the amount of jets required is enormous, and the damage
+      irreversible.
+^END
+
+^SDI Program
+  ^\0CSDI Program^\07 - Technology has developed space-based protection
+      against a great deal of enemy forces in the form of a Strategic
+      Defense Initiative program.  Building an SDI, however, is fairly
+      expensive and maintaining it will only cost more.  The more
+      territory you control, the larger your program will need to be as
+      well.  The potential benefits of an SDI including destroying up to
+      50% of incoming enemy missiles as well as reducing the effectiveness
+      of enemy jets and bombers attacking your realm by up to 30% and 20%
+      respectively.
+^END
+
+^Spy Database
+  ^\0CSpy Database^\07 - Because your planet is working as a team, any spy
+    reports obtained about an empire on another planet is stored in a global
+    database, which can be accessed by this option.
+^END
+
+^Travel Times
+  ^\0CTravel Times^\07 - This option lists the approximated time for data to
+    travel to another BBS and back.  Generally, most operations you do will
+    take about this long.
+^END
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FMessages^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+Communication is often a centerpiece of cooperation, whether between
+individual empires or between planets.  Use the messages to coordinate,
+plan, and organize your offenses, alliances, and general plans.
+
+
+^\08ÄÄÄÄÄÄÄÄÄ^\0FSystem Menu^\08ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^\07
+
+The system menu is a special menu accessible from the Spending menu.  It
+supports a variety of options that aren't accessed frequently, such as
+controlling the tax rate in your empire and setting industrial production
+levels.  In addition, it allows you to access a variety of other menus
+such as the Covert Ops and Trading out of sequence.  The Preferences
+submenu also allows you to normally skip a variety of menus that aren't
+used often.  The option to abdicate will immediately delete your empire
+from the game so you may start over the next day.  This menu is constantly
+changing in each version, so various options may appear as time goes by.
+
+
+^\0FBarren Realms Elite ^\07is a game which has been designed to be simple to
+learn initially, but success is based a great deal on experience and
+cooperation.  Much information has been left out of the documentation so
+that you can learn by experience rather than reading instructions.  Used in
+InterBBS mode, BRE is a much more competitive and enjoyable game, requiring
+a great deal of cooperation and organization between players.  We hope you
+enjoy the game, and good luck!
+

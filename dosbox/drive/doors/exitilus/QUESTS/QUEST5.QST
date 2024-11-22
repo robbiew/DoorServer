@@ -1,0 +1,563 @@
+@<<TITLE: `cyan`The Long Road Home II  By: TML,Easy,3 days>>
+@<<DAY 1>>
+@<<CLEAR>>
+
+--------------------------------------------------------------
+`yellow`                      Township of:
+`yellow`                        Blaggard
+`yellow`                     20 Years Later
+
+`magenta`                    Population:  151
+--------------------------------------------------------------
+@<<PAUSE>>
+
+`green`Here you sit atop the same grassy knoll, from whence
+`green`you first saw Blaggard those 20 years ago! The saddle creaks
+`green`beneath you as THUNDERHEAD gently sways back and forth as he
+`green`grazes.
+@<<PAUSE>>
+
+`cyan`Beside you is one of the grandest Golden Palomino Mares 
+`cyan`you have ever seen; a soon to be present for your beautiful
+`cyan`wife LEEZA.  You could not think of a more fitting gift as a
+`cyan`means of your gratitude for the handsome twin sons she bore 18
+`cyan`years ago.
+@<<PAUSE>>
+
+"Yeah, I know; it's a shame I did not give her the mare years
+ago", you murmur to yourself. But, that was because it was not
+'til now that you have found such a beautiful horse as this!
+@<<PAUSE>>
+
+`red`Descending from the knoll you and the two horses gallop 
+`red`for home and a long overdue homecooked meal!
+@<<MONSTER: PLUMED KNIGHT,10,5,10,500,50,1>>
+
+"Surely you jest Knight?", you ask the idiot with the silly
+looking`magenta` Purple Plume`bright yellow` atop his War Helmet.
+@<<PAUSE>>
+
+`white`Before the blood could dry on your Sword, your beautiful
+`white`LEEZA is beside you..
+@<<PAUSE>>
+
+"Oh what have I ever done to deserve a woman such as her?", you
+exclaim to the GODS above!
+@<<PAUSE>>
+
+`green`"It's good to have you home Mi Lord", she says with a 
+`green`faraway look in her eyes. As though she is cooking up
+`green`more than just your supper?
+@<<PAUSE>>
+
+As some women can do, she didn't even mention the gorgeous mare
+at your side. And, when you all enter the home courtyard, you
+instruct your Head Groom to see to the mare's needs and to make
+her worthy of presentation!
+@<<PAUSE>>
+
+`bright blue`After a meal of Steamed Vidalia Onions and Stewed Water
+`bright blue`Buffalo with homecooked biscuits that were as light as 
+`bright blue`the air itself, and of course, tankards of Stout Ale; you 
+`bright blue`summon the Groom.
+@<<PAUSE>>
+
+The Groom bends to whisper in your ear, "The Golden Mare is brushed
+to a high sheen and is saddled with the Black Silver Studded
+saddle you brought from the land of the Moors so long ago Sire."
+@<<PAUSE>>
+
+`magenta`With LEEZA on your arm you lead her to the stables.
+@<<PAUSE>>
+
+`bright red`When the Groom swings open the massive doors of the 
+`bright red`stable, there stands the `yellow` Golden Palomino Mare
+`bright red`that is truly a vision of strength and beauty!
+@<<PAUSE>>
+
+Handing the reins to LEEZA, you proclaim, "Behold my dear, a
+gift that is finally worthy of you!"
+@<<PAUSE>>
+
+`white`"You, you mean, she is for me?", LEEZA screams with tears 
+`white`in her eyes, as she rushes to embrace the beautiful mare.
+@<<PAUSE>>
+
+As you all are admiring the Golden Mare, into the courtyard race
+your twin sons at a fast gallop...
+@<<PAUSE>>
+
+`red`"Father, Father", they both shout in unison as they
+`red`bring their steeds to an abrupt halt!
+@<<PAUSE>>
+
+`red`Which of us is this magnificent animal to belong Father?"
+@<<PAUSE>>
+
+"In your wildest dreams little ones, the mare is now your 
+Mother's", you say.
+@<<PAUSE>>
+
+`bright blue`Without warning, the two boys pounce upon you and
+`bright blue`drive you to the ground with their combined weight.
+@<<PAUSE>>
+
+After a friendly tussle the boys tell you. "Father, Mother will be
+in great need of this fine mare soon.  We were chased home by a 
+small band of Moor Warriors."
+@<<PAUSE>>
+
+`cyan`Quickly your horse is resaddled and the four of you ride out
+`cyan`to meet the Moors.
+@<<PAUSE>>
+
+No sooner than reaching the outskirts of town, you come upon the 
+Moor band. "Why are you and your men in our Kingdom?", you ask
+the leader of the Moors.
+@<<PAUSE>>
+
+`white`"We are tracking two foolish youths that have ventured
+`white`into our borders uninvited", answers the Moor Captain.
+`white`"I see that you have captured them for us. We shall take
+`white`charge of them now."
+@<<PAUSE>>
+
+"Captain, your assumption is wrong! These are my sons; what
+mischief have they been up to this day?"
+@<<PAUSE>>
+
+`white`"I have come for them and shall parlay with you no more!"
+@<<MONSTER: MOOR WARRIOR,13,7,11,50,10,10>>
+
+You are always saddened to see good men throw away their lives
+so needlessly. "Why did they not discuss the matter further?", you
+ask, of no one in particular.
+@<<PAUSE>>
+
+`cyan`"You boys have 'til the 'morrow to give your explanations
+`cyan`of this matter, before the Town Elders!", you shout at the
+`cyan`boys.
+@<<DAY END>>
+@<<DAY 2>>
+
+--------------------------------------------------------------
+`bright red`                Town Meeting of The Elders
+`bright red`                   Topic of Discussion:
+
+`green`                 Mischief of the sons of:
+`green`                     <<NAME>> and LEEZA
+--------------------------------------------------------------
+@<<PAUSE>>
+
+`bright white` Bang!
+`bright white`      Bang!!
+`bright white`           Bang!!!
+@<<PAUSE>>
+
+The Mayor of Blaggard bangs the gavel, to announce that the
+Meeting of the Town Elders is now in session. "Why have these
+youths been brought before this tribunal?", asks the Mayor.
+@<<PAUSE>>
+
+`green`Rising from your chair you begin to speak, " Yesterday
+`green`my family and I were forced to kill 10 Moors that had
+`green`chased my two sons home."
+@<<PAUSE>>
+
+`magenta`"When we questioned the Moor Captain, he would only state
+`magenta`that the boys had crossed the Moor borders uninvited and
+`magenta`then he pressed the attack", said LEEZA in a stern voice.
+@<<PAUSE>>
+
+"Donald and Robert, approach the bench!", the Mayor ordered firmly.
+@<<PAUSE>>
+
+`cyan`You could visually see tremors running through the lads' 
+`cyan`backs as they stood proud and straight before the Elders.
+@<<PAUSE>>
+
+"We think that this age-old feud with the Moors should be 
+terminated so that our two Nations can live in peace", states
+Robert.
+@<<PAUSE>>
+
+`bright blue`"We only crossed their borders to visit with the
+`bright blue`daughters of Ozmar, The Moor cobbler", adds your
+`bright blue`other son Donald.
+@<<PAUSE>>
+
+"Am I to believe that two lads of Blaggard are courting two
+Moor maidens?", shouts one of the Elders!
+@<<PAUSE>>
+
+`bright blue`"There are no maidens, of marrying age, here in
+`bright blue`Blaggard at the time Mi Lord", says Donald.
+@<<PAUSE>>
+
+"We thought that if we could persuade the two Moor ladies to
+wed us, that somehow, would bring about peace between our
+two Nations", adds Robert.
+@<<PAUSE>>
+
+`white`"Hmmmmmmmmmmm, I think this deserves some careful 
+`white`deliberation, in private chambers", declares the
+`white`Town Mayor.
+@<<PAUSE>>
+
+The Mayor and Town Elders repare to the Private Chambers, leaving
+you and your family to sit and ponder the boys' faith....
+@<<PAUSE>>
+
+`green`What seems like hours has passed when, suddenly, the
+`green`Mayor and Elders return and take their place at the
+`green`great table before you.
+@<<PAUSE>>
+
+"What we have decided is this:
+        1. Our Scribe shall draft a letter of apology
+           and have it sent to the Moor Elders.
+        2. The letter shall invite the Moor to have their best
+           and most able youths attend a Friendly Jousting against
+           the best of our youths.
+        3. The letter will further invite the Moors to a great
+           outdoor feast of roast Water Buffalo and Sweet Yams.
+        4. After the festivities, the Elders of our two Nations
+           and the parents of all parties concerned, shall meet
+           in the Town Meeting House to discuss the courtship of
+           our sons and daughters.
+
+Go ye now and prepare for this occassion", states the Mayor.
+@<<PAUSE>>
+
+`cyan`Leaving the Town Hall, you are greatful that the Elders 
+`cyan`had not ordered punishment for your two sons.  For, as
+`cyan`foolish as they are, you love them dearly!
+@<<DAY END>>
+@<<DAY 3>>
+
+===============================================================
+`yellow`                 The Royal Jousting Field
+`yellow`                Of:  The TownShip Blaggard
+
+`yellow`                 See the Leader Board for:
+`yellow`                 Pairings & times of Joust
+===============================================================
+@<<PAUSE>>
+
+The air is filled with the vibrance that can only come when
+there is a Jousting to attend!
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+
+`green`The Trumpets announce the start of the games...
+@<<PAUSE>>
+
+"Hear Ye, Hear Ye..The Honorable Mayor of the Township of
+Blaggard", shouts the Game Announcer!
+@<<PAUSE>>
+
+`cyan`"We are gathered here today, to enjoy the skills of the 
+`cyan`youths of our two Nations.  The Jousts shall be done
+`cyan`using PADDED lance points and shall not inflict any
+`cyan`killing blows! Any youth found to not be adhering to
+`cyan`this RULE shall be removed from the games and severely
+`cyan`punished!", exclaims the Mayor, "Let the games begin."
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+The first match is between your son Robert and a lad in a
+familiar looking suit of Armour, with a stupid`magenta` Purple Plume 
+atop his War Helmet. 
+@<<PAUSE>>
+
+Could this be the young son of the Moor
+Warrior you killed just a few days ago?
+@<<PAUSE>>
+
+`red`Charge after charge, the youths are unable to unseat
+`red`the other until the required number of charges is reached!
+@<<PAUSE>>
+
+"You two shall be held, as a pair, and will compete again after
+the last pair has run their match", says the Game Announcer.
+@<<PAUSE>>
+
+`bright white`A very loud cheer is raised by the spectators, in
+`bright white`approval of the Announcer's decision.
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+Three more matches are run with two 
+Blaggard youths being unseated!
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+Three more matches are run with two 
+Moor youths being unseated!
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+Your heart pounds in your chest as you watch 
+your son, Donald, take the field!
+@<<PAUSE>>
+
+`cyan`The two competitors race their steeds forward at the
+`cyan`last "Toot" of the trumpets. Both youths lower and steady
+`cyan`their lances awaiting the tremendous impact.
+@<<PAUSE>>
+
+`magenta`It is with great pride that you leap to your feet and fill the 
+`magenta`air with shouts and cheers, when you see that Donald has felled
+`magenta`his opponent!
+@<<PAUSE>>
+
+Three more matches are run with two 
+Blaggard youths being unseated!
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+"Now let's see...Just how do we stand?", you hear yourself ask.
+@<<PAUSE>>
+@<<CLEAR>>
+
+--------------------------------------------------------------
+`green`                         Leader Board
+`green`                         ============
+
+`green`            Blaggard:                        Moor:
+`green`            =========                        =====
+
+`cyan`            Win:  5                          Win:  5
+
+--------------------------------------------------------------
+@<<PAUSE>>
+@<<CLEAR>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+"Hear Ye, Hear Ye, Hear Ye", cries the Game Announcer.
+
+"In one Hour, the two contestants that are tied, will take the
+field for their final round of competetion!"
+@<<PAUSE>>
+
+`cyan`"Father", your son Robert, calls to you.
+`cyan`"Will you grant me one wish today?"
+@<<PAUSE>>
+
+"And what, may I ask is that?", you implore of him.
+@<<PAUSE>>
+
+`cyan`"I feel as though my horse, MIDNIGHT, cannot carry me to a
+`cyan`decisive victory in this last round of Jousting", Robert
+`cyan`admits to you, with his head hung low.
+@<<PAUSE>>
+
+"The only trouble with him", you proclaim, "Is that he is a lot
+like you." "The two of you are young and have not as yet learned 
+the secrets of combat!" "What you need is a better horse."
+@<<PAUSE>>
+
+`cyan`"But Father, there is only one horse in all of our Kingdom
+`cyan`that has the knowledge, strength and power to best that
+`cyan`Moor's White Stallion", Robert states, with a hopeful
+`cyan`look in his eye?
+@<<PAUSE>>
+
+"And, what horse is that pray tell", you love teasing him.
+@<<PAUSE>>
+
+`cyan`"Father, you know that THUNDERHEAD has never lost a 
+`cyan`Joust", Robert exclaims, "May I ride him, please?"
+@<<PAUSE>>
+
+With pride swelling in your chest, for both this son and your
+favorite black stallion THUNDERHEAD, you direct your Groom to 
+saddle THUNDERHEAD straight away!
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+'Tis the signal for the youths to take to the field...
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+The Game Announcer is standing in the center of the Jousting 
+field, and he beckons the two lads unto him.
+@<<PAUSE>>
+
+`white`"You have both had one hour to prepare for this last 
+`white`match, are you both now ready?", The Announcer asks.
+@<<PAUSE>>
+
+`cyan` "Ready", shouts the Moor lad.
+`cyan` "Ready", shouts your son Robert.
+@<<PAUSE>>
+
+"Ouch, you're hurting me!", screams LEEZA.
+"I am sorry my love", you had not been aware 
+you were squeezing her so tightly.
+@<<PAUSE>>
+
+`bright magenta`The lads take their places, at opposite ends of the field.
+`bright magenta`And, you feel the blood racing through your veins as you
+`bright magenta`listen for the trumpets to announce the first charge...
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+You watch, with held breath, as the two horses begin their run...
+@<<PAUSE>>
+
+`bright red`Thud! Is the sound of the padded lance points as
+`bright red`they make contact with each of the youth's chests.
+@<<PAUSE>>
+
+Again and again they charge, only to find that they are still
+evenly matched!
+@<<PAUSE>>
+
+`white`"STOP THE MATCH", yells the Game Announcer!
+`white`A silence falls over the spectators as you all wait for
+`white`the Announcer's decision?
+
+`white`"I give you each a thirty minute rest period", he exclaims.
+@<<PAUSE>>
+
+At your son's Rest Tent, you ask what he thinks 
+the reason is that he cannot unseat the Moor?
+@<<PAUSE>>
+
+`cyan`"My lance is just bending and not transmitting any power
+`cyan`to the Moor's shield!", your son shouts at you, in a rage.
+@<<PAUSE>>
+
+"Hahahahahaha, is that all?", you laugh back at him.
+@<<PAUSE>>
+
+`cyan`"I fail to see the humor in that", Robert admits.
+@<<PAUSE>>
+
+From the far wall of the Rest Tent, you draw your trusty black
+lance. The one that Vastar, the Master Blacksmith, made for you
+so very long ago.  The one fashioned from the Swamp Cypress Tree,
+painted and polished a dark Cobalt Black with a Silver Thunder
+Bolt on it's hilt.
+@<<PAUSE>>
+
+`green` Toot, Toota,
+`green` La, Toot,
+`green` Toot, Toot!
+@<<PAUSE>>
+
+When the lads take the field this time, you are certain 
+that Robert will be the victor... 
+@<<PAUSE>>
+
+`bright red`THUNDERHEAD arches his magnificent neck and lunges
+`bright red`forward with such strength and speed as to have
+`bright red`nearly unseated Robert from the saddle!
+@<<PAUSE>>
+@<<CLEAR>>
+
+@<<ANSI: joust.ans>>
+@<<PAUSE>>
+
+@<<CLEAR>>
+@<<MONSTER: MOOR YOUTH,10,2,10,200,50,1>>
+
+A gasp echos through the crowd of spectators as the Swamp Cypress
+Lance strikes with such force that the Moor lad is knocked from
+his saddle with a loud THUMP!
+@<<PAUSE>>
+
+`bright white`RELAX, he is not dead, only knocked out...
+@<<PAUSE>>
+
+`white`"I declare young Robert the winner of this match."
+`white`"I further declare these Games Closed."
+`white`"Go have yourselves a hearty meal", the Announcer cries.
+@<<PAUSE>>
+
+You ate so much food, from the outdoor tables, that you feel 
+like a stuffed PIG as you and your family hurry to the TOWN
+MEETING HALL.
+@<<PAUSE>>
+
+`bright blue`The Town Hall is filled with the Elders of both 
+`bright blue`Nations, all the youths involved and all of their
+`bright blue`parents.
+@<<PAUSE>>
+
+After hours of discussion and more discussion, it is decided to
+call a truce between the Nations and to allow the young ones to
+freely court.
+@<<PAUSE>>
+
+`yellow`It is late when all of the attending guests have departed
+`yellow`from Blaggard, and finally, peace settles over the Land...
+@<<PAUSE>>
+@<<CLEAR>>
+
+You are awarded:
+
+`green`          A STEEL CHAINMAIL ARMOR
+
+`green`          20 STRENGTH POINTS
+`green`          20 DEFENSE POINTS
+`green`          20 LEADERSHIP POINTS
+`green`         500 GOLD
+`green`          25 HITPOINTS
+`green`          50 ACRES of LAND
+`green`          50 SERFS
+`green`          25 MAGIC POINTS
+@<<PAUSE>>
+
+@<<ITEM: 40>>
+@<<STAT: 0,20>>
+@<<STAT: 1,20>>
+@<<STAT: 4,20>>
+@<<STAT: 7,500>>
+@<<STAT: 10,25>>
+@<<STAT: 11,50>>
+@<<STAT: 12,50>>
+@<<STAT: 15,25>>
+@<<PAUSE>>
+
+@<<END OF QUEST>>

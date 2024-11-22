@@ -1,0 +1,364 @@
+224
+You~
+Him~
+Location..:~
+Type......:~
+Dist/Zone.:~
+Danger....:~
+Health....:~
+Attributes:~
+Rad dmg...:~
+Experience:~
+Level.....:~
+Hunger....:~
+Money.....:~
+SFG Mode..:~
+Time Left.:~
+String Def Bytes...:~
+Num string def.....:~
+Map array storage..:~
+Object data storage:~
+Number of Objects..:~
+Monster idx storage:~
+Combat rec storage.:~
+Combat str storage.:~
+User record size...:~
+Overlay buffer size:~
+n/a~
+Heap remaining.....:~
+Dos memory avail...:~
+MOD audio system...:~
+Ready~
+Off~
+FULL   ~
+NOMAP  ~
+SOUND  ~
+MISC   ~
+COMBAT ~
+ICMBT  ~
+ANSI   ~
+RANK   ~
+RANK1  ~
+RANK2  ~
+__ ________  _____ _____ _____~
+## Pkt Name  #updt #sent bsent~
+  ~
+Data Not Received.~
+  Worth ~
+  Level ~
+  Exper ~
+Bravery ~
+  Accur ~
+  Total ~
+      ---- You~
+      ---- Average~
+      ---- Top Player~
+ -- MOD Audio System Status --~
+The MOD audio system was not~
+activated because the /AUDIOxx~
+parameter was not present on~
+the command line (see docs for~
+more information).~
+Song: ~
+Mix rate: ~
+Memory Rsvd: ~
+Memory Free: ~
+The MOD audio system was not~
+activated because there was~
+not enough memory available to~
+reserve for playing songs.~
+The MOD audio system was not~
+activated because there were~
+not any GDM files in the~
+directory. (forget to unzip~
+LODxxxF.ARJ?)~
+The MOD audio system was not~
+activated because the user was~
+on remotely. (use /FR to force~
+sound under remote operation)~
+%  ~
+Minimal ~
+Slight  ~
+Moderate~
+Extreme ~
+Dying   ~
+Unknown~
+N/A    ~
+Neutral~
+Noisy  ~
+Quiet  ~
+         LOD Commands~
+ [F1] LOD Help (this menu)~
+ [F2] Inventory display~
+ [F3] Wastelands Menu~
+ [F4] LOD Information~
+ [F5] Map Legend~
+ [F6] Last LRSCAN~
+ [F7] Host Data~
+ [F8] Combat Window~
+ [F9] Utilities~
+ALT-C Force chat mode~
+User: ~
+        GTERM Commands~
+ [F1] GTerm Help (this menu)~
+ [F2] Inventory display~
+ [F3] Wastelands Menu~
+ [F4] GTERM Information~
+ [F5] Map Legend~
+ [F6] Last LRSCAN~
+ [F7] Host Data~
+ [F8] Combat Window~
+ [F9] Utilities~
+[F10] Exit GTERM~
+CLS~
+RNG~
+ARM~
+LTP~
+MED~
+        WasteLand Help~
+North.....: N/8  Get Item..: P~
+South.....: S/2  Drop Item.: D~
+East......: E/4  Status....: C~
+West......: W/6  Equip.....: Q~
+Use Item..: U    Enter Fort: I~
+Camp......: A    Build Fort: F~
+Enter.....: G    Inv Maint.: M~
+Laptop....: L    Quick Heal: Y~
+~
+~
+Land of Devastation is a BBS~
+door game. It supports local~
+and remote graphics display~
+formats.~
+HEAP....: ~
+DOSMEM..: ~
+COM PORT: LOCAL~
+COM PORT: COM~
+,N,8,1~
+EMS USED: ~
+~
+~
+GTERM is designed to work as a~
+graphics terminal for use with~
+the Land Of Devastation door~
+game. ~
+HEAP....: ~
+COM PORT: COM~
+,N,8,1~
+EMS USED: ~
+Plains~
+Imp. Mtn~
+Desert~
+Mountains~
+Road~
+WasteLand~
+Water~
+Swamp~
+U-Pylon~
+D-Pylon~
+Radiation~
+City~
+No LRSCAN has been captured!~
+ LRSCAN~
+ Z: ~
+ X: ~
+ Y: ~
+LOD version ~
+By Scott M. Baker~
+Name..: ~
+Alias.: ~
+Sysop.: ~
+BBS...: ~
+Reg...: Yes~
+Reg To: ~
+Reg...: No~
+Reg To: N/A~
+Data Not Received.~
+      Utility Functions~
+ [ALT-1] Display Last Ranking ~
+ [ALT-2] Ranking Profile~
+ [ALT-3] MOD sound status~
+ [ALT-4] MAPPER device~
+                              ~
+ [ALT-A] Misc LOD Info        ~
+ [ALT-B] Gterm Protocol Stat  ~
+ [ALT-C] Enter Chat Mode      ~
+ [ALT-D] Drop file info       ~
+                              ~
+      Utility Functions~
+ [ALT-1] Display Last Ranking~
+ [ALT-2] Ranking Profile~
+ [ALT-3] MOD sound status~
+ [ALT-4] MAPPER device~
+                              ~
+                              ~
+                              ~
+                              ~
+                              ~
+                              ~
+Data Not Received.~
+____________ __ __ __ __ __ __~
+Name         WR LV EX BR QS TT~
+ ++~
+~
+D:\TURBO\BGI~
+Error while registering BGI driver.~
+~
+~
+<Local>~
+,N,8,1~
+COM~
+~
+Your character does not posess~
+an item that is required to~
+use this feature.~
+Awaiting data reception.~
+~
+MOD~
+There is a miscellanious~
+problem with the MOD audio~
+system. Please verify your~
+DMA, IRQ, and BASEIO settings.~
+ DMA=~
+ IRQ=~
+ BASEIO=~
+~
+138
+Generic
+DataPack
+MapPack
+Windmill
+Solar Cell
+Solar Arra
+Fusion
+Cold Fusio
+Neutron Tu
+Std. Comse
+Energy Bar
+Energy Scr
+Energy Wal
+Neutron Zo
+Dirty Wate
+Water/Alig
+Acid
+Flaming Ac
+RoboPistol
+RoboCannon
+RoboPhaser
+RoboGrav
+Teleporter
+Xenon's Su
+DreamBlast
+Dimensiona
+Vortex Bar
+Vitronic S
+Energy Swa
+Neutron To
+Phase Cann
+Quantum Fi
+Nuke-O-Mat
+Exc. Telep
+Force Wall
+Sonic Shie
+Zone Shiel
+Black Glob
+Disolver
+Charged Ac
+Neutron Sw
+Destructor
+Phaser Rip
+Hot Fusion
+Mass Energ
+Transporte
+Storm Forc
+Mapper
+Kelp Ratio
+Kelp Sting
+Thick Weed
+Cryo-Unit
+Electro-Pr
+Electro-Ge
+Nerve Sabe
+Light Wand
+Protein Sl
+BuzzSaw
+Zeon-Slice
+TriconLanc
+Electro-Sl
+Power-Slic
+Nerve Gas
+Light Blas
+rotein Can
+ZeonBlaste
+TriconBlas
+Robomine 2
+Robomine 3
+Robomine 4
+Robomine 5
+Robomine 6
+Guardian
+Special #1
+Special #2
+Special #3
+Special #4
+Draku Mine
+Xeboc Mine
+Frost Scep
+Frost Cann
+Frost Vest
+Excelsior 
+Fort Comse
+Fortress S
+Defender P
+Convenienc
+Profit Pac
+Hostility 
+Fact: Dumb
+Fact: Smar
+Fact: Day 
+Fact: Mega
+Fact: Micr
+Fact: Zapp
+Fact: Tele
+Fact: Prot
+Fact: Robo
+Fact: Guar
+Fact: Drak
+Fact: Xebo
+Fact: 
+Wanderer
+Mine Sprea
+Proximity 
+Toll Stati
+UltraScan
+Scavenger 
+Sacre Pack
+Terra Pack
+Anti Self 
+Terra Labs
+Terra Sell
+UltraWarpe
+Ultracharg
+UltraCloak
+UltraCharg
+Sacre Map
+FortSlayer
+FortShell
+Electric D
+SLM-9000 P
+Phaser Thr
+Smart Scav
+Bogus!
+Radiation 
+Chaos Meda
+Worthless 
+Loki Summo
+Technical 
+Sonic Whis
+Replicator
+MedGen
+Test-O-Mat
+Elemental 
+Flashbomb
+Defender M
+Bloodring

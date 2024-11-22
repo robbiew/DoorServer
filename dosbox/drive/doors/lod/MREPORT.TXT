@@ -1,0 +1,41 @@
+Performing maintenance
+----------------------
+ þ Checking for a winner.
+ þ Trimming the log file down to size.
+ þ Performing user maintenance.
+    þ Deputy Fife (!!!monster90***) exempt from day deletions
+    þ Pink Panther (!!!monster89***) exempt from day deletions
+    þ Cat Burgler (!!!monster88***) exempt from day deletions
+    þ Bandit (!!!monster87***) exempt from day deletions
+    þ Trader Leader (!!!monster86***) exempt from day deletions
+    þ Trader Harry (!!!monster85***) exempt from day deletions
+    þ Trader Dick (!!!monster84***) exempt from day deletions
+    þ Trader Tom (!!!monster83***) exempt from day deletions
+    þ Deathstalker (!!!monster82***) exempt from day deletions
+ þ Performing base maintenance.
+    þ Fort Alpha Transport at 1,7,4 Reactor produces 300 energy units.
+    þ Fort Alpha Transport at 1,7,4 autoseller produces M16-9mm + M203.
+    þ Fort Alpha Transport at 1,7,4 autoseller produces M16-9mm + M203.
+    þ Fort Alpha Transport at 1,7,4 autoseller produces DeathSword.
+    þ Fort Alpha Transport at 1,7,4 autoseller produces DeathSword.
+    þ Fort Beta Transport at 1,5,10 Reactor produces 300 energy units.
+    þ Fort Beta Transport at 1,5,10 autoseller produces Tricorder.
+    þ Fort Beta Transport at 1,5,10 autoseller produces Tricorder.
+    þ Fort Beta Transport at 1,5,10 autoseller produces Warper/5.
+    þ Fort Beta Transport at 1,5,10 autoseller produces Warper/5.
+    þ Fort Terra Labs at 1,82,10 Reactor produces 350 energy units.
+    þ Fort Terra Labs at 1,82,10 Wanders to 1,110,72.
+    þ Fort Terra Labs at 1,110,72 autoseller produces UltraWarper/25.
+    þ Fort Terra Labs at 1,110,72 autoseller produces UltraCharger/7000.
+    þ Fort Terra Labs at 1,110,72 autoseller produces UltraCloak.
+ þ Playing with the message base.
+ þ Checking the isreal monsters.
+     Checking Isreal: DeathStalker (mon=82, user=254)
+     Checking Isreal: Trader Tom (mon=83, user=253)
+     Checking Isreal: Trader Dick (mon=84, user=252)
+     Checking Isreal: Trader Harry (mon=85, user=251)
+     Checking Isreal: Trader Leader (mon=86, user=250)
+     Checking Isreal: Bandit (mon=87, user=249)
+     Checking Isreal: Cat Burgler (mon=88, user=248)
+     Checking Isreal: Pink Panther (mon=89, user=247)
+     Checking Isreal: Deputy Fife (mon=90, user=246)

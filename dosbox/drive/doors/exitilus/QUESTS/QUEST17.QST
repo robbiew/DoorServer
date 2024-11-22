@@ -1,0 +1,178 @@
+@<<TITLE: The Hades Games by Linda Wagner,Impossible,2 Days>>
+@<<DAY 1>>
+
+`bright cyan`It's the first day of the `bright red`Hades Games. `bright cyan`Every <<PROFESSION>> in the land 
+`bright cyan`has been practicing for this event for four years. Many have died in
+`bright cyan`the practice games that are held in various towns throughout the 
+`bright cyan`world. Only the best from each kingdom are chosen to represent their
+`bright cyan`countries. Only one survives!
+@<<PAUSE>>
+
+You look down the road and see the dim outline of Hades City in the distance.
+@<<PAUSE>>
+
+@<<ANSI: town.ans>>
+@<<PAUSE>>
+@<<CLEAR>>
+
+`bright cyan`You were warned by your king that once Hades came into view, there 
+`bright cyan`would be many dangerous foes to conquer before gaining entrance to it!
+@<<PAUSE>>
+
+Thinking that you must be extra careful, you ready your weapons.
+@<<PAUSE>>
+
+`bright yellow`Riding...
+`bright yellow`Riding...
+`bright yellow`Riding...
+@<<PAUSE>
+@<<CLEAR>>
+
+`bright red`You hear a whoosing noise. You're being attacked from the air!
+@<<PAUSE>>
+@<<MONSTER: Fire Dragon,200,200,180,1000,200,2>>
+@<<MONSTER: White Gryphon,300,300,300,1000,300,1>>
+@<<MONSTER: Black Gryphon,300,300,300,1000,300,1>>
+@<<MONSTER: Silver Gryphon,350,350,350,1000,350,1>>
+
+`bright red`More step forth.
+@<<PAUSE>>
+@<<MONSTER: Fire Dragon,200,200,180,1000,200,2>>
+@<<MONSTER: Mega Dragon,220,220,200,1000,220,2>>
+@<<MONSTER: Hell Fire Dragon,230,230,230,1000,230,2>>
+@<<MONSTER: Hell Fire Dragon,230,230,230,1000,230,2>>
+@<<PAUSE>>
+`bright red`You are killing your way towards the gates of the city!
+@<<MONSTER: Hell Fire Dragon,230,230,230,1000,230,2>>
+@<<MONSTER: StarFire Dragon,350,350,350,1000,350,1>>
+@<<MONSTER: Emerald Dragon,400,400,400,1000,400,1>>
+@<<MONSTER: Death Dragon,500,500,500,2000,500,1>>
+@<<MONSTER: StarFire Dragon,350,350,350,1000,350,1>>
+@<<MONSTER: Emerald Dragon,400,400,400,1000,400,1>>
+@<<MONSTER: Death Dragon,500,500,500,2000,500,1>>
+@<<PAUSE>>
+
+`bright red`They never seem to end....
+@<<PAUSE>>
+@<<MONSTER: Fire Dragon,200,200,180,1000,200,2>>
+@<<MONSTER: Hell Fire Dragon,230,230,230,1000,230,2>>
+@<<MONSTER: StarFire Dragon,350,350,350,1000,350,1>>
+@<<MONSTER: Emerald Dragon,400,400,400,1000,400,1>>
+@<<MONSTER: Death Dragon,500,500,500,2000,500,1>>
+@<<MONSTER: StarFire Dragon,350,350,350,1000,350,1>>
+@<<MONSTER: Emerald Dragon,400,400,400,1000,400,1>>
+@<<MONSTER: Death Dragon,500,500,500,2000,500,1>>
+@<<PAUSE>>
+
+`bright red`How many of these gryphons and dragons are there?
+@<<PAUSE>>
+@<<MONSTER: Fire Dragon,200,200,180,1000,200,2>>
+@<<PAUSE>>
+
+`bright red`You are now at the city gates! Somehow you manage to enter!
+`bright red`The attack stops! You're safe!
+@<<PAUSE>>
+
+`bright cyan`A guard looks down at you from the watch tower and calls, "Not bad!
+`bright cyan`You may do well in the games. You're the first one to make it in!"
+@<<PAUSE>>
+
+`bright red`"What? Nobody else has gotten here yet?" you cry out in surprise.
+@<<PAUSE>>
+
+`bright cyan`The guard answers, "Very few make it through the first wave of dragons. That's
+`bright cyan`the first stage of the games. Now take yourself off to the barracks and 
+`bright cyan`rest up for tomorrow!" He points at a large building with his sword.
+`bright cyan`You thank him and head for the building.
+@<<PAUSE>>
+
+At the building you register with the gamesmaster and get a room and schedule
+of events. You see that your competition will be held tomorrow in the arena.
+You head for your room and collapse on the bed.
+@<<PAUSE>>
+ 
+@<<DAY END>>
+@<<DAY 2>>
+
+`bright cyan`This is the second day of the HADES Games. 
+@<<PAUSE>>
+
+`bright red`You hear the sound of a trumphet. You are late! You rush to
+`bright red`the arena and await your turn.
+@<<PAUSE>>
+
+`bright cyan`While waiting, you watch the other matches. It seems that most of the
+`bright cyan`combatants are injured before they even start the round. Then you 
+`bright cyan`remember the guards words. These combatants all had to fend off the 
+`bright cyan`same onslaught as you before entering the city! Looks like some of them
+`bright cyan`just barely made it to sanctuary in time!
+@<<PAUSE>>
+
+You hear your name! You boldly stride to the center of the arena.
+The crowd goes wild! They know you were the only one to get here
+unscathed by the dragons!
+@<<PAUSE>>
+
+`bright cyan`Your first opponent appears!
+@<<PAUSE>>
+@<<MONSTER: StarFire Warrior,350,350,350,1000,350,1>>
+Another steps forth. 
+@<<MONSTER: Emerald Gladiator,400,400,400,1000,400,1>>
+Another steps forth. 
+@<<MONSTER: Fire Mage Prince,500,500,500,2000,500,1>>
+Another steps forth. 
+@<<MONSTER: Dragon Knight,600,600,600,2500,600,1>>
+Another steps forth. 
+@<<MONSTER: Demon Fire Mage,700,700,700,3000,700,1>>
+@<<PAUSE>>
+
+`bright magents`You have beaten them all........except this last one!
+`bright magents`Will you survive this next round of battle?!?
+@<<PAUSE>>
+@<<MONSTER: Nemesis Knight,800,800,800,2500,800,1>>
+@<<PAUSE>>
+
+`bright red`You have won! The crowd is on its feet shouting your name!
+
+@<<PAUSE>>
+
+`bright cyan`The officials present you with a medal for your prowess!
+`bright cyan`You are named the Ultimate Warrior. The honor is great and
+`bright cyan`so are the rewards!
+@<<PAUSE>>
+
+@<<ANSI: medal.ans>>
+@<<PAUSE>
+@<<CLEAR>>
+
+`bright magenta`********************************************************************************
+`bright green`You receive an increase of 20 to all your stats! 
+`bright green`You gain 500000 experience points! 
+`bright green`You gain 5 million gold pieces!
+`bright green`You get the some great armor! 
+`bright green`Your serfs and troops have increased by 200 soldiers. 
+`bright green`You have 100 extra healing portions!  
+`bright green`You have more land!  
+
+`bright cyan`This was definitely a quest worth taking!
+`bright magenta`********************************************************************************
+@<<PAUSE>>
+
+@<<STAT: 0,20>>
+@<<STAT: 1,20>>
+@<<STAT: 2,20>>
+@<<STAT: 3,500000>>
+@<<STAT: 4,20>>
+@<<STAT: 5,20>>
+@<<STAT: 6,20>>
+@<<STAT: 7,5000000>>
+@<<STAT: 8,20>>
+@<<STAT: 10,20>>
+@<<STAT: 11,20>>
+@<<STAT: 12,200>>
+@<<STAT: 13,200>>
+@<<STAT: 14,100>>
+@<<STAT: 15,50>>
+@<<ITEM: 77>>
+@<<END OF QUEST>>
+ 

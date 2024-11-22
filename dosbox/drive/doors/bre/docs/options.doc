@@ -1,0 +1,110 @@
+Barren Realms Elite
+
+Command Line Parameter Options                     Last Updated: 1/27/95
+------------------------------------------------------------------------
+This is a list of special Command Line Options available for BRE.
+
+To use them, just add them to the end of the "BRE.EXE" in your Install
+Made Batch File [BRE.BAT] in your BBS Directory, ie. "BRE.EXE /LOCAL"
+
+Name                               What it does
+----                               ------------
+TEST                               This does a basic self-diagnostic test
+                                   on your setup of BRE.  It may help find
+                                   basic problems in your setup of the game.
+
+RESET                              Resets BRE Game - Must be done when first
+                                   installed
+
+VIEW                               Allows you to View players, as well as
+                                   Delete them, and change their UserNames
+
+REGISTER                           After you recieve your registration code,
+                                   run this to register your copy.
+
+SCORE                              For InterBBS Leagues
+or                                 This option will create InterBBS
+SCORES                             Scores listings to be viewed in the game.
+
+/LOCKED=#####                      This will set a Locked Baud Rate to #####
+                                   This option may also by set in RESOURCE.DAT
+
+/LOCAL                             Runs game LOCAL Only - Not necessary
+                                   for local play though
+
+IPSETUP                            This will automatically set up your
+                                   BBS.CFG file if you'd like.  You
+                                   can also use a text editor to create
+                                   this file.  This file is necessary for
+                                   InterPlanetary play.
+
+PLANETARY                          Daily Maintainence for Inter-Planetary
+                                   Warfare - This can be multiple times during
+                                   the day to speed gameplay up by reading
+                                   inbound and creating outbound datafiles.
+
+INBOUND                            Runs only INBOUND section of BRE Planetary.
+                                   If you want to run BRE PLANETARY after each
+                                   play, run BRE INBOUND before BRE.EXE
+                                   NOTE:  This will also ROUTE outbound files.
+                                   The INBOUND command can be used with any
+                                   mailer system.
+
+OUTBOUND                           Same as Inbound, except run AFTER BRE.EXE
+                                   Only processes OUTBOUND files.
+
+FULL                               Runs a full game of Interplanetary BRE,
+                                   combining BRE INBOUND, a player, and
+                                   BRE OUTBOUND into one step.
+                                   Equivalent to running:
+                                     BRE INBOUND
+                                     BRE
+                                     BRE OUTBOUND
+
+UPDATE                             In Inter-BBS Game, sends Configuration
+                                   Updates to All Nodes to make sure all
+                                   nodes have the same config.  Automatically
+                                   done internally.  Only can be done by BBS #1.
+                                   This is no longer necessary, but can be
+                                   run if necessary in special circumstances
+
+PLAYERLIST                         This option, for League Coordinators only,
+                                   will create a list of all the players on
+                                   all the BBSes in the game.
+
+GOOIEREMOVE                        This removes a Gooie Kablooie being created
+                                   On your system.  This is used if the gooie
+                                   is created by a "bad" user or because of
+                                   target changes, etc.
+
+ALLIES                             Allows you to modify current alliance
+                                   status with other planets
+
+REQUEST                            Creates Global Recon Updates and Requests
+
+RECON                              Creates Global Recon Updates only
+
+ROUTEINFO                          For Coordinator BBSes
+                                   Analyzes routing paths producing files
+                                   containing information on all file paths
+                                   and bad/circular routing.
+
+/DETAILED                          This will allow you to see compression and
+                                   information on individual data packets
+                                   that are sent out.  Used with PLANETARY,
+                                   OUTBOUND, and INBOUND options.
+                                   (ie, BRE PLANETARY /DETAILED)
+
+BBSINFO                            This will create a text file listing all
+                                   BBS's, their BRE versions, and the date of
+                                   their last recon
+
+EDITOR                             This will bring up a configuration editor
+                                   allowing you to change the current setup
+                                   of the game.  In InterBBS games, this
+                                   option is only available to the League
+                                   Coordinator.
+
+LASTPACKET                         This creates a text file listing the last
+                                   date you processed a packet from every
+                                   other BBS.

@@ -1,0 +1,73 @@
+^NORMALWIN
+The Wars continued today as %F defeated %T in a minor battle!
+The endless struggle continued today as %F defeated %T with a breathtaking defeat!
+The Wars continued today as %F defeated %T by a narrow margin!
+%F overran %T in another battle in the ongoing wars!
+%F blew away %T in a one way battle in the neverending wars!
+^END
+
+^NORMALLOSS
+The Wars continued today as %F attempted an assault on %T!
+It seems %F faced a humiliating loss against %T today!
+And the war continues as %F is forced to retreat from the defenses of %T!
+%F was silenced in a humiliating flight from %T in another battle in the ongoing wars!
+%F got blown away %T in a military failure of the neverending wars!
+^END
+
+^TOTALWIN
+NEWS!  NEWS!  %T was completely destroyed by %F!
+%F has overrun the empire of %T in a battle to be put in history books!
+%F has made history in its humiliating destruction of %T!
+The empire of %T was removed from the map in a humiliating battle against forces from %F!
+^END
+
+^NUKE
+EXTRA!  EXTRA!  %T was hit by Nuclear Missiles launched by %F!
+%F shot a large volley of nuclear missiles at %T!
+%F angered many with its fire of Nuclear Missiles against %T!
+The empire of %T has been bombarded with nuclear missiles from %F!
+^END
+
+^CHEM
+EXTRA!  EXTRA!  %T was Hit by Chemical Missiles launched by %F!
+%F shot a large volley of Chemical missiles at %T!
+%F angered many with its fire of Chemical Missiles against %T!
+The empire of %T has been bombarded with Chemical missiles from %F!
+^END
+
+^BIO
+EXTRA!  EXTRA!  %T was Hit by BioBombs launched by %F!
+%F shot a large volley of BioBombs at %T!
+%F angered many with its fire of BioBombs against %T!
+The empire of %T has been bombarded with BioBombs from %F!
+^END
+
+^PIRATEWIN
+%F has raided the evil %T!
+%F blew away the %T in a quick raid mission!
+%F pleased many people in its attacks against the %T!
+The %T have been bombarded with attacks from %F!
+^END
+
+^PIRATELOSS
+%F attempted raiding the evil %T but suffered public humiliation!
+%F's meager military failed in a strike against the %T!
+%F leaders were outraged to find their military failure against the %T!
+The %T repelled a military invasion from %F!
+^END
+
+^CIVILWAR
+As a result of poor leadership in %N, civil war has struck!
+Unending violence in %N has led to a huge civil war!
+The revolts in %N have had a tragic ending: Civil War!
+Civil War breaks out in %N!  Violence continues!
+%N's Barony has just recently gone through civil wars!
+^END
+
+^RIOTS
+Today, riots continue in the empires of %N, ...
+Riots break out in %N due to poor conditions!
+Violence has broken out in %N!  Will it lead to Civil War?
+And the violence grows as %N is also struck with internal violence!
+^END
+

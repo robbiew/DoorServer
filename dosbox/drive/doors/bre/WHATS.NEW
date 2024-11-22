@@ -1,0 +1,398 @@
+Barren Realms Elite InterPlanetary - Listing of Changes and Bug Fixes
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Version 0.985: 09/10/96
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed possible waste region cleanup bug
+Fixed Local Special Attacks bug
+Added automatic recon requests to help start InterBBS games
+Effect of Mountains on Industry has been increased significantly
+Reduced effectiveness of Free & Tariff Trade Agreements
+
+Version 0.984: 05/18/96
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed SDI bug with not paying full requirements
+Fixed possible investment cheat
+You can now quit from the Attack-Type menu
+Fixed Industrial Gold production problem
+The Turns-Taken "+" signs should work now
+
+Version 0.983: 03/20/96
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Removed BRSCORES.EXE program (which was incompatible with the HOST system)
+InterBBS Scores are now created by running "BRE SCORE" or "BRE SCORES"
+
+Version 0.982: 03/08/96
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed Pirate Attack defaults
+Internal nodelist manager was removed because it is no longer adequate
+Automatic Host/Hub system added to BRNODES.DAT
+  - This will rid sysops of having to deal with routing problems
+  - See DOCS\INTERBBS.DOC and SAMPLES\NODEFORM.INF
+Fixed ANSI detection
+Fixed start times to be at midnight
+SDI can now be funded beyond the 2 billion limit to 2 trillion gold
+Raised yearly SDI Maintenance from 2% to 4% of the total SDI spending
+Maybe corrected random pirate bug
+
+Version 0.981: 12/18/95
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed advisor option in Region menu
+Reduced effectiveness of any food buy/sell tricks
+
+Version 0.980: 11/22/95
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed possible Help Database problems
+Fixed Bulletins problem
+Fixed bug in deleting last existing empire
+Fixed 2-column BBS display
+New Treaty Type (Replacing Protectorate): Technology Agreement
+Improved dupe checking display
+Fixed run-time error with attacking dead empires
+Fixed problem with receiving not-up-to-date recons
+Shrunk size of some pieces of data to allow more attacks at one time
+If the bank is full, interest is now paid to unbanked gold supply
+Line markers added to messages
+Increased timeout from 1.5 minutes to 3 minutes
+"+" displayed in scores if user has played at least one turn today
+  - InterBBS Games only
+At region buying/selling/capturing, users can directly access advisors
+Fixed S3-Sabre Results problem in News display
+Creator of Gooie Kablooie now displayed
+Increased region production by approximately 50%
+Fixed IP Trade deal display bug
+Fixed Trade Deal accept/reject bug
+Quoting replies now defaults to Yes
+Pirate attacks now default to sending nothing
+SDI now reports when it destroys incoming missiles
+The SDI now nullifies up to 30% of incoming jets instead of 25%
+Fixed 2 billion overflow with cash relief
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Version 0.979: 07/19/95
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed bank interest problem
+Fixed an install problem with the doorfile directory
+Fixed 0 selection at BBS selection menu
+Fixes 0 selection at Message Quoting
+New Terrorist Op: Sabotage HQ (replaces Bomb Financial Stores)
+Added multiple attack type for Individual Attacks:
+  Normal, Quick Strike, and Extended Battle
+
+Version 0.978: 07/15/95
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed minor routing problem
+Fixed BBS selection bug
+
+Version 0.977: 7/14/95
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Fixed Terrorist Op cost problem
+Fixed some region capturing problems
+The BBS Coordinator is now displayed at the voting notification
+SDI has been made a little bit cheaper
+Bank now pays interest to 2 billion coins instead of 1.6 billion
+Fixed possible Chemical and Nuclear Missile Run-Time Errors
+Various display fixes / changes
+Fixed some BRE VIEW problems
+Special Ops now require 500 bombers instead of 1500
+Fixed some game reset quirks
+Players can no longer send empty trade deals
+Improved Message Quoting
+Improved planet selection system
+Having more mountain regions helps increase industrial production
+You can now repair 20% of "waste" regions per turn instead of 10%
+
+Version 0.976: 5/28/95
+----------------------
+MAJOR FIX: Fixed technology problems that caused lots of run time errors
+Various display fixes
+Fixed a problem with InterMail Mailer
+Reduced extreme tax changing effectiveness
+Messed w/ pirate strength some more
+
+Version 0.975: 5/18/95
+----------------------
+Fixed another MIT cause
+Minor display fixes
+
+Version 0.974: 5/17/95
+----------------------
+Fixed free terrorist op bug
+Fixed Investment rate setting on LC BBS
+Fixed Special Operations processing Run-time error
+Fixed 1/1/1/1 attack strategy
+Solved possible MIT causes
+Corrected errors possibly leading to corrupted games
+Corrected LockedBaudRate error in installation
+In file displays, PAUSE has been replaced by CONTINUE Y/N?
+
+Version 0.973: 5/1/95
+---------------------
+Corrected steady investment rate LC setting
+Corrected problems in group attacks
+Fixed Locking up on terrorist attacks
+Fixed terrorist price calculations
+Fixed planetary coordinator message bug
+Changed some Gooie Kablooie building costs
+Fixed Industrial Production bug
+
+Version 0.972: 4/17/95
+----------------------
+Corrected some Investment rate calculations
+Corrected 100+% calculations on group attacks
+Fixed excessive regions from pirate attacks
+The LocalAttacks, Bombing Op. & Special Operations LC Settings now work
+Fixed some discrepanies in group attacks
+  - possible cause of lost attacks
+Fixed setup reports
+Corrected mail to current BBS problem (Mail from #5 -> #5, etc)
+Added IP Message option to BBS Coordinators
+Added IP Message option to all Allied BBSes
+Added Help Database containing all help information in the game
+Fixed another Gooie problem
+Added more information to defensive battle reports
+Several cosmetic and display improvements made
+Corrected food advisor bug
+Corrected message reply bug
+Fixed local bombing operation reports
+
+Version 0.971: 3/9/95
+---------------------
+# of Bombers in Military Advice now fixed
+Unlimited Gooie Kablooies bug fixed
+Corrected unlimited Trade Deal money bug
+
+Version 0.970: 03/01/95
+-----------------------
+Missile Bases changed to Turrets
+Coins changed to Gold
+Gooie Kablooie strength and cost readjusted
+Bomb Banks option removed - Banks are now safe money areas
+Undermine Investments option added - this will destroy a small % of
+  the target planet's investments due for collection in the next few days.
+Terrorist Prices are now scaled as are region prices
+  - The more Operations done in one day, the higher the price goes
+  - Initial Price has dropped
+Bombing Operations prices have dropped
+Fixed some news file display problems
+Playing has been streamlined a bit
+  - Preferences Menu added in System Menu
+    - Users no longer have to go through all the menus which they don't
+      want to use during the current turn.
+  - Automatic paying and feeding option added
+Added individual packet security to certain packets to fully prevent
+  duplication
+New Interplanetary Feature Added: SDI Defense
+  - This device must be built and maintained
+  - It's capable of taking out some incoming missiles and weakening
+    enemy jets during attacks
+BRE.ANS is no longer used in Intro
+  - 2400 and below callers see BRESLOW.ANS
+  - Above 2400 and local callers see BREFAST.ANS
+Tax income & FreeTrade/TariffTrade income has increased
+Minimum land captured in IP Attacks raised to 10 regions
+Individual IP Attacks report having killed an opponent in the news
+New Option - "BRE LASTPACKET" will display the last date you processed a
+  packet from each of the other BBSes in the league
+Terrorist Prevention Pact strength can now viewed in the "View Alliances"
+  option in the Attack Menu
+Commander Unit removed
+Bomber unit added
+  - This unit has a 0/0 Attack & Defense Rating
+  - In Attacks, however, it can (only) strike at Jets which normally cannot
+    be damaged.
+Gooie Kablooie is now an UNregistered feature
+SDI Defense is now a Registered feature
+SDI Defense helps fight against incoming Bombers
+Military prices have been deflated
+Investing now has a minimum of a two day term
+Heavy damage from 1/1/1 type attacks no longer works
+Planet Listings now pause instead of scrolling away
+Duplication User Checking is now a Coordinator option instead of a
+  RESOURCE.DAT option
+New League Option to disable Gooie Kablooies
+New League Option to disable Bombing Operations
+New League Option to disable Missile Operations
+In InterPlanetary games, score is no longer given for winning local attacks
+Local Nuclear & Chemical Missiles and InterPlanetary Chemical Missiles
+  now makes regions into WASTE regions instead of destroying them
+Waste regions require maintenance and produce nothing, but can be
+  decontamined at relatively low costs.  However, only 10% of wasted regions
+  can be decontaminated per year.
+Interplanetary Missile prices have dropped
+Interplanetary Bombing And Missile Operations require 1500 Bombers, all of
+  which are inevitably destroyed after delivering their payloads.
+Corrected bugs with local Covert Ops #7, #8, and #9
+All military units now require food to survive
+Civilian & Economic Advisors now provide more useful information
+Food now decays yearly
+Low popular support now leads to low military morale
+InterPlanetary Player listings now include Networth
+Interplanetary Trade Deals now protected from duplication
+New game option to set a steady investment rate instead of the standard
+  fluctuating one
+Tank maintenance has been drastically lowered
+All the local attack restriction options have been removed
+  - If a BBS has a rogue, he/she must be dealt with by the players
+    rather than through "divine intervention"
+Individual Covert Op & Treaty restrictions have been removed
+New Region type added: Technology
+Technology regions accumulate various technologies in your empire,
+  building up stronger military units, better production, and various
+  other improvements.
+Specialized Industry option added
+  - You may set production of one unit to be more effective.  However, this
+    decreases production of other units.  Trading between specialized
+    empires is the most effective form of production.
+BRETEST.EXE program replaced by run-time parameter, "BRE TEST".
+Loans rolling over excessively taken care of
+New League Coordinator options
+  - Local Attacks enabled or disabled
+  - Local Attack Scoring enabled or disabled
+Fixed lost carriers bug in trade deals
+Dumping money into the bank has become a user option (preferences menu)
+  instead of a RESOURCE.DAT option
+Automatic Paying & Feeding is now a preferences menu option
+The Food market is now an independent menu also accessible from System Menu
+Gooie Kablooie dismantling now requires confirmation
+Joining group attacks now shows creator
+Technology Advisor added (tells information about technological improvement)
+
+----------------------------------------------------------------------------
+Version 0.964: 11/29/94
+-----------------------
+Improved planet selection w/ Automatic String Matching
+Corrected major investment & loan bug
+
+Version 0.963: 11/19/94
+-----------------------
+Fixed display in sending Sabre Missile
+Fixed food market display bug
+Pirates have been calmed down a bit
+Cash relief feature added to replace old "loan" option - Registered Option
+Corrected "free" local nuke/chem/bio attacks
+Fixed some networth problems dealing with Trade Deals
+Fixed Starting Date problems - Game now starts at Midnight
+Trading Market no longer secure from pirate raids
+Fixed BBS #1 not showing information on "PLAYERLIST" option
+Added Utility - "BRETEST.EXE" which generates basic information on BRE setup
+Hopefully fixed Black Hole problems
+Fixed various local covert operations text
+
+Version 0.962: 09/17/94
+-----------------------
+Fixed bug causing registration to trash the game
+Fixed bug with saving data (We think)
+Possibly Fixed bug causing lost attacks, lost data, etc.
+Fixed some deleted players problems
+Terrorist Prevention and Intelligence treaties are now slightly
+  more effective
+Free Trade agreement is less devastating to Morale and Support
+
+Version 0.961: 08/21/94
+-----------------------
+MAJOR BUG: Fixed bug which severely locked up systems
+Fixed a bug with hitting NO to when asked if you wish to reset
+Fixed bug with News Files "Bulletin" Information
+Reduced Jets required to destroy Gooie Kablooie
+
+Version 0.960: 08/14/94
+-----------------------
+
+*Major Changes*
+---------------
+Run-time Disk Access reduced significantly
+  - This will speed up the game running and loading significantly
+Variable Investment Interest Rates
+No more Investment crashes or booms
+New method for Investing
+Bank is now an unregistered feature
+  - Investments may only be used in the registered version
+  - Bank only pays interest in registered version
+Extensive Overflow protection added through the game
+Prevention from truncated packet processing added
+New Keying System will prevent fake coordinators
+  - See IPSETUP.DOC for information on how to change league coordinators
+    during League play
+The BBS Coordinator is now selected only through BBS voting, rather than
+  Sysop intervention (RESOURCE.DAT option has been removed)
+Time Slicing Added - BRE will automatically detect OS/2, Windows, and DESQview
+  - See RESOURCE.DOC for specifics and overrides
+Military Prices Raised to keep numbers smaller
+Various Pascal Record Structures for BRE are included in DOCS\STRUCT.INF
+BRE FULL option Added - Equivalent to running BRE INBOUND, BRE, and
+  BRE OUTBOUND without having to run BRE 3 times
+XL-2 Starfire replaced with S3-Sabre, which can be partially controlled
+Missile Bases now help defend against incoming Nuclear Missiles
+Tanks now help defend against incoming Chemical Missiles
+Soldiers now help defend against incoming S3-Sabre Missiles
+New Game Options
+  - Initial, Basic Investment Rate (All investment rates based upon
+    this value)
+  - "Buy Military" Setting:
+    - "Yes" = Normal Game; Unlimited military can be purchased
+    - "No" = No military purchased - only can be produced
+    - "Limited" = Limited amount of military available in the market
+    - This forces players to produce their goods, reducing possibilities
+      of overnight armies and lessening power of investments
+      Also makes Regions more important
+BRE PLAYERLIST Option Added (For League Coordinator Only)
+  - This displays a list of all the players on all the BBSes
+DOCS\Q&A.TXT file added with a few commonly asked questions + their answers
+  - This file will grow as time goes by
+
+*Minor Changes*
+---------------
+Extended SpyGuy to function for up to 15 days (previously, max was 10)
+"NONE" mailer setting now allows unlimited runs of BRE PLANETARY
+Better Empire Name Checking for validity
+When sending Interplanetary Ops, alliance status is shown of target BBSes
+When sending Interplanetary Attacks, any Spy Information on the target
+  player will be displayed
+Military Advisor now notifies you of your total forces in IP Games
+BRE RECON option renamed to BRE REQUEST
+BRE RECON option added to send out recons to all BBSes, but not request any
+IP Trade Deals cannot be recieved by players under protection
+Bank can now be accessed from all major menus (using V)
+Gooie Kablooies no longer can take advantage of late-night landings
+Enemy Losses now shown in attacks
+Group attacks can now be viewed by players in protection and those who have
+  not yet played a turn
+Time Checking options removed from RESOURCE.DAT
+  - Time Checking always occurs in BRE now
+VGA Special Effects removed (they served no important purpose)
+Interplanetary Message menu added to allow sending messages to select BBSes
+BRE DELETE option Removed - This can be done using BRE VIEW anyway
+Damage from terrorist operations has been reduced
+Covert Agent prices are much more stable now
+Modified News Files a bit
+  - Daily Bulletin added
+The trading market is no longer a safe haven during low morale military crises
+
+*Bug Fixes*
+-----------
+Fixed Turn Display in IP Menu
+Fixed Last Join Date can setting in BRE Configuration Editor
+Initial Market Land is now configurable properly
+No Outbound Data bug fixed
+Corrected XL-2 Starfire / S3 Sabre errors
+Fixed varying maintenance costs when reconsidering
+External Files Displaying should work properly now
+Fixed Blank Mid-Turn Status Lines
+Fixed Seemingly Random Terrorist Op Run-Time Error
+Fixed Civil War Problems
+Fixed Negative Morale Problems
+Fixed Negative Forces in Civil War
+Fixed various Large Empire Bugs
+Turn Counter in extended information corrected
+Macros I,O,K, and L now work properly
+Corrected population of 1 growth problem
+Fixed several fundamental mail transfer flaws causing deleted data
+Fixed internal routing error - CRASH priority caused several problems
+Fixed Non #1-Zone Mail ssending error which often caused misdirected mail
+Corrected Duplicate User Checking, which never really worked properly (oops)
+Dangers of Free Trade Agreement bug fixed
+  - Earlier, there was no disadvantage to using Free Trade over Tariff Trade
+
+[Many, many versions below here :)]

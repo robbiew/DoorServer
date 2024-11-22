@@ -1,0 +1,29 @@
+Basic Setup
+----------------------------------------------------------------------
+The game is set to use it's own internal COM routines rather than Fossil.
+Your multitasking environment: None
+----------------------------------------------------------------------
+
+
+Last Player Information
+----------------------------------------------------------------------
+[LEM]Apollo
+1
+1
+24
+38400
+1
+463
+[LEM]Apollo
+
+If anything is incorrect, there is a problem in the setup of the game.
+Try running INSTALL again, possibly selecting a different doorfile option.
+----------------------------------------------------------------------
+
+
+No InterBBS
+----------------------------------------------------------------------
+This game is not involved in a InterBBS League.
+----------------------------------------------------------------------
+
+

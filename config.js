@@ -9,7 +9,6 @@ const Ajv = require("ajv");
 
 const ajv = new Ajv();
 
-// Define the schema for the doors configuration
 const doorSchema = {
   type: "array",
   items: {
@@ -21,10 +20,22 @@ const doorSchema = {
       dropFileDir: { type: "string" },
       removeLockFile: { type: "string" },
       multiNode: { type: "boolean" },
+      description: { type: "string" },
+      category: { 
+        type: "string", 
+        enum: ["Strategy", "Role Playing Game", "Adventure", "Action", "Simulation"]
+      },
+      gameTitle: { type: "string" },
+      yearCreated: { 
+        type: "number", 
+        minimum: 1980, 
+        maximum: new Date().getFullYear() // Optional field with valid range
+      }
     },
-    required: ["name", "doorCmd", "dropFileFormat"],
-  },
+    required: ["name", "doorCmd", "dropFileFormat", "description", "category", "gameTitle"] // yearCreated is NOT required
+  }
 };
+
 
 // Define the path to the external doors configuration file
 const doorsConfigPath = path.join(__dirname, "doors.json");

@@ -1,0 +1,40 @@
+Bulletins List
+--------------
+To create your own Bulletins, type:
+;^[NAME]
+;The Bulletin itself
+;Continued
+;^END
+Without the Semicolons;  [NAME] Is the name of the bulletin in ALL CAPS
+
+^README
+Hello!  Welcome to Barren Realms Elite, the first InterBBS SRGame!  This game
+gives a whole new meaning to Online Gaming.  Not only do you fight local
+players as in most games, but now you can challenge up to 254 other BBSes
+around the country playing head to head - BBS vs BBS combat.  Not only must
+you perfect your own strategies to become the ultimate player, but you also
+must work as a team with your BBS, make alliances with others, and control
+the world - the real world.
+^END
+
+^IPSTRATEGY
+There is only one requirement to be a good InterBBS team: Teamwork.
+Keep constant communications flowing between other players on your BBS and
+and other BBS's - Make allies on other BBS's.  You should have a high team
+spirit if you want a good success rate-Teamwork.  If players attack each
+other in the game, warn them not to.  If they continue, ally your BBS and
+destroy them.  To be the best in the league, you'll need a high amount
+of team cooperation.  Do not allow anybody to dictate the BBS; make it a
+team effort.  You may even wish to designate public relations people, local
+coordinators, etc, etc.  Whatever you do, be a team.  Good luck in the world
+of BBS Warfare!
+^END
+
+^ECHO
+Solaria City now has it's own SUPPORT ECHO on the FidoNet Backbone.
+If you are a sysop, Request SRGAMES from your Echo distributor.  If you are
+a user, Look in the Message Base for SRGAMES and if it's not there, ask
+your sysop to pick it up.  Hints/New Features/Bug Reports/Suggestions
+are all in SRGAMES.  Be a part of the future of Solaria City games!
+^END
+

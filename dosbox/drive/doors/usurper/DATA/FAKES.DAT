@@ -1,0 +1,21 @@
+; These are the names of the fake players that will enter Usurper.
+; Feel free to edit this file. To recreate the default file just
+; delete the current one, and a new file will be created.
+;
+;format: name,sex,race,class
+;
+Gwibbli,male,dwarf,warrior
+Sandra,female,human,ranger
+Sam,male,hobbit,sage
+Inga,female,orc,cleric
+Deathbringer,male,troll,barbarian
+Sol,male,elf,bard
+Thor Brownskull,male,dwarf,warrior
+Bulgor,male,human,jester
+Mynnia,female,gnoll,magician
+Walgur,male,halfelf,paladin
+Gnarf!,male,mutant,assassin
+Melkor,male,human,alchemist
+Bragger,male,hobbit,assassin
+Ma,female,elf,warrior
+Rugwash,male,troll,barbarian
