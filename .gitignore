@@ -6,10 +6,10 @@ nodes
 dosbox?.conf
 
 # Ignore everything in /drive/doors/
-drive/doors/*
+dosbox/drive/doors/*
 
 # Exclude /drive/doors/bin/ from being ignored
-!drive/doors/bin/
+!dosbox/drive/doors/bin/
 
-# Ensure that files directly in /drive/doors/ are not ignored (optional)
-!drive/doors/*.*
+# Ensure that files directly in /drive/doors/ are not ignored 
+!dosbox/drive/doors/*.*
