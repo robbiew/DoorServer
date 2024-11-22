@@ -1,7 +1,0 @@
-@ECHO OFF
-E:
-CD \BRE
-COPY D:\DOORFILE.SR .
-BRE
-E:
-CD \
