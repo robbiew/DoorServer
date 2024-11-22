@@ -79,29 +79,29 @@ module.exports = {
     multiNode: true,
     dropFileFormat: 'DorInfo'
   },
-  {
-    name: 'LORD',
-    doorCmd: 'C:\\doors\\bin\\lord.bat',
-    multiNode: true,
-    dropFileFormat: 'DorInfo'
-  },
-  {
-    name: 'SRE',
-    doorCmd: 'C:\\doors\\bin\\sre.bat',
-    dropFileFormat: 'DoorFileSR',
-    dropFileDir: '/doors/sre',
-    removeLockFile: '/doors/sre/INUSE.FLG'
-  },
-  {
-    name: 'Pit',
-    doorCmd: 'C:\\doors\\bin\\pit.bat',
-    dropFileFormat: 'DorInfo',
-    multiNode: true
-  },
+  // {
+  //   name: 'LORD',
+  //   doorCmd: 'C:\\doors\\bin\\lord.bat',
+  //   multiNode: true,
+  //   dropFileFormat: 'DorInfo'
+  // },
+  // {
+  //   name: 'SRE',
+  //   doorCmd: 'C:\\doors\\bin\\sre.bat',
+  //   dropFileFormat: 'DoorFileSR',
+  //   dropFileDir: '/doors/sre',
+  //   removeLockFile: '/doors/sre/INUSE.FLG'
+  // },
+  // {
+  //   name: 'Pit',
+  //   doorCmd: 'C:\\doors\\bin\\pit.bat',
+  //   dropFileFormat: 'DorInfo',
+  //   multiNode: true
+  // },
   {
     name: 'TW2002',
     doorCmd: 'C:\\doors\\bin\\tw2002.bat',
-    dropFileFormat: 'DorInfo',
+    dropFileFormat: 'DoorSys',
     multiNode: true
   },
   {
