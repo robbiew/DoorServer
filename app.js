@@ -20,7 +20,6 @@ async function start() {
     console.log(`DoorNode listening on port ${config.port}`);
     if (config.debugPort) {
       startDebugServer();
-      console.log(`Debug interface listening on port ${config.debugPort}`);
     }
   } catch (err) {
     console.error(err.stack || err);
@@ -52,9 +51,7 @@ function startServer() {
     });
   });
 
-  server.listen(config.port, () => {
-    console.log(`Server listening on port ${config.port}`);
-  });
+
 }
 
 function startDebugServer() {
