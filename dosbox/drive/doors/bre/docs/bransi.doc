@@ -1,0 +1,18 @@
+The Following ANSI files (if they exist) are displayed during the game:
+(not all the time)
+NOTE: Notice the extension of user created Ansi Files - All of these files
+should be in the BRE\GAME\ subdirectory.
+
+BREFAST.ANS         <-- Opening Screen for callers at speeds above 2400
+BRESLOW.ANS         <-- Opening screen for callers at speeds 2400 or below
+BREEND.ANS          <-- Closing Screen
+BRPIRATE.DSP        <-- Pirates Attacking Player
+BRRAID.DSP          <-- Pirate Raids
+BRNUKE.DSP          <-- When Nuking enemy
+BRCHEM.DSP          <-- When using Chem Weapon
+BRBIO.DSP           <-- When using Bio Weapon
+BRCRUSH.DSP         <-- When Enemy completely Crushed
+BRWIN.DSP           <-- if Local Attack Won
+BRLOSE.DSP          <-- if Local Attack Lost
+BRBRIBE.DSP         <-- If a bribed agent is found
+ADVISOR.DSP         <-- Advisor Advertisement Screen

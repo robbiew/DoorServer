@@ -1,0 +1,379 @@
+@<<TITLE: `cyan`The Long Road Home III  By: TML,Medium,3 days>>
+@<<DAY 1>>
+@<<CLEAR>>
+
+---------------------------------------------------------------
+`yellow`                         Township of:
+`yellow`                           Blaggard
+`yellow`                        40 Years Later
+
+`magenta`                       Population: 1756
+---------------------------------------------------------------
+@<<PAUSE>>
+
+`green`From the grassy knoll, you and LEEZA, sit your mounts
+`green`and watch the herd of offspring ponies, known as the
+`bright red`THUNDERETTES`green`, grazing in the valley below. 
+@<<PAUSE>>
+
+`cyan`"Remember when you gave me the`yellow` Golden Palomino Mare
+`cyan`LEEZA asks?"
+@<<PAUSE>>
+
+"Ahh Yes!, you proclaim.  And, your mind's eye turns back the pages
+of time and you so fondly remember how the`yellow` Golden Palomino Mare
+and THUNDERHEAD, your coal black Stallion, began to produce the 
+beautiful THUNDERETTES whose bodies were as Black as 
+THUNDERHEAD's, with a`bright white` PURE WHITE`bright yellow` mane and tail.
+@<<PAUSE>>
+
+`green`<<NAME>> - <<NAME>>`cyan` "LEEZA shouts", as she shakes
+`cyan`your arm to return you from your thoughts.
+@<<PAUSE>>
+
+"What is the matter LEEZA", you ask her?
+@<<PAUSE>>
+
+`bright red`"The herd, someone is taking the herd!", she screams.
+@<<PAUSE>>
+
+Shaking the cobwebs from your brain, you see the huge clouds of
+dust in the WESTERN sky.
+@<<PAUSE>>
+
+`white`You explain to LEEZA that the horses you are riding are
+`white`too young and do not have the strength to run the rustlers
+`white`down.
+@<<PAUSE>>
+
+What you need are THUNDERHEAD and the`yellow` Golden Palomino Mare
+so you race for the stables...
+@<<PAUSE>>
+
+`cyan`Riding the two aging, but sound horses, you and LEEZA
+`cyan`travel the ten short miles to the LAND of The MOORs.
+@<<PAUSE>>
+
+`white` Riding
+`white`       Riding
+`white`             Riding 
+`white`                   Riding FAST!
+@<<PAUSE>>
+
+At last you enter the combined courtyard 
+of your twin sons, Robert and Donald!
+@<<PAUSE>>
+
+`red`"Father, Father", they ask in unison, "What's the hurry and
+`red`why are you and Mother riding the Ancient Ones?"
+@<<PAUSE>>
+
+"Some fools have stolen the THUNDERETTES!", you shout without
+dismounting, "Muster as many Fighters as you can, and follow us!"
+@<<PAUSE>>
+
+`magenta`With that said, you and LEEZA gallop your steeds in the
+`magenta`direction the rustlers took; to the WEST.
+@<<PAUSE>>
+
+`green` Clippity Clop,
+`green`               Clippity Clop,
+`green`                             Clippity Clop,
+`green`                                           Clippity Clop!
+@<<PAUSE>>
+@<<CLEAR>>
+
+@<<ANSI: zip1.ans>>
+@<<PAUSE>>
+@<<CLEAR>>
+
+`cyan`An ARROW just misses your face as you and LEEZA top a small hill.
+@<<PAUSE>>
+
+@<<MONSTER: Horse Thief,250,100,100,1000,100,1>>
+
+Before you can react, LEEZA has dispatched the would be assassin
+with a well placed shot from her CrossBow...
+@<<PAUSE>>
+
+`bright blue`"What a woman", you say out loud and blow her a
+`bright blue`KISS in gratitude...
+@<<PAUSE>>
+
+"You know that this Warrior was left here intentionaly to kill
+us and keep us from pursuing the HERD?", says LEEZA.
+@<<PAUSE>>
+
+`cyan`"It is getting dark, my love, so let's make camp for the
+`cyan`night and get an early and fresh start in the morning", you
+`cyan`tell her.
+@<<PAUSE>>
+
+As you prepare the campfire, you are aware of many eyes watching
+you....
+@<<MONSTER: Horse Thief,250,100,100,100,10,10>>
+
+`magenta`For a while there it was hard figuring out just how
+`magenta`many attackers there were in that bunch, but, then
+`magenta`you became aware that there were many more HELPERS in
+`magenta`this fight than there were attackers...
+@<<PAUSE>>
+
+`red`"Father, Father!", your two sons shout in unison.
+`red`Are you and Mother alright?"
+@<<PAUSE>>
+
+You are glad to see that the boy's Father-In-Law, Ozmar, is
+with them.  "How many Fighters have you brought with you,
+Ozmar", you ask?
+@<<PAUSE>>
+
+`green`<<NAME>> `cyan`"We have 50 of my best Warriors", he says.
+@<<PAUSE>>
+
+It's now quite late and you are tired, so you tell everybody to
+lay their bedrolls by the fire and to get some sleep...
+@<<DAY END>>
+@<<DAY 2>>
+
+--------------------------------------------------------------
+`yellow`                            Day 2 of:
+`yellow`                       A Long Way Home III
+`yellow`                             By: TML
+--------------------------------------------------------------
+@<<PAUSE>>
+
+You are awakened by the smell of bacon and genia hen eggs frying...
+
+That could only mean that Ozmar's FIELD COOK has breakfast
+ready!
+@<<PAUSE>>
+
+`magenta`Over coffee, you and LEEZA fill everybody 
+`magenta`in on what has happened thus far...
+@<<PAUSE>>
+
+You have been watching a cloud, far off to the WEST. And, by the
+time you have finished your coffee, you can make out that it is
+a rider coming fast...
+@<<PAUSE>>
+
+`bright blue`"Whoa, Whoa", the rider brings his lathered-up
+`bright blue`steed to a dust churning halt!
+@<<PAUSE>>
+
+`green`<<NAME>> `red`"I have spotted them", he says, all out
+`red`of breath. "They are camped not 10 miles from here in a
+`red`little ravine surrounded by DOGWOOD trees".
+@<<PAUSE>>
+
+`cyan`"Cookie, feed this man well", orders Ozmar. "Young man,
+`cyan`after you eat, get some sleep then follow us when you are
+`cyan`fully rested"
+@<<PAUSE>>
+
+Everyone else saddles up and heads WEST...
+@<<PAUSE>>
+
+`magenta`Rounding a curve in the road you come upon a Toll Bridge... 
+@<<PAUSE>>
+@<<CLEAR>>
+
+==============================================================
+`cyan`                        UGAR and ALEM's
+`bright red`                          Toll Bridge
+
+`green`                     Toll: `yellow` 5 GOLD per Rider
+`yellow`                            1 GOLD per Animal
+`yellow`                            9 GOLD per Wagon
+`yellow`                            2 GOLD per Cart
+`yellow`                            3 GOLD per Carriage
+==============================================================
+@<<PAUSE>>
+@<<CLEAR>>
+
+`white`"I haven't time for this`cyan` TROLL`white`", you say
+`white`in a stern voice.
+@<<PAUSE>>
+
+`cyan`"You will pay your toll or you won't PASS!", the TROLL
+`cyan`says to you all.
+@<<PAUSE>>
+
+"Then fill your hand, you dirty little fool", you say to him.
+@<<MONSTER: TROLL,50,100,100,500,100,1>>
+@<<PAUSE>>
+
+`magenta`Before you could cross the bridge you hear...
+`cyan`"Pay up or else!"
+@<<PAUSE>>
+
+"I haven't the time for this you idiot!", you shout, as you 
+sever this TROLL's head with a flick of your Short Sword...
+@<<MONSTER: TROLL,50,100,100,500,100,1>>
+
+`bright magenta`Finally your troop crosses the bridge and
+`bright magenta`you spot a stand of DOGWOOD trees up ahead!
+@<<PAUSE>>
+
+`bright green`"Shhhhhhhhhhhh, we must approach at a slow walk
+`bright green`and hold your horses's muzzles", you tell everyone.
+@<<PAUSE>>
+
+At the rim, of the ravine, you give the order to, `red`"CHARGE!"
+@<<PAUSE>>
+
+`green`You see LEEZA dispatch a mountain of a man with her War Club!
+@<<MONSTER: HUGE FELLOW,500,100,200,100,90,1>>
+
+`magenta`"LOOK OUT `green`<<NAME>>`magenta`!", LEEZA screams.
+@<<PAUSE>>
+
+You are set upon by a mounted Knight wielding a War Lance...
+@<<PAUSE>>
+
+`bright white`Too late! You feel THUNDERHEAD shudder under you...
+@<<PAUSE>>
+@<<CLEAR>>
+
+@<<ANSI: joust>>
+@<<PAUSE>>
+
+@<<CLEAR>>
+
+Many more charge your troop...
+@<<MONSTER: HUGE FELLOW,500,100,200,100,30,10>>
+
+`magenta`These are FIGHTERS of a different caliber than the others...
+@<<PAUSE>>
+
+Many, Many more charge your troop...
+@<<MONSTER: HUGE FELLOW,500,100,200,100,30,10>>
+
+`magenta`These FIGHTERS definitely have more training than the others...
+@<<PAUSE>>
+
+Many, Many, Many more charge your troop...
+@<<MONSTER: HUGE FELLOW,500,100,200,100,30,10>>
+
+`magenta`When it is over, you see LEEZA kneeling beside the
+`yellow`Golden Palomino Mare...
+@<<PAUSE>>
+
+Pulling LEEZA to her feet you hold her close
+and ask, `bright magenta`"Is she dead my love?"
+@<<PAUSE>>
+
+`cyan`With trembling lips, LEEZA whispers, `red`"no, not yet."
+@<<PAUSE>>
+
+It is then that you remember the shudder you felt 
+from THUNDERHEAD, as he met that last charge...
+
+"THUNDERHEAD, here THUNDERHEAD", and, you whistle over and over again.
+@<<PAUSE>>
+
+`red`"Father, Father!", your two sons shout in unison.
+`red`Are you and Mother all right?"
+@<<PAUSE>>
+
+"Yes we are boys, but, THUNDERHEAD has taken a War Lance 
+in his chest and the`yellow` Golden Palomino Mare`bright yellow` has 
+broken her right front leg", you explain.
+@<<PAUSE>>
+
+`bright blue`"Don't worry`green` <<NAME>>`bright blue` I have my
+`bright blue`Wizard with me", says Ozmar.
+@<<PAUSE>>
+
+`bright red`For two days and nights, the Wizard works on the two
+`bright red`wounded horses.  With potions and spells; he tries it all!
+@<<PAUSE>>
+
+On the third day, the two horses are on their feet and trotting 
+about as though they had never been hurt!
+@<<PAUSE>>
+
+`green`"Let's gather the herd and start for home", you shout!
+@<<PAUSE>>
+@<<DAY END>>
+@<<DAY 3>>
+
+--------------------------------------------------------------
+`yellow`                            Day 3 of:
+`yellow`                       A Long Way Home III
+`yellow`                             By: TML
+--------------------------------------------------------------
+@<<PAUSE>>
+
+`green` Clippity Clop,
+`green`               Clippity Clop,
+`green`                             Clippity Clop,
+`green`                                           Clippity Clop!
+@<<PAUSE>>
+
+It is a beautiful morning to be on the road back to 
+your home in`magenta` <<MANOR>>`bright yellow` and Ozmar's minstral 
+has been playing a catchy tune as you ride along...
+@<<PAUSE>>
+
+`green` Clippity Clop,
+`green`               Clippity Clop,
+`green`                             Clippity Clop,
+`green`                                           Clippity Clop!
+@<<PAUSE>>
+
+`bright blue`"Whoa, Whoa", A messenger brings his lathered-up
+`bright blue`steed to a dust churning halt next to you!
+@<<PAUSE>>
+
+"Mi Lord, your entire household, and a big part of Ozmar's, have 
+been watching your dust for hours.  We have all prepared an
+`magenta`OUTDOOR FEAST`bright yellow`", he shouts...
+@<<PAUSE>>
+
+`cyan`It took three days for that feast to wind down and all 
+`cyan`your guests to go home.
+@<<PAUSE>>
+
+`bright blue`As it was in the beginning of this Quest, so shall
+`bright blue`it end.  With you and LEEZA sitting your mounts atop
+`bright blue`the`green` grassy knoll`bright blue` overlooking the
+`bright blue`peaceful little township of Blaggard...
+@<<PAUSE>>
+@<<CLEAR>>
+
+`bright red`Now for some really neat stuff for your inventory:
+
+A GEIA SHIELD -  holds the Power of the legendary hero GEIA, for LEFT HAND.
+
+       50 STRENGTH POINTS           
+       50 DEFENSE POINTS
+       50 EXPERIENCE POINTS
+       50 LEADERSHIP POINTS
+       50 WISDOM POINTS
+       50 INTELLIGENCE POINTS
+   10,000 GOLD
+       30 HITPOINTS
+      100 Acres of LAND
+      100 SERFS
+      100 SOLDIERS
+       30 MAGIC POINTS
+      100 HEALING POTIONS 
+@<<PAUSE>>
+
+@<<ITEM: 74>>
+@<<STAT: 0,50>>
+@<<STAT: 1,50>>
+@<<STAT: 3,50>>
+@<<STAT: 4,50>>
+@<<STAT: 5,50>>
+@<<STAT: 6,50>>
+@<<STAT: 7,10000>>
+@<<STAT: 10,30>>
+@<<STAT: 11,100>>
+@<<STAT: 12,100>>
+@<<STAT: 13,100>>
+@<<STAT: 14,100>>
+@<<STAT: 15,30>>
+@<<END OF QUEST>>

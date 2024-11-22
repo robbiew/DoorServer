@@ -1,0 +1,226 @@
+@<<TITLE: The Dragon's Edge by Linda Wagner,Level 5+,3 days>>
+@<<DAY 1>>
+
+`bright cyan`You're sitting quietly on your horse, Silver, gazing out over the 
+`bright cyan`peaceful mountain vista in the land of <<MANOR>> onto the plains 
+`bright cyan`below when a sudden movement near the edge of the forest brings you 
+`bright cyan`back to reality.
+@<<PAUSE>>
+
+There, running as fast as she can, is the most beautiful girl that 
+you've ever beheld! Fearing the worst, you nudge Silver towards 
+the narrow path and gallop down the trail hoping to aid her.
+@<<PAUSE>>
+
+`bright cyan`Out of the woods come five mounted men. They head straight for the 
+`bright cyan`girl and the leader scoops her up. You cannot arrive in time no 
+`bright cyan`matter how you urge Silver on.
+@<<PAUSE>>
+
+You really see red even though the men are all in black! By the time 
+you arrive at the scene of the kidnapping, all that is left is a 
+scrap of paper. You read the words scratched carelessly on the 
+paper, "Go south to the Dragon's Edge". You decide to go after the girl 
+and rescue her from the black knights. You may even discover the 
+meaning behind the words on the paper.
+@<<PAUSE>>
+
+`bright cyan`You ride back to your home and get your traveling kit. 
+`bright cyan`Now you are ready to follow the evil knights who kidnapped the girl.
+@<<PAUSE>>
+
+`bright blue`Traveling south on a rocky road, it's just you and Silver for hours. 
+`bright blue`Suddenly, you are surrounded by baby trolls! They seem to come 
+`bright blue`from nowhere... 
+@<<PAUSE>>
+@<<MONSTER: Baby Troll,25,15,15,30,10,10>>
+
+
+`bright blue`You catch your breath and more appear......
+@<<PAUSE>>
+@<<MONSTER: Baby Troll,25,15,15,30,10,10>>
+
+`bright blue`and still more appear......
+@<<PAUSE>>
+@<<MONSTER: Baby Troll,25,15,15,30,10,10>>
+
+The dead little trolls lay all around you. 
+You decide to leave this scene quickly.
+@<<PAUSE>>
+
+`bright cyan`You wipe the blood from your weapon and remount Silver. 
+`bright cyan`You gallop away as fast as Silver can go.
+@<<PAUSE>>
+
+Hours later you find a peaceful clearing near a small brook. 
+You decide to camp for the night and continue your search in 
+the morning.
+@<<PAUSE>>
+
+@<<DAY END>>
+@<<DAY 2>>
+
+It is now the second day of your quest. 
+@<<PAUSE>>
+
+`bright cyan`You wake up to the sound of singing birds. You study the paper 
+`bright cyan`you found yesterday and notice that on the back is a map. Now you 
+`bright cyan`know that you are heading in the right direction!
+@<<PAUSE>>
+
+You mount Silver and ride off towards Briarwood Village. You know 
+that you can get more supplies and reliable information there.
+@<<PAUSE>>
+
+`bright yellow`Riding...
+`bright yellow`Riding...
+`bright yellow`Riding...
+@<<PAUSE>>
+@<<CLEAR>>
+
+`bright blue`You arrive in town and head for the shops. After making your 
+`bright blue`purchases, you notice that several thugs are following you. 
+`bright blue`Not wishing to make a scene in the middle of town, you try to run 
+`bright blue`for it....
+@<<PAUSE>>
+@<<MONSTER: Apprentice Thief,30,15,15,35,20,10>>
+
+`bright blue`Is there no end to this madness?!!??!!
+@<<PAUSE>>
+@<<MONSTER: Apprentice Thief,30,15,15,35,20,10>>
+
+Finally, all your assailants lay dead at your feet. 
+You notice that there is blood pouring from you arm! 
+You must take care of this wound now!
+@<<PAUSE>>
+
+`bright cyan`You search the sign posts and head toward the one pointing to 
+`bright cyan`Main Street.
+@<<PAUSE>>
+
+You find an apothecary who treats your wounds and gives you a 
+bed to sleep on for the night.
+@<<PAUSE>>
+
+`bright cyan`He tells you that you are lucky not to have come across the 
+`bright cyan`black knights that have kidnapped the Dragon Princess Zandra 
+`bright cyan`while she was in her human shape. 
+@<<PAUSE>>
+
+"She is the most beautiful girl in the world!" he exclaims. 
+@<<PAUSE>>
+
+`bright cyan`You fall asleep wondering if the girl you are hoping to save 
+`bright cyan`could be this Dragon Princess. 
+@<<PAUSE>>
+
+@<<DAY END>>
+@<<DAY 3>>
+
+This is the third day of your quest. 
+@<<PAUSE>>
+
+`bright cyan`You wake up feeling refreshed and make a hasty breakfast. 
+@<<PAUSE>>
+
+You find Silver at the local stable and prepare to leave town. 
+You are determined to rescue the girl from those black knights 
+even if she is the Dragon Princess Zandra.
+@<<PAUSE>>
+
+`bright cyan`Riding along, you see a bridge in the distance and what looks like 
+`bright cyan`a war party in front of it. You begin to get a bad feeling as you 
+`bright cyan`get closer. There appears to be a girl struggling fiercely with 
+`bright cyan`those troops! 
+@<<PAUSE>>
+
+`bright blue`You urge Silver into a gallop and jump into the fray with your 
+`bright blue`sword slashing at the nearest target!
+@<<PAUSE>>
+@<<MONSTER: Black Knight,100,100,55,40,40,5>>
+
+`bright blue`Will there ever be an end to the bloodshed?
+@<<PAUSE>>
+@<<MONSTER: Black Knight,100,100,55,40,40,5>>
+
+`bright blue`Apparently, not for a while........
+@<<PAUSE>>
+@<<MONSTER: Black Knight,100,100,55,40,40,5>>
+
+`bright blue`More surround you........
+@<<MONSTER: Black Knight,100,100,55,40,40,5>>
+
+`bright blue`Finally there is only one opponent left standing!
+@<<PAUSE>>
+@<<MONSTER: Midnight Knight,200,200,200,50,50,1>>
+
+You have killed the leader of the black knights!
+@<<PAUSE>>
+
+`bright cyan`From underneath the bridge, emerges the girl. 
+`bright cyan`She looks at you with the most beautiful green eyes you've ever seen.
+@<<PAUSE>>
+
+"How can I ever thank you for saving me from those brutes?" she asks. 
+@<<PAUSE>>
+
+`bright cyan`You look into those eyes and say, "No thanks are necessary. I needed 
+`bright cyan`a chance to explore this area and saving you gave me that chance."
+@<<PAUSE>>
+
+"But you could satisfy my curiosity by telling me about the 
+Dragon's Edge," you add. 
+@<<PAUSE>>
+
+`bright cyan`"Why certainly. That's the resort where I was planning to meet 
+`bright cyan`my father, Dragon King Amber. I am Dragon Princess Zandra. 
+`bright cyan`Who are you?"
+@<<PAUSE>>
+
+You reply, "I'm <<NAME>> from <<MANOR>>."
+@<<PAUSE>>
+
+`bright cyan`She says, "Well, <<NAME>>, why don't you come with me. My father 
+`bright cyan`will reward you for your heroic deeds!"  
+@<<PAUSE>>
+
+You decide to go with her just to make sure that nobody else 
+bothers her.
+@<<PAUSE>>
+
+`bright yellow`Riding...
+`bright yellow`Riding...
+`bright yellow`Riding...
+@<<PAUSE>>
+@<<CLEAR>>
+
+`bright cyan`Riding for hours isn't all it's cracked up to be....
+@<<PAUSE>>
+
+You finally arrive at the Dragon's Edge. It is the largest 
+mountain you have ever seen with huge caverns carved from the stone. 
+@<<PAUSE>>
+
+`bright cyan`King Amber is so pleased with you that he gives you an 
+`bright cyan`exclusive membership at the resort! 
+`bright cyan`Plus, he decides to reward you with plenty of treasure...
+@<<PAUSE>>
+`bright magenta`********************************************************************
+`bright green`As a reward for your efforts, you receive:
+`bright green`An increase of 10 in strength, defense, dexterity and intelligence. 
+`bright green`You gain 200 experience points! 
+`bright green`You gain 5,000 gold pieces and 10 hit points! 
+`bright green`Plus, you get Gladiator Armor! 
+`bright green`The king even tosses in 50 soldiers for your manor! 
+`bright green`Wow! Dragon King Amber can call on you for help anytime!
+`bright magenta`********************************************************************
+@<<PAUSE>>
+@<<STAT: 1,10>>
+@<<STAT: 2,10>>
+@<<STAT: 6,10>>
+@<<STAT: 3,200>>
+@<<STAT: 7,5000>>
+@<<STAT: 10,10>>
+@<<ITEM: 43>>
+@<<STAT: 13,50>>
+@<<END OF QUEST>>

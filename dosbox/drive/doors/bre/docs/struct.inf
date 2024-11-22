@@ -1,0 +1,56 @@
+{Barren Realms Elite v0.970 Public Pascal Structure Files
+ --------------------------------------------------------
+
+ Note: For security purposes (to prevent cheating), only unimportant data
+       file structures are released.  Tampering with these files will not
+       aid a BBS, as they do not affect the game except by providing
+       information.
+}
+
+{FILE: DATA\SPY.BR
+ --------------------------------------------------------------------------
+ This file stores 255 "SpyList"s.  It contains all the known spy
+ information available in the Spy Database.
+}
+
+Type
+  SpyInfo = Record
+    Id,
+    Troopers,
+    Jets,
+    MissileBases,
+    Tanks,
+    Regions : LongInt;
+    Morale : Integer;
+    Date : Real;
+  End;
+
+  SpyList = Array['A'..'Y'] Of SpyInfo;
+{-------------------------------------------------------------------------}
+
+{FILE: DATA\PLANET.BR
+ --------------------------------------------------------------------------
+ This file stores all the known recon information from each BBS in the
+ game stored as 255 "PlanetInfo"s.
+}
+
+DateRecord = record
+  Year, Month, Day,
+  Hour, Minute, Second, Hundredths : Word;
+End;
+
+PlanetInfo = Record
+  PlanNum : Integer;
+  Names : Array['A'..'Y'] Of String[30];
+  Scores : Array['A'..'Y'] Of LongInt;
+  Regions : Array['A'..'Y'] Of LongInt;
+  NetWorth : Array['A'..'Y'] Of LongInt;
+  Ids : Array['A'..'Y'] Of LongInt;
+  Date : DateRecord;
+  Recon : Boolean;
+  Version : String[9];
+  Empty : Array[1..246] of Char;
+End;
+
+{-------------------------------------------------------------------------}
+

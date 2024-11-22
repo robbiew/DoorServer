@@ -1,0 +1,150 @@
+                     Whats.new file for Exitilus v3.20
+
+This version fixes the following bugs:
+        *Bank menu -- added '.' and ',' keys to make banking faster
+        *Attack % fixed (say you can only attack people xx% below your level)
+        *Player messaging has been temporarily taken out because of file
+         curruption.
+        *Various portions of the game has been optimized to make room for
+         improvements for v3.3.
+
+This version also added the following features:
+        *External Prompting System has been added to this program.  The sysop
+         may customize the look of Exitilus!
+
+                     "Hey, there's still a bug in the game!"
+
+Well, we're sorry that one slipped by our extensive testing! Please e-mail us
+telling about the bug (please be as specific as possible), and we'll try to
+find a way to fix it and release a patch!
+
+                        "So how do we reach you guys?"
+
+You can reach ECI Software, LLC by any of the addresses listed at the bottom
+of the SYSOP.DOC file found in this zip file.  There should be an address for
+almost every form of media, so you shouldn't have any problems getting a hold
+of us!
+
+                         History of Exitilus Versions
+                        ------------------------------
+[Exitilus v3.17 Changes]
+[Released October 26th, 1998]
+Bugs Fixed:
+
+        *Buying Healing Potions in Forest displaying negative number
+        *Problem with using non-letters in name fixed
+        *Quest Tracker System not recording quest names correctly
+        *Drinking at the Bar Displaying wrong increases in stats
+
+[Exitilus v3.16 Changes]
+[Released October 19th, 1998]
+Bugs Fixed:
+        *Curses and Blesses Not Displaying Correctly
+        *Messaging System Not Working for multiple messages
+        *NPC Manor's having the same name
+        *InAbility to become King via Manor Attacks
+        *Usage of Real Name says Duplicate Name
+        *Improved Bar Tender Talking
+        *Drinking at the Bar giving too high of rewards
+        *Diplomacy & Messages not showing up on entry of game
+        *Getting Negative Gold in the Bank
+        *Depositing & Withdrawing all Gold but 1
+        *Training of Non-Existant Armies
+        *Attacking of Players lower than 30% of your level
+        *Manor Attack Listing Not Pausing
+        *Game Saying you can't attack because you have a treaty with that
+         person when you don't
+        *Getting unlimited Manor War Turns by destroying your manor over
+         and over
+        *Combat Numbers Rolling over or awarding Hitpoints
+        *New Manor Attack Routines
+        *Writing Messages doesn't Pause
+
+Features Added:
+        *More Monsters
+        *Player Editor (Separate Program)
+        *New Registration Code System
+        *Different ANSI Screens for Monster Areas
+        *Ressurection of Players less than 7 days old
+        *Non-Standard IRQ and Comport Settings/Configuration
+        *Death Matches (Sysop Configurable)
+        *More documentation, more information, etc.
+        *Training army is now done by whatever increment you want
+        *Ability to set the New User Startup Gold
+        *Ability to set the Level Difference for Player Combat
+        *Ability to choose the Old (v2.05 and down) or New (3.1 and up) way
+         of Death
+        *Fight Round Counter - Fights can only last 1000 rounds
+        *New Directories! ANSI/ASCII files in ansi/ directory, Quests and
+         Quest ANSI files in quests/ directory
+        *Quest Tracker - Allows SysOp to choose whether players can go on a
+         quest multiple times. If they are allowed to, the game reminds them
+         that they have already been on the quest and they can choose to go
+         on it again....
+
+[Exitilus v3.15 Changes]
+[Released June 21st, 1998]
+Bugs Fixed:
+        *Incorrect Purchasing of Cannons, Knights, and Forts
+        *Negative Numbers being reported when killing NPCs
+        *Number of Player, Manor, and Monster Fights incorrect
+
+Features Added:
+        *A repair player.dat utility (in the exsetup program)
+
+[Exitilus v3.14 Changes]
+[Released June 14th, 1998]
+Bugs Fixed:
+        *Player Fight not displaying correctly
+        *Not being able to sell items
+        *Purchasing of Knights/Forts/Cannons
+        *Overloading the purchasing of soldiers
+        *Soldier Training level decreasing incorrectly
+        *Morale going over 100%
+        *Bribe for info reports/costs negative amounts of money
+        *NPC Stats reporting negative amounts of money
+        *Manor names appearing incorrectly in Manor Attacks with NPCs
+        *Casting of Teleportation also casts Alchemy
+        *Withdrawing and Depositing of Gold leaving 1 Gold remaining
+        *Black Market taking away too much gold
+        *And a few more which we can't seem to remember right now...
+
+Features Added:
+        *Ability to send some of your military home to work on the farm, etc.
+        *Some other minor features which are slipping our minds...
+
+[Exitilus v3.13 Changes]
+[Released June 6th, 1998]
+Bugs Fixed:
+        *Can buy Priceless Items
+        *Player Fight Menu displays Incorrectly
+        *Manor Names incorrect in Attack
+        *Training Level doesn't decrease when you buy more army
+        *The selling of empty items in the shops & black market
+        *Give money to the poor screwed up with large numbers
+        *Purchasing of knights, cannons, and forts incorrectly
+        *Pause when selling items
+        *Bribe for info showed negative numbers
+        *Remove curses didn't remove them
+        *NPC Stats messed up
+        *Manor Attack Screwed up (kingdom attacks added)
+
+[Exitilus v3.12 Changes]
+[Released June 2nd, 1998]
+Bugs Fixed:
+        *Name appears to be in use when it's not
+        *Cleric's Recieve Monk's Bonus, etc.
+        *More than 14 characters corrupts player.dat file
+        *Bank can handle money up to 18 digits
+        *Curses awarding you money instead of taking it
+
+[Exitilus v3.11 Changes]
+[Released June 1st, 1998]
+Bugs Fixed:
+        *Exsetup delete's a player then crashes
+        *Exsetup prints the Experience wrong in the delete option
+        *Garbage appears on the screen in Quest Combat
+        *Spells don't exist in Sorcerer's and Cleric's Guild
+        *Pick-Pocketing gives large sums of money
+        *Stats in the Army Attack appear garbled
+        *Bad Item Errors in Quests

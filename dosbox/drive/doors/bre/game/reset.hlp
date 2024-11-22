@@ -1,0 +1,317 @@
+^Game Start Date
+  ^\08Ä^\07ÄÍ^\0FStart Date^\07ÍÄ^\08Ä^\07
+  The Start Date Configuration allows you to reset the game earlier than
+  actually starting.  This option is very useful for League Coordinators
+  in Inter-BBS games to force all systems to start on the same date (using
+  league-wide reset).  This option is also useful for Tournament games in
+  which you want to allow players to sign up early.
+^END
+
+^Game Join Date
+  ^\08Ä^\07ÄÍ^\0FJoin Date^\07ÍÄ^\08Ä^\07
+  The Join Date option allows the sysop (or LC) to determine the last
+  date a player can join the game.  This is useful for restricting access
+  to latercomers in the game for tournaments, etc.
+^END
+
+^Turns Per Day
+  ^\08Ä^\07ÄÍ^\0FTurns Per Day^\07ÍÄ^\08Ä^\07
+  The number of turns per day controls how quickly a game will progress.
+  Normal games are generally around 8 turns per day, while quick games
+  may go to 10-12.  The maximum amount, 20, will create a very quick
+  paced game that will consume large amounts of player time and is
+  recommended to only be used in rare instances.
+^END
+
+^Turns of Protection
+  ^\08Ä^\07ÄÍ^\0FTurns Of Protection^\07ÍÄ^\08Ä^\07
+  The number of turns of protection controls the number of turns for
+  which a new empire is unable to attack, trade, and be attacked.  This
+  is to allow small newcomers to join the game without immediately
+  being destroyed.
+^END
+
+^Initial Market Land
+  ^\08Ä^\07ÄÍ^\0FInitial Market Land^\07ÍÄ^\08Ä^\07
+  This option refers to the amount of land available to buy for a player
+  at the beginning of the game.  Land is also created daily and a new
+  player always has the option of buying up to 300 regions of land.  An
+  initial value of 0 will give no advantage to the first few players,
+  while a medium or high setting, depending on the number of turns per
+  day, may be advantageous to the first players.
+^END
+
+^Land Created / Day
+  ^\08Ä^\07ÄÍ^\0FDaily Land Creation^\07ÍÄ^\08Ä^\07
+  This amount is the number of regions added to the market each day.  The
+  regions are added as the day progresses.  The larger the value here, the
+  faster growth each BBS in the game will have.  Smaller values will
+  generally base strength more on attacks.
+^END
+
+^Interest Rate
+  ^\08Ä^\07ÄÍ^\0FBank Interest Rate^\07ÍÄ^\08Ä^\07
+  This is the amount of interest the bank will give in 10 days.  Interest
+  is given to the player at the end of each turn.  In many InterBBS games,
+  the interest rates and investments in the banks are exploited to an
+  extent making the game investment-oriented; for these games, we highly
+  recommend a low interest value (below 40%).  The maximum value, 200%, is
+  equivalent to 20% interest per day in previous versions versions below
+  v0.950.
+^END
+
+^Standard Investment Rate
+  ^\08Ä^\07ÄÍ^\0FBasic Investment Interest Rate^\07ÍÄ^\08Ä^\07
+  This is the amount of interest the bank will give in 10 days on investments
+  at the beginning of the game.  Each day, if the Steady Investment Rate
+  option is not enabled, the rate will change based on the amount of
+  investing on the system, but will always be centered around this value. In
+  many InterBBS games, the interest rates and investments in the banks are
+  exploited to an extent making the game overflow; for these games, we highly
+  recommend a low interest value (below 50%).  The maximum value, 100%, is
+  equivalent to 10% interest per day.
+  day.
+^END
+
+^Steady Investment Rate
+  ^\08Ä^\07ÄÍ^\0FSteady Investment Interest Rate^\07ÍÄ^\08Ä^\07
+  With this option disabled, investment interest rates will drop (possibly
+  down to 1/2 the initial value) if there is too much investing going on.
+  On the other end, with little investing going on, the rate can double the
+  initial value.  If you do not wish have this rate changing, you can enabled
+  this option.
+
+  The setting for this option has been switched.
+^END
+
+^Tax Rate
+  ^\08Ä^\07ÄÍ^\0FPlanetary Tax Rate^\07ÍÄ^\08Ä^\07
+  The Tax rate can be used to control the growth of empires.  A high tax
+  rate will generally equalize the size of baronies by "stealing from the
+  rich and giving to the poor", while low tax rates allow large empires to
+  grow much more easily.  Tax Refunds given daily are based on the total
+  amount of income the BBS recieves in taxes.  Randomly throughout the
+  game, the "BBS emperor" will raise or lower tax rates; therefore, the
+  value set here is not binding, but provides an average, and initial,
+  value for the game.
+^END
+
+^Max Purchasable Regions
+  ^\08Ä^\07ÄÍ^\0FMaximum Region Purchases^\07ÍÄ^\08Ä^\07
+  This option limits the number of regions a player can buy in a single turn
+  to prevent players with large amounts of cash from suddenly "jumping" in
+  regions.  This value has little affect in the newer versions of
+  BRE (v0.950+) beause of the new region pricing system, except when a small
+  empire recieves large amounts of cash from an ally.
+^END
+
+^Max Players Per BBS
+  ^\08Ä^\07ÄÍ^\0FMaximum Players^\07ÍÄ^\08Ä^\07
+  This setting determines the maximum number of players on a system.  The
+  normal maximum is 25, but smaller leagues may wish to lower the value
+  to distribute players more evenly.  Leagues consisting primarily of local
+  BBS's may wish to use this option to make game play more competitive by
+  dividing the players up.
+^END
+
+^Buy Military
+  ^\08Ä^\07ÄÍ^\0FBuy Military^\07ÍÄ^\08Ä^\07
+  This setting allows you to control military purchasing.  The "Yes" option
+  creates a game in which military purchasing is unlimited, as in all versions
+  before v0.960.  The "No" setting disables all military purchasing, forcing
+  forcing players to produce using industrial regions.  The "Limited" option
+  creates a limited amount of military in the market each day for purchasing.
+  The "No" and "Limited" options force new strategies, reducing the usefulness
+  of massive investing, while increasing the importance of owning regions.
+  Additionally, overnight armies become almost impossible.
+^END
+
+^Maintenance Costs
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Maintenance Costs^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Maintenance cost option sets the amount that must be paid to
+  maintain military & regions in the pay-section of the game.  The higher
+  setting will cause slower & more controlled growth rates, as well as smaller
+  militaries.
+  It may be set to either High, Medium, Low, or None - Default is Medium.
+^END
+
+^Attack Damage
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Attack Damage^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Attack Damage option defines the amount of forces destroyed in
+  combat.  A High setting will likely reduce combat & make strategy more
+  important, while a low setting will make constant warfare with less strategy
+  a more useful tactic.
+  It may be set to either High, Medium, or Low - Default is Medium.
+^END
+
+^*Attack Costs
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Attack Costs^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Attack Cost option affects the amount of money charged when
+  sending ^\0FInterBBS^\07 attacks. A High setting will make attacking more
+  difficult for larger empires.
+  It may be set to either High, Medium, Low, or None - Default is Medium.
+^END
+
+^Attack Rewards
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Attack Region Gains^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Attack Region Gains option affects the number of regions won
+  in all attacks. A High setting will make attacking more devastating while a
+  low setting will make it more difficult to destroy smaller empires.
+  It may be set to either High, Medium, or Low - Default is Medium.
+^END
+
+^*Terrorist Costs
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Terrorism Costs^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Terrorism Cost option affects the amount of money charged when
+  sending ^\0FInterBBS^\07 Terrorists. A High setting will make terrorism more
+  popular.
+  It may be set to either High, Medium, Low, or None - Default is Medium.
+^END
+
+^Region Costs
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Region Costs^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Region Cost option affects the amount of money charged when
+  purchasing new regions.  A Low setting will encourage purchases while a high
+  setting makes war a more viable alternative.  The None setting will cause a
+  minimal price increase in regions as purchased.
+  It may be set to either High, Medium, Low, or None - Default is Medium.
+^END
+
+^Trade Deal Costs
+  ^\02Ä^\0AÄÍ^\0FGamePlay: Trade Costs^\0AÍÄ^\02Ä^\07
+  The ^\0AGamePlay^\07 options may be set to the following values: High, Medium
+  Low, or None.  [H,M,L,N]  Some settings will not be allowed for certain
+  options.  The Trade Cost option affects the amount of money charged when
+  sending out trade deals.  A Low setting will encourage trading while a high
+  setting limits trading to more important times.
+  It may be set to either High, Medium, Low, or None - Default is Medium.
+^END
+
+^*Individual Attacks / Day
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Max Individual Attacks^\0CÍÄ^\04Ä^\07
+  The number of individual Inter-BBS Attacks allowed per day should generally
+  be kept low to prevent larger empires from destroying a smaller opponent
+  in several strikes at once.  For some leagues, though, such as free-for-all
+  leagues or whatever, you may wish to experiment with higher values. :)
+^END
+
+^*Group Attacks / Day
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Max Group Attacks^\0CÍÄ^\04Ä^\07
+  The number of group Inter-BBS Attacks allowed per day should generally
+  be kept low to prevent larger empires from destroying a smaller opponent
+  in several strikes at once.  For some leagues, though, such as free-for-all
+  leagues or whatever, you may wish to experiment with higher values. :)
+^END
+
+^*Terrorist Attacks / Day
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Max Terrorist Operations^\0CÍÄ^\04Ä^\07
+  The number of terrorist operations allowed per day can now be configured
+  to fit your league's desire.  It is highly recommended to keep a fairly
+  small value here, such as 10 or 15.
+^END
+
+^*Bombings / Day
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Max Bombing Operations^\0CÍÄ^\04Ä^\07
+  The number of bombings operations allowed per day can now be configured
+  to fit your league's desire.  Originally, it was infinite, but often
+  literally hundreds of bombing operations are sent and I thought I should
+  offer some type of control for this.  We recommend a setting around
+  5 or 10 ops a day.
+^END
+
+^*Days for "Lost Attacks"
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Lost Attack Prevention^\0CÍÄ^\04Ä^\07
+  BRE supports logging of attacks and lost attack prevention.  If an attack
+  has not returned after a certain number of days, the forces will be
+  returned to the owner and the attack voided.  If the attack is to return
+  in the future, it will not be processed, pretending that the assault was
+  never made.  The number of days should be kept a little bit larger than
+  the maximum turn around time for attacks from one BBS to another.  League
+  Coordinators, please be sure to take into consideration the maximum time
+  from any system in your league to any other, as the values you set will
+  be used at all other systems in your league.
+^END
+
+^*Gooie Kablooies
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Gooie Kablooies^\0CÍÄ^\04Ä^\07
+  One of the special forms of attacks in BRE is to send a "Gooie Kablooie"
+  to another BBS.  It is an expensive, but often powerful device.  In certain
+  games, this feature may be harmful to gameplay.  If you are designing your
+  setup to be primarily region-oriented (low interest rates, limited or no
+  buying of military, etc), you may wish to consider disabling this feature
+  so as to add more parity to the game.
+
+  This option has been toggled.
+^END
+
+^*Bombing Operations
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Bombing Operations^\0CÍÄ^\04Ä^\07
+  One of the special forms of attacks in BRE is to send bombs to destroy
+  Food Markets, Investments, Trading Markets, etc. on another BBS.  Depending
+  on your setup, you may wish to disable this feature.  We generally
+  recommend leaving Bombing Operations enabled for most setups.
+
+  This option has been toggled.
+^END
+
+^*Missile Operations
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Missile Operations^\0CÍÄ^\04Ä^\07
+  One of the special forms of attacks in BRE is to send Nuclear, Chemical,
+  and other special missiles to destroy enemy facilities.  Depending on your
+  setup, you may wish to disable this feature (one example may be in heavily
+  region-oriented games).  We generally recommend leaving Missile Operations
+  enabled for most setups.
+
+  This option has been toggled.
+^END
+
+^*Local Attacks
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Local Attacks^\0CÍÄ^\04Ä^\07
+  This option enables or disables the ability to attack other local empires
+  in Interplanetary games.  We highly recommend leaving this option enabled,
+  forcing BBS's to use teamwork to remove troublemakers and allowing a
+  method to destroy spies, etc.
+^END
+
+^*Local Attack Scoring
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Local Attack Scoring^\0CÍÄ^\04Ä^\07
+  Enabling this option in an Interplanetary game will make BRE add score
+  points to players who attack and defeat local opponents.  When disabled,
+  score cannot be achieved through local fighting.  We recommend disabling
+  this option, so that users cannot attack each other just to build up
+  score.
+^END
+
+^*Dupe Checking
+  ^\04Ä^\0CÄÍ^\0FInterBBS: Duplicate User Checking^\0CÍÄ^\04Ä^\07
+  Enabling this feature will make BRE look for users on your system that may
+  be playing on other BBSes and temporarily lock them out of the game (until
+  they delete one of their players).  In general, long-distance games don't
+  require this option as much as local games may.  Leaving this feature OFF
+  will save some data transferring, but allows players to play on several
+  systems more easily.
+
+  This option has been toggled.
+^END
+
+^LEAGUEWIDE
+  ^\05Ä^\0DÄÍ^\0FInterBBS: League-Wide Reset^\0DÍÄ^\05Ä^\07
+  Selecting this will send reset information to all other systems in the
+  league, automatically resetting their games without sysop intervention.
+  This can be used if you wish to end league play and restart the game
+  fresh or if problems have developed requiring a league-wide reset.
+^END
+
+

@@ -1,0 +1,23 @@
+
+  //////////////////////////////////////
+    Usurper 0.19 - Upgrade Information 
+  //////////////////////////////////////
+
+1. you are upgrading from 0.18
+2. you are upgrading from 0.17
+3. you are upgrading from a pre 0.17 version
+
+-------------------------------------------------------------------------
+(1) Upgrading from v0.18
+    unzip the archive in your usurper directory (overwrite all existing
+    files).
+-------------------------------------------------------------------------
+(2) Upgrading from v0.17
+    unzip the archive in your usurper directory (overwrite all existing
+    files). run the 017to018.EXE program.
+
+
+--------------------------------------------------------------------------
+(3) Upgrading from a version below v0.17
+    Download Usurper 0.18 version. In this archive you will find appropriate
+    converters for older versions.

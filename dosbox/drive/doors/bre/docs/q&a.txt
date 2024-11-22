@@ -1,0 +1,129 @@
+Barren Realms Elite v0.970 Documentation                  Last Updated: 1/27/94
+
+Frequently Asked Questions (with Answers) and Common Setup Problems
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) My game just isn't running properly.
+A) Try running BRE TEST and viewing the file it creates (RESULTS.TXT) for
+   more information.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) BRE shows up fine locally but not remotely.
+A) Be sure, for high speed modems, to specify a locked baud rate parameter
+   in BRE's RESOURCE.DAT file.  For example, if your modem is locked at
+   19200, enter:
+                        LockedBaud      19200
+   in the RESOURCE.DAT file.
+
+   Also, try changing the Fossil driver setting in RESOURCE.DAT:
+                        Fossil          yes
+   or
+                        Fossil          no
+   Some systems may work better when BRE uses the Fossil, and some may
+   work better when BRE uses its own communication routines.
+
+   If you are using a non-standard COM port, and you are not using a
+   Fossil driver, you may wish to tell BRE what the COM port parameters
+   are.  Check RESOURCE.DOC for details on how to do this.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) My game is running fairly slow and choppy.  Why?
+A) The BRE multitasking routines are still being worked on.  They work well
+   on some systems, but not others.  Try adding "Multitasker NONE" to your
+   RESOURCE.DAT file.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) I keep getting a message saying "Not a member of a league" when I run
+   BRE PLANETARY or OUTBOUND or INBOUND.  Why?
+A) 2 possible reasons.  One, you're really not a member of league and shouldn't
+   be running those options.  More likely, you have an error in your setup.
+   Make sure your node number in the BRNODES.DAT matches exactly the one in
+   BBS.CFG.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) I keep getting a Run Time Error.  What do I do?
+A) First, carefully check your setup and make sure you haven't goofed anywhere.
+   If that does not help, write down the error number (201 at 2145:2314) and
+   send it to Mehul Patel at Solaria City (Fido: 1:106/900).  If your game
+   seems dead, you can try copying the BACKUP\GAME.DAT over your DATA\GAME.DAT
+   and see if that fixes the problem.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) I am currently the coordinator of a league.  I wish to make another board
+   into the new coordinator.  How do I go about this?
+A) First, you must change the BRNODES.DAT to make the new BBS into system #1.
+   Additionally, you must copy your COORD.KEY file from your main BRE directory
+   to the other system's main BRE directory.  Do *NOT* allow anyone to access
+   this file, as it prevents systems from becoming "fake" coordinators and
+   messing up a league.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) I keep receiving all my attacks back as Lost In Transit.  Why?
+A) Either the routing between you and your opponent is too long (making BRE
+   think the attack was lost forever) or there is a routing problem.  In the
+   case of the first, either find a new, more efficient method of routing or
+   ask the coordinator to increase the number of days before assuming an
+   attack is lost.  In the latter case, ask your coordinator to run
+   "BRE ROUTEINFO" to produce a list of the current routing setup and find
+   and help solve any problems in the current routing scheme.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) As a coordinator for a BRE League, I keep getting complaints of people
+   cheating.  What should I do?
+A) Most cheat-complaints are false alarms, but the occasional one may be true.
+   Depending on the set up of a game, empires may or may not be able to grow
+   at unbelievable rates, and so it is very difficult to tell whether or not
+   an empire really is cheating.  It's a judgement call you must make.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) I sent my registration quite a while ago, but have received nothing back.
+   What does this mean?
+A) If it has been less than 4 weeks, please do not ask about it because it
+   will only slow us down more having to sift through all the e-mail.  If it
+   has been more than 4 weeks, you may wish to Fido-net or Email Amit or Mehul
+   at Solaria City, but don't expect an immediate reply because we have
+   very limited time and cannot get to all mail immediately.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) How do I set up BRE for my multinode board?
+A) BRE cannot run on more than one node at a time, but it will detect this
+   automatically, so that you do not have to use external utilities or
+   semaphore files to do this.
+
+   To set up BRE for a multinode board, first install BRE normally, for
+   just node 1.  Then, look in your BRE directory for a file called
+   SETUP.SR.  This file contains the path to the door file.  You can make
+   copies of this file for each node (SETUP.1, SETUP.2, SETUP.3, etc.).
+
+   In your BBS directory, there will be a BRE.BAT file.  Edit this file
+   and look for a line:
+                        SRDOOR
+   change this line to
+                        SRDOOR -f SETUP.%NODE%
+   This assumes that you have an environment variable "NODE" that contains
+   the node number (1, 2, 3, etc.).  If, instead, your node number is passed
+   on the command line, you can use a line such as
+                        SRDOOR -f SETUP.%1
+
+   In addition, your nodes may not have the same locked baud rate.  If
+   this is the case, one solution is to make a RESOURCE.1, RESOURCE.2,
+   and so on.  Then, in each one, you can set a different locked baud rate.
+   In the batch file, before BRE runs, add the line
+                        COPY RESOURCE.%NODE% RESOURCE.DAT
+
+   Good luck!
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Q) BRE shows up fine locally but not remotely.
+A) Be sure, for high speed modems, to specify a locked baud rate parameter
+   in BRE's RESOURCE.DAT file.  For example, if your modem is locked at
+   19200, enter:
+                        LockedBaud      19200
+   in the RESOURCE.DAT file.
+
+   Also, try changing the Fossil driver setting in RESOURCE.DAT:
+                        Fossil          yes
+   or
+                        Fossil          no
+   Some systems may work better when BRE uses the Fossil, and some may
+   work better when BRE uses its own communication routines.
+
+   If you are using a non-standard COM port, and you are not using a
+   Fossil driver, you may wish to tell BRE what the COM port parameters
+   are.  Check RESOURCE.DOC for details on how to do this.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Generic A) Check RESOURCE.DOC, as it has dozens of options relating to game
+           play, more effective running of the game, non standard IRQ's,
+           fossil drivers, locked bauds, and everything else you could imagine.
+

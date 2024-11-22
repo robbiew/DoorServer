@@ -1,0 +1,26 @@
+^Normal Attack
+  ^\0CNormal Attack ^\04- ^\07The normal individual attack allows you to capture ^\0320%^\07
+    of an opponent's regions.  Both sides will fight until they suffer ^\0315%^\07
+    losses, at which time they will retreat.
+
+^END
+
+^Quick Strike
+   ^\0CQuick Strike ^\04- ^\07In the quick strike, you add the element of surprise to
+     your attack, and are able to fight at ^\03110%^\07 of your normal strength.
+     However, you can only capture ^\0350%^\07 of what you would in a normal
+     attack.  Because of the disorganization of the defender and the surprise
+     element of the attack, both sides will only fight until they suffer ^\038%^\07
+     losses, at which time the order to retreat is given.
+
+^END
+
+^Extended Battle
+  ^\0CExtended Battle ^\04- ^\07The extended battle is the most exhaustive type of
+    attack available.  Because of fatigue, your forces will only fight at ^\0385%^\07
+    strength, but they can capture up to ^\03125%^\07 of what would normally
+    be taken in the standard attack.  The two armies will accept^\0320%^\07 losses
+    before retreating.
+
+^END
+

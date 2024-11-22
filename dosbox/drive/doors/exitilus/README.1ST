@@ -1,0 +1,58 @@
+Exitilus v3.20:
+
+The majority of the changes from v3.17 to v3.20 are internal.  A lot of the
+bugs in v3.17 still have not been changed.  The reason for this is because
+v3.3 will be almost a complete rewrite.  At any rate, v3.20 is a minor release
+for Ricky Link to get used to ECI's Coding schemes.
+
+INSTALL.EXE -- This program was completely rewritten to make installing and
+               upgrading Exitilus easier to do.
+
+EXSETUP.EXE -- This program only has minor fixes.
+
+ EXEDIT.EXE -- This program was completely rewritten.   Introduced in v3.17,
+               this program only allowed the sysop to modify the player.dat
+               file.   Now in v3.20, this program allows the sysop to have
+               more control over the game.  The following features are built
+               into this program:
+
+               *Player editor -- Allows the sysop to modify player stats.
+               *Monster editor -- Allows the sysop to Add, Remove, Modify,
+                                  and view the monsters in the monster.dat
+                                  file.
+               *Items editor -- Allows the sysop to Add, Remove, Modify,
+                                and view the items in the items.dat file.
+               *Bar editor -- Allows the sysop to Add, Remove, Modify, and
+                              view the reponses to keywords in the bar.dat
+                              file.
+               *Spell editor -- Allows the sysop to Add, Remove, Modify, and
+                                view the spells in the spell.dat file.
+
+               Most features are open to unregistered sysops, however, the
+               full benefits will be seen by the registered sysop.
+
+Please be aware, now that Ricky has started programming Exitilus, new versions
+from v3.20 on up will change dramatically starting in v3.30 on to v4.0 and
+beyond.
+
+ATTENTION BETA TESTERS! If you are a sysop or player who likes to try out
+new versions before anyone else, then here is your chance to get advanced
+inbetween versions from us.  We will have a new webpage devoted to updates
+beyond v3.20.  Read the WWWboard for more information.
+
+See the whats.new file for more information on what was fixed/added!
+
+To Install this game new, just unzip the exitv320.zip archive and run
+install.exe and follow the prompts.
+
+To Upgrade from v3.17 to v3.20, just unzip the exitv320.zip archive over your
+current Exitilus files. Then run install.exe to move a few files around.
+
+Note: This version uses different Registration Codes than v3.15 and below.
+You should have already received your codes for v3.16 and above. If you don't
+receive them within one week, please let us know and we'll get them to you!
+
+Please check out www.ecisoftware.com for the latest info, q&a pages, and
+other information regarding ECI Software, LLC and Exitilus.
+
+-ECI Software, LLC

@@ -1,0 +1,172 @@
+@<<TITLE: The Magical Lamp by Ken Albert, Easy, 2 Days>>
+
+@<<DAY 1>>
+
+`bright blue`You decide you've had enough for the day.  So you mount your
+`bright blue`trusty steed and head out for a soothing ride.  After all, what better way
+`bright blue`to calm down, than a nice long ride into the setting sun.
+
+@<<PAUSE>>
+
+`bright blue`Of course, it doesn't take long...
+
+@<<PAUSE>>
+
+`bright blue`Out of the corner of your eye you catch movement.
+
+`bright blue`Quickly, you reach for your weapon.
+
+@<<PAUSE>
+@<<MONSTER: Elven Thief,40,15,16,20,10,2>>
+
+`bright blue`It's a good thing that they are small!
+
+`bright blue`You can't even get your weapon sheathed when...
+
+@<<PAUSE>>
+
+@<<MONSTER: Elven Thief,40,15,16,20,10,3>>
+
+`bright blue`You clean your weapon and mount your steed.
+
+@<<PAUSE>>
+
+`bright blue`You stop!  It's time to stretch the legs and... well, take care of some
+`bright blue`other things.  You head over to the trees...and that's when you see it...
+
+@<<PAUSE>>
+
+`bright red`A Magical Lamp
+
+@<<PAUSE>>
+
+`bright blue`It doesn't take a rocket scientist to know what to do next.
+
+`bright blue`You rub the lamp.
+
+@<<PAUSE>>
+
+`bright blue`NOTHING!
+
+@<<PAUSE>>
+
+`bright blue`It worked for Aladdin!?
+`bright blue`You rub the lamp some more...
+
+@<<PAUSE>>
+
+`bright green`POOF!
+@<<PAUSE>>
+
+@<<MONSTER: Wicked Genie,40,20,15,50,10,1>>
+
+`bright blue`You search the body, unfortunately finding nothing.
+`bright blue`Unhappily, you throw the lamp into your saddle bag and fall back against
+`bright blue`a tree to rest.
+
+@<<DAY END>>
+
+@<<DAY 2>>
+
+`bright blue`You wake up to a new day.
+
+`bright magenta`"New Day!", you say.  "I only wanted to rest a little
+`bright magenta`bit."
+
+`bright blue`You jump onto your horse and head back to town.
+`bright blue`You were supposed to have an appearance before the king today,
+`bright blue`and nobody stands the king up.
+
+@<<PAUSE>>
+
+`bright blue`What's That????
+
+@<<PAUSE>>
+
+`bright blue`You hear a sound coming from the saddle bag.
+
+`bright blue`You stop and open it up.  There is a voice coming from the lamp.
+
+`bright yellow`"Help me, I'm trapped in here", `bright blue`the voice says.
+
+`bright blue` You ask, `bright magenta`"Who's in there?"
+
+`bright yellow`"I'm the genie of the lamp", `bright blue`the voice says.
+`bright yellow`"Please release me."
+
+@<<PAUSE>>
+
+`bright blue`You're not sure what to do now.
+
+`bright blue`You've been there, done that...
+`bright blue`and not really sure you want to do it again.
+
+@<<PAUSE>>
+
+`bright green`POOF!
+@<<PAUSE>>
+
+`bright red`The genie appears.
+
+@<<PAUSE>>
+
+`bright yellow`"Thank you for releasing me from the prison that held
+`bright yellow`me captive for so long.  My evil twin brother sealed me in here so he
+`bright yellow`could use the power of the lamp to rule the world.  His bonds over me
+`bright yellow`were broken when you defeated him yesterday.  I am forever in your
+`bright yellow`debt master.  Just tell me what you desire of me."
+
+@<<PAUSE>>
+
+`bright blue`You think for a moment.
+
+`bright magenta`"I would like to be a better warrior", `bright blue`you say.
+
+`bright yellow`"Done", `bright blue`says the genie as he magically
+`bright blue`waves his arms.
+
+@<<PAUSE>>
+`bright blue`He gives you a wooden club, and you feel slightly stronger.
+@<<ITEM: 3>>
+
+@<<STAT: 3,10>>
+
+@<<PAUSE>>
+
+`bright yellow`"Now test your new equipment <<NAME>>.
+
+@<<PAUSE>>
+@<<MONSTER: Mud Locust, 40,20,15,45,10,4>>
+
+`bright magenta`"WOW, that was cool!", `bright blue`you say as your hand
+`bright blue`still shakes.
+`bright magenta`"I have two more wishes, don't I?"
+
+`bright yellow`"Yes, you do.  Your wish is my command."
+
+`bright magenta`"I'd like to be rich", `bright blue`you blurt out.
+
+`bright yellow`"Done!"
+
+@<<PAUSE>>
+`bright blue`A thousand Gold pieces fall from the sky.
+@<<STAT: 7,1000>>
+
+`bright blue`You cram it all into your pockets and saddle bags.
+
+`bright magenta`"And finally, I would like to go back in time to be
+`bright magenta`at my audience with the King."
+
+@<<PAUSE>>
+
+`bright green`POOF!
+@<<PAUSE>>
+
+`bright blue`You find yourself standing before a happy king.
+
+`bright blue`You are a new person!
+
+`bright blue`You only wish that you will meet up with the genie again to
+`bright blue`thank him!
+
+@<<END OF QUEST>>

@@ -1,0 +1,22 @@
+
+  ^\0FHelpful Hints!
+  ^\08--------------
+
+  ^\0EThe Input System^\07: BRE supports a (hopefully) friendly input system to make
+  playing a bit easier.  At any numeric prompt, you may press ^\0F>^\07 to select the
+  maximum value.  You may also use ^\0Fm^\07 and ^\0Fk^\07 to add 6 or 3 zeros respectively,
+  ie, Mega or Kilo.
+
+  ^\0EThe Help System^\07: At several of the menus, pressing ^\0F?^\07 will bring up a help
+  menu allowing you to get more information on each of the selections.  This
+  will hopefully help the newcomers to the game get acquainted fairly quickly.
+
+  ^\0EThe System Menu^\07: From the buy menu of the game, pressing ^\0F*^\07 will bring
+  up a system menu with several options.  This menu can be very helpful in
+  returning to previous menus or accessing miscellaneous items unavailable
+  elsewhere.
+
+  ^\0EPreferences^\07: From the System Menu and main Game Menu, you may
+  set a variety of options to automate some of the features of the game and
+  to skip certain menus to speed up play.
+

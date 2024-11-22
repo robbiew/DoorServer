@@ -7,19 +7,19 @@ module.exports = {
   /**
    * Rlogin listen port
    */
-  port: 513,
+  port: 3513,
 
   /**
    * Use your terminal program to connect to this port and manually launch modules.
    */
-  debugPort: 1234,
+  debugPort: 3333,
 
   /**
    * Dosbox launch configuration
    */
   dosbox: {
     // the path to the dosbox executable
-    dosboxPath: '/usr/local/bin/dosbox',
+    dosboxPath: '/usr/bin/dosbox',
 
     // the path to the dosbox config files
     configPath: __dirname + '/dosbox',

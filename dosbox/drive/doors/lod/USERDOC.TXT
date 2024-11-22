@@ -1,0 +1,2588 @@
+#
+# Note: Lines with a @@ as the first two characters indicate the start/end
+#       of a section of the docs and SHOULD NOT be modified.
+#
+# Note #2: The next few lines describe the manual sections... don't mess with
+#          them.
+#
+NUMITEMS 6
+USERDOC User Manual
+USERNEW New features in this version of LOD
+USERQCK Quickstart Documentation
+LODWALK Walkthrough of LOD
+GTERM GTERM Terminal information
+Q&A Questions and Answers
+@@USERDOC
+Land Of Devastation
+By Scott M. Baker
+
+Objective
+---------
+      What are you here to do? How do you win the Game? What is the meaning
+  of life? For answers to these questions, please see the game objective
+  command in the documentation center.
+
+Section 1.1: Character Basics
+-----------------------------------------------------------------------------
+
+      Each player in LOD has one and only one character with which to explore
+the game. You're given a character at logon time and you keep that character
+until it dies - at which point you may make a new character, regenerate the
+dead one, or a few other options.
+
+      The main features of a character are the attributes and the inventory.
+Attributes are numeric representations of your characters abilities and
+physical characteristics. The inventory is the collection of items that your
+character is carrying at any given moment.
+
+      In addition to the inventory that you are carrying (think of it as
+being stored in a "backpack"), there are also several equipped items.
+Equipped items are special items that you have readied and are prepared to
+use at a moments notice.
+
+Section 1.2: Attributes
+----------------------------------------------------------------------------
+
+      Your character has four basic attributes. These are strength (STR),
+dexterity (DEX), agility (AGL), and health (HITS). These attributes determine
+your strengths and weaknesses when it comes to combat.
+
+* STRENGTH
+      Strength effects how hard you can hit with your weapons. The higher
+your strength, the more damage you will do in hand-to-hand combat.
+
+* DEXTERITY
+      Your ability to hit what you are aiming at. The higher your dexterity
+in relation to an opponents agility, the better your odds of hitting that
+opponent.
+
+* AGILITY
+      Your ability to run away, dodge attacks, and perform certain actions
+in combat. The better your agility in relation to an opponent's dexterity,
+the better your odds of performing these actions.
+
+* HEALTH/HITPOINTS
+      Your current hit points are your life. Hitpoints are divided into two
+numbers in the format "xx/yy" or "xx of yy". The first number is always the
+number of hitpoints that you presently have. The second is the maximum number
+of hitpoins that you can accumulate. For example, 20/25 would mean your
+character has 20 out of a possible 25 hitpoints.
+
+      There is one other attribute that is not directly related to your
+character's physical characteristics. It is EXPERIENCE. Experience is the
+sum of all the knowledge that you have gained from combat encounters and
+special quests. The more you play and fight, the more experience you will
+gain.
+
+      The LEVEL of your character is derived from the experience. Every so
+often, you will accumulate enough experience points to "go up a level". When
+you rise a level, you will be allowed to apply additional points to your
+basic attributes.
+
+Section 1.3: Experience/Level table
+----------------------------------------------------------------------------
+
+ Level          Experience
+ -----          ----------
+   1                     0
+   2                  1250
+   3                  2500
+   4                  5000
+   5                 10000
+   6                 20000
+   7                 40000
+   8                 80000
+   9                160000
+  10                320000
+  11                480000
+  12                640000
+  13                800000
+  14                960000
+
+      When you have enough experience to gain a level, report directly to
+Sacre Base. As soon as you arrive, you will be given the option of training
+for various attributes.
+
+      When training, you may allocate your training points however you wish
+to Strength, Dexterity, Agility, Hit Points, or trade training points for
+cash. Cash is usually a poor idea since levels become increasingly difficult
+the further you progress. Your best bet to attain cash is by salvaging
+equipment from the wasteland.
+
+      There are several different special quests which can be accomplished
+out in the wastelands. A quest could be as simple as delivering a special
+item to a certain place or as complicated as having to locate and slay a
+particular monster. It's up to you to discover what these quests are!
+Completing a special quest usually has the following benefits:
+
+      1) An experience bonus.
+
+      2) Accumulation of quest points - gives you a certain amount of
+         "prestige" in the quest points section of the rankings.
+
+      3) A special item - many quests result in you gaining a special item
+         or learning a useful clue about the game.
+
+Section 1.4: Team Play
+-----------------------------------------------------------------------------
+
+      From time to time, it has been noticed that soldiers have grouped
+themselves together to form "teams". These teams provide a number of
+benefits:
+
+      1) Smart Mines which are placed by one team member will not explode
+         when another member enters the area.
+
+      2) Team members will be able to see each others fortresses using
+         the fortlist ROM as well as teleport to each others fortresses
+         without any fee (regardless of the list-with-traders-union
+         option)
+
+      3) Teams with 2 or more members will get an automatic 5% team discount
+         at all city stores.
+
+      4) Team members can bypass other teammate's fortress TOLL and PROX
+         systems without harm.
+
+      5) The bank will grant larger loans to players who are on a team based
+         upon the combined value of the team members.
+
+      Options for team play can usually be found at the troop quarters of any
+city.
+
+Section 1.5: Equipped items
+-----------------------------------------------------------------------------
+
+      Items are equipped by use of the Q)-equip command. You may only
+select the appropriate type of item for the appropriate equipment slot.
+
+* CLOSE COMBAT WEAPON
+      Please see the chapter on combat.
+
+* RANGED COMBAT WEAPON
+      Please see the chapter on combat.
+
+* ARMOR
+      Please see the chapter on combat.
+
+* AUX-WEAPON/SHIELD
+      Please see the chapter on combat.
+
+* MEDICAL LINING
+
+      Medical lining is a special suit that you wear underneath your armor.
+It is kind of an automated medkit. While you are moving about, the medical
+lining pumps you full of chemicals, increasing your hit points as you move.
+
+      Medical lining is rated in terms of hit points per 50 moves. So 5/50
+medline would be one hit point regenerated per every 10 moves. The following
+classes of medical lining are available directly at Sacre Base:
+
+      STD. MEDLINE: 1/50  (1 hit regenerated per 50 moves)
+      ADV. MEDLINE: 5/50  (1 hit regenerated per 10 moves)
+
+* LAPTOP
+
+      The GS-224 laptop was specially designed to assist adventurers out in
+the wasteland. It is capable of performing a variety of useful function. The
+basic Laptop come pre-configured with only the essential commands. To add new
+programs to your laptop, you will have to purchase or otherwise obtain "ROM
+Cartridges". ROM Cartridges may be copied with the laptop's "COPY" command.
+
+      We highly suggest purchasing the Laptop and the following ROMs as soon
+as it is convenient for you:
+
+      NOTES:    Keeps an online notebook of the locations of important places
+                that you visit.
+
+      CSTATS:   Extremely handy. Displays useful information about your
+                weapons, armor, and other combat statistics. Can be used to
+                scan your inventory to find out which weapons are better
+                than others.
+
+      DIET:     An automatic diet maintenance program. No more worrying about
+                when to each rations.
+
+      APPRAISE: Displays the relative costs of items in your inventory. Costs
+                displayed are the "new purchase price" and the price paid by
+                Sacre Base may be significantly less. The APPRAISE ROM is
+                nevertheless a useful tool in determining what items are
+                valuable and what is not.
+
+      For more information about the Laptop and it's ROMs, we suggest you
+visit the Sacre Base Tavern. There is usually someone there who can be of
+assistance.
+
+Section 2.1: The Map and Terrain System
+-----------------------------------------------------------------------------
+
+       The "world" in LOD is composed of a series of interconnected maps.
+One map, termed the "main" map, represents the ground level of the earth.
+This is the map in which most travel and exploration takes place. Almost all
+of the other maps are linked in some way or another to the main map.
+
+       The main map is usually 125x125 squares in size. Each square
+represents some arbitrary measurement of land. A square could represent an
+acre, a square mile, or virtually anything that the imagination allows.
+Travel is usually performed by moving in a compass direction (N/S/E/W) from
+one square on the map to another.
+
+       Each map square has a particular type of terrain associated with it.
+Common terrain types include "roads", "plains", "forrest", and "mountains".
+Some terrain types, such as plainse, can be traversed easilly and with no
+special equipment. Others, such as rivers and lakes, require special devices
+(such as a miniraft) to cross them. There are also impassible terrain types,
+such as impassible mountains and dense forrests that cannot be traversed
+no matter what equipment the player carries.
+
+       Due to the visibility limitations of humans, only a small window of
+the map is displayed at one time. This window is approximately 5 squares
+by 5 squares in size, although it can be configured to 3x3 if modem speed
+is a problem. The player is always located in the center of the 5x5 window,
+and the window will move automatically with the player. There are several
+different map display modes available:
+
+SVGA: (graphics mode)
+
+       SVGA graphics are the preferred method, assuming that your equipment
+supports the graphics and you have properly configured the software. SVGA
+is always available on the sysop-side (host) of the connection if the sysop
+desires. However, use on the remote side (user) requires using the GTERM
+terminal program. (more on this later)
+
+       With SVGA, you will see a small "picture" of each terrain type in the
+5x5 map window. This is by far the best and easiest to navigate. Certain
+terrain types, such as walls and roads will be automatically "connected" to
+make following them easier.
+
+ENHANCED ANSI: (text mode)
+
+       With enhanced ansi, the map display will be held permanently in place
+at the top of the screen. Graphics will update as you move, but the screen
+generally does not "scroll" down. It's the preferred mode for those who do
+not use SVGA. Enhanced ansi is available in 5x5 or 3x3 configurations.
+
+STANDARD TEXT: (text mode)
+
+       This is the most primitive and least-desirable display method. It is
+limited to a 3x3 grid. A new map is drawn every time you move and the
+whole mess scrolls down the screen. However, if for some reason you support
+neither the SVGA or ANSI modes, you can always fall back to this one.
+
+Section 2.2: Text Symbols
+-----------------------------------------------------------------------------
+
+       If you use either the ENHANCED ANSI or STANDARD display modes (ie
+anything but SVGA), then you will have to contend with the text map symbols.
+The text symbols are meant to be symbolic representations of the type of
+terrain that is present. Each text symbol is two characters in size.
+
+       If ANSI is supported, then the text symbols are also colored. These
+colors have been chosen to make things a bit clearer. For example, green
+is used to represent plains and blue is used to represent water. YELLOW is
+almost always used to represent enter-able locations such as cities, stores,
+etc.
+
+       The best way to learn the symbols is to just move around the map. The
+name current terrain that you are standing is always displayed next to the
+scanner. Pretty soon you'll learn em all!
+
+ Plains         --   Wide, open grasslands; Usually quite safe.
+ Impass. Mtn    MM   Impassable mountains. No way to get around em!
+ Desert         ..   Hot temps and dust storms make travelling dangerous.
+ Mountains      mm   Low mountains; Easily climbable, but not too safe.
+ Road           ||   Pre-war highways - monsters usually stay clear.
+ Wasteland      ww   Areas severely damaged by nuclear radiation - stay clear!
+ River          ~~   Flowing water - can be crossed if you have a raft.
+ Swamp          ""   Swamps - very unsafe.
+ Rad-zone       rr   Direct nuclear strike. Very, very hazardous
+ Forest         ff   Thick, woody forests - UNPASSABLE!
+ Hut            HT   Small huts occupied by rural dwellers
+ Towns          xx   (xx is a number) sends you to a new town map
+ Red Pylon      /\   Several located, but their function is unknown.
+ Green Pylon    /\   Several located, but their function is unknown.
+ Store          ST   A generic city store
+ Wasteland Exit WL   An exit from a city into the wastelands
+ Bank           $$   Good place to transfer funds
+ Hort. Center   HS   True nature unknown; Rumored to exist.
+ Phaser Cache   PC   True nature unknown; Rumored to exist.
+ Clone Center   CC   True nature unknown; Rumored to exist.
+ Nuclear Silo   NS   True nature unknown; Rumored to exist.
+ EEEE           EE   True nature unknown; Rumored to exist.
+ Kill, Inc      KI   True nature unknown; Rumored to exist.
+ Comm Tower     CT   True nature unknown; Rumored to exist.
+
+Section 2.3: Dealing with Towns
+-----------------------------------------------------------------------------
+
+       You'll encounter several towns, villages, and cities in the
+wastelands. To enter a town, you'll need to use the "G" key when you're on
+the proper map square. "G" stands for "Go".
+
+       Some towns require something special to be done before you can enter.
+Usually they'll tell you what this is, but sometimes they can be somewhat
+vague. If you get stuck trying to get into a particular town, then you may
+wish to post a message asking for help. Usually someone else in the game
+has already figured it out.
+
+       When you enter a town, you'll switch to the town map. The town map
+is presented at a somewhat different scale -- rather than map squares being
+an acre or square mile, in towns they represent a much smaller size, perhaps
+a square yard.
+
+       Towns typically have roads that lead from the entrance to various
+places of interest. Civilian dwellings and unimportant locations have
+typically been "left out" of the town maps - only important locations such
+as stores, banks, taverns, etc are presented. Mots twon maps are small and
+the typical player should be able to fully explore them pretty quickly.
+
+       Some towns, such as Sacre Base, will charge high-level players rent
+for staying within. If this rent is not paid on-time, then access to the
+city may be refused. The rent account may always be paid at any bank in any
+city.
+
+       Although much of the previous civilization was destroyed by the great
+nuclear war, one custom has survived: Tax Collection. For some unknown
+reason, the political leaders of each of the wastelands towns have all agreed
+to charge high level players taxes. These taxes will be re-distributed
+nightly to all players. Redistributed taxes are dumped in the "standard
+account" any may be retrieved by visiting any city bank.
+
+Section 2.4: Things you'll find in towns
+-----------------------------------------------------------------------------
+
+       Towns include all sorts of exciting places. Sacre base itself has
+many locations to enter. You are encouraged to visit them all and learn what
+they are about. Some of the more generic entities that are available in
+most cities are discussed below. (ANSI users remember: G)o-able locations
+are almose always represented by yellow colored symbols)
+
+* TAVERN: (ansi "TV")
+
+       Most, if not all, of the towns have taverns in them. Taverns are the
+local hangouts for the prominent town citizens. Most taverns will welcome you
+openly and most citizens will talk freely about themselves. The first thing
+you should do when you enter a new town is to thoroughly question everyone
+in the taverns.
+
+       When talking to a character, the character will respond to various
+"hot words" - for instance, asking someone about "JOB" or "NAME" will usually
+yield a response with the appropriate information. These hot words are
+hilighted in RED for ansi users or capitolized in all-caps for non-ansi
+users.
+
+* STORE: (ansi "ST")
+
+       Towns almost always have stores in them where the local merchants and
+traders have items for sale. These stores can be a great source of equipment
+that is not available at Sacre Base.
+
+* TROOP QUARTERS: (ansi "TQ")
+
+       Every town has a troop quarters. The troop quarters is sort of a
+catch-all for utility functions that you may need to perform. For example,
+viewing the log or the rankings and adjusting your ANSI options.
+
+* BANKS: (ansi "$$")
+
+       Every society has them - the bankers and tax collectors. Even after
+a total collapse of government, these instituations still reamin functional.
+Banks have several functions available, such as savings account and low-
+interest loans. The "rent" account can also be paid here.
+
+Section 2.5: Other Map Notes
+-----------------------------------------------------------------------------
+
+       The map is full of unusual places to discover and explore. Always
+proceed with caution, but don't be afraid to try new places.
+
+       Large specialty stores have been known to exist directly on the main
+map. Commonly known ones are the EEEE which sells advanced weapons and
+ACME Weapons which boasts a full-time weaponsmith and technician available
+for custom weapon modifications. There is a horticulture center out there
+somewhere that deals exclusively with advanced food products.
+
+       A transportion network of pylons is out there. Pylons are not very
+well understood and little documentation exists on them. The only facts are
+that they commonly require a "keycard" of some sort and usually have a
+sequence of buttons that must be pressed in the correct order to select a
+destination point.
+
+       Beware of objects that are scattered about. Sometimes extremely
+dangerous mines may be encountered. These mines will appear exactly as normal
+objects to your scanners and to the naked eye. It's only when you get close
+to them that they will detonate and make a serious mess of you!
+
+       You may encounter fortresses at certain locations. Fortresses can be
+thought of as sort of miniature cities. Most do posess stores that items
+may be purchased from. As opposed to cities, fortresses do not posess their
+own maps - they are navigated by means of a series of menus. Fortresses are
+usually heavilly defended with advanced weapons, moats, and defense shields.
+Some fortresses even have "toll booths" and "prox sensors" that will firing
+on passing travellers!
+
+Section 2.6: Map system commands
+-----------------------------------------------------------------------------
+
+       The map system (also termed the "wastelands menu") has several command
+options that are available:
+
+      North...: N or 8     Pick Up Item: P     Enter.........: G
+      South...: S or 2     Drop Item...: D     Camp out here.: A
+      East....: E or 6     Check Status: C     Construct fort: F
+      West....: W or 6     Equip.......: Q     Enter Fort....: I
+      Look....: L or 5     Use Item....: U     Inv Maint.....: M
+      Kill Obj: K          Quick Heal..: Y     B.A.D. Spell..: B
+
+      Most of those commands are self-explanatory, but a few of them deserve
+some special attention:
+
+      ENTER (g)
+
+        The enter command will not only get you into towns, but other
+        locations as well - fortresses, camps, special places, pylons,
+        whatever. When in doubt about a new location, you might as well try
+        to enter it.
+
+      KILL OBJ (k)
+
+        This command will allow you to permanently "kill" an object on the
+        wasteland. For example, if there is a "dagger" laying in front of
+        sacre base and it has been annoying you, you can kill it.
+
+      EQUIP (e)
+
+        You need to use this one to equip your weapons, armor, etc.
+
+      USE ITEM (u)
+
+        This is one of the most important commands in the game. Certain
+        items that you are carrying must be U)sed in order to activate
+        them. For example, U)sing a medkit will heal your character.
+
+        If you select the "list" option from the U)se prompt, the game will
+        present a listing of the usable items that you are carrying. Non-
+        usable items will not be listed. This is a quick and easy way to
+        figure out which items are use-able.
+
+        Alternatively to typing the number of the object in your inventory
+        to use, you can also type the first few letters of the item name.
+        For example, you could type "MED" to use a medkit, or "TRI" to
+        use a tricorder.
+
+      QUICK HEAL (y)
+
+        Rather than use the USE (u) command multiple times on a medkit to
+        heal yourself, you can use the Y command to automatically use as
+        many medkit doses as are necessary to heal you.
+
+      PICK UP (p)
+
+        There is a special power-user option for those of you carrying
+        energy cells (Vortex cell, kralox cell, etc). If you type the
+        word "cell" at the item number prompt, then LOD will automatically
+        pick up all ammo at the current location and charge your energy
+        cell with it.
+
+      "ALL"
+
+        On the Kill obj (K), Pick Up (P), and Drop (D) commands, you can
+        say "ALL" when prompted for an item number and LOD will attempt the
+        command on all available items.
+
+Section 3.1: The Basics of Combat
+-----------------------------------------------------------------------------
+
+       Combat is a fact of life -- the wastelands are not a safe place. This
+chapter has been assembled to briefly explain the most popular combat styles
+and tactics. Those who do not posess a thorough understanding of the aspects
+of modern combat tactics will not survive long.
+
+       Under most circumstances you encounter, combat will occur in two
+distinct phases: Long Range and Close Combat. Understanding the different
+aspects of these two phases is essential to your success.
+
+       LONG RANGE COMBAT occurs when the participants are at a significant
+distance. Several options are available at this phase, the most common of
+which are firing a ranged weapon or throwing a radiation grenade at the
+enemy. In most cases once one of these options is executed, combat will
+proceed to the close combat phase.
+
+       CLOSE COMBAT occurs when the opponents are engaged in a hand-to-hand
+situation. Either the fist is used to strike blows or (perferably) a bladed
+weapon is used. Close combat continues until one of the participants is
+either killed, escapes, or surrenders.
+
+       Now that you understand the basic foundations of combat, you may be
+wondering, against whom are you to use your newfound skills? Have no fear,
+the wastelands are filled with plenty of opportunities for you to kill
+something!
+
+       The most common combat advesary is the monster. "Monster" is a generic
+term meaning any intrinsicly hostile creature that habits the wasteland. The
+wasteland is full of such individuals. They range from mindless animals such
+as the Rad-Hound, to such complex entities as the Priesthood of Loki of whom
+posess the power to levitate and the weapondry to incinerate a recruit before
+he even knows what happened. Monster encounters generally occur at random -
+You'll be walking along and something will just jump out right in front of
+you!
+
+       You may also find that at times there may be another inhabitant of
+Sacre Base with whom you disagree. Or perhaps someone who's been showing off
+some nice weapon or equipment. While it is generally discouraged to go around
+"offing" other adventurers, it does happen quite frequently. Please note that
+all combat within Sacre Base is strictly prohibited. If you want to kill
+somebody, you'll need to find them unprotected in the wastelands. They may
+either be camped or holed up inside a fortress. If the latter is the case,
+then you will need to infiltrate the fortress in order to reach your
+prey.
+
+       Throughout the wastelands, you will notice occasional fortresses
+constructed to protect the owner and his valuables from outside dangers.
+These fortresses may be conquered, but the process of taking a fortress may
+be long and arduous. It may even require a team of warriors to drain the
+fort's defenses to the point that they may be breached. Taking a fortress
+does produce great rewards -- if you don't want to keep the fortress for
+yourself, then you may easilly sell it's equipment for a health profit.
+
+Section 3.2: Ranged Weapons
+-----------------------------------------------------------------------------
+
+       Long range combat necessitates the existance of long range weapons.
+The typical long range weapon contains a sighting system which is fixed
+upon the target and then a trigger is depressed which will consequently
+fire a projectile of some sort at target.
+
+       The type of projectile and means of propulsion depend on the type of
+weapon that is used. For example, a crossbow uses a wire and tension system
+to launch a crossbow bolt. A 9mm clip pistol uses an exothermic gunpowder
+reaction to propell a bullet at a high velocity. More advanced weapons,
+termed "energy weapons" use energy of some means to send forth a stream of
+sub-atomic particles (photons, neutrons, and gravitons are commonly used).
+
+       Most LR weapons are capable of launching only one projectile at a
+time. However, technologies such as the "three round burst" and "grenade
+launched" are also available which provide the user with additional
+technologies. We recommend contacting the weaponsmith at ACME weapons for
+more information on these advanced subjects.
+
+       The amount of damage done by a long range weapon is determined solely
+by the characteristic properties of the device. The user's attributes have
+no effect on the extent of the damage inflicted. The accuracy, however, does
+depend significantly on the ratio of the dexterity of the user as compared
+to the agility of the target. A higher user dexterity will increase
+accuracy. A higher target agility will decrease accuracy.
+
+       The other commonly used offensive technique is the throwing of a
+radiation grenade in the direction of an enemy. As with conventional weapons,
+the damage inflicted is solely dependant on the characteristics of the
+grenade. However, due to the large blast radius of a grenade, accuracy is
+100% guarenteed.
+
+Section 3.3: Close Combat Weapons
+-----------------------------------------------------------------------------
+
+       Close combat weapons (also referred to as "short range weapons" or
+"SR" weapons) are used in close combat. This type of weapon is not required
+(the user may inflict blows directly with his fist), but is highly
+recommended due to the increase in damage inflicted by a bladed weapon.
+
+       Close combat weapons are almost always bladed devices of some sort.
+Contrary to ranged weapons, no projectile is fired. Damage is inflicted by
+physically striking the target with the weapon.
+
+       Close combat weapons are not necessarilly restricted solely to simple
+bladed instruments such as knives or swords. The blade may be charged with
+energy which will inflict a superior amount of damage when it comes into
+contact with the target. These types of weapons are referred to as "energy
+weapons". Many techniques exist for charging energy weapons. The most common
+energy weapons are the ElectoBlade, ElectroSword, and ElectroLance. They are
+the energy weapon version of the Dagger, Sword, and Razorlance respectively.
+
+       The damage inflicted by close combat weapons is proportional not only
+to the characteristic properties of the weapon itself, but also the strength
+of the user. Is a general rule, as the strength of the user doubles, the
+damage infliction will increase by approximately 30%.
+
+       As with ranged weapons, accuracy of close combat weapons depends on
+the user's dexterity in relation to the target's agility. A high dexterity
+will produce superior accuracy, while a high agility of the target will
+degrade accuracy.
+
+Section 3.4: Procurement of Weapons
+-----------------------------------------------------------------------------
+
+       Several popular LR and SR weapons are stocked at the stores in Sacre
+Base. It is highly recommended that you stop by these stores and obtain
+weapons before proceeding into the wasteland.
+
+       NOTE: The damage levels listed in the SR weapons store are the basic
+damage levels of the weapon. Remember, SR (short range or close combat)
+weapons perform increased damage if the user has increased strength. Thus, if
+your strength is above average, then the damage done will be greater than the
+base levels listed in the SR weapons store.
+
+       IMPORTANT: You must Q)-Equip your weapons before they will be enabled
+in combat. Simply carrying around a weapon in your inventory will not do - it
+must be equipped. To equip a weapon, press "Q" from the wastelands menu. Then
+select the appropriate choice (C for Close or R for Ranged) and select the
+desired weapon from your inventory.
+
+       Weapons may also be obtained from wasteland inhabitants. Occasionally,
+you may encounter a creature that has a particularly desirable weapon. There
+are two common ways of obtaining a weapon from the monster. The least risky
+is to purchase the weapon. Most, but not all, monsters will readilly sell
+their weapon for a reasonable sum of money. The other common method is to
+kill the monster and pick up the weapon when he drops it upon the wasteland.
+
+       The GS-224 Laptop and C-Stats ROM can prove useful in determining
+various properties of weapons. It is recommended that you pick up a laptop
+and C-Stats at your earliest convenience from the computer store in sacre
+base. C-Stats will report the base damage levels, ammunition requirements,
+strength multiplier, and any special features of your weapons.
+
+Section 3.5: Ammunition
+-----------------------------------------------------------------------------
+
+       Some weapons require ammunition. The best way to discover what
+ammunition a weapon requires is to view it's description with the V)iew
+command at store. You can also use a laptop equipped with the C-Stats rom
+to determine the ammunition requirements.
+
+       If you use a weapon that requires ammunition, then you must carry
+around one or more ammunition pack(s) in your inventory. These packs will
+automatically be used to supply the weapon with energy. You do not need
+to explicitly "load" weapon; just keep an ammo pack in your inventory and it
+will be done automatically.
+
+       A chart of common weapons and ammunition types follows. This chart is
+not exhaustive and many weapons and ammunition types not listed may be
+located on various wasteland inhabitants.
+
+Type 1: Crossbow Bolts     SR: None
+                           LR: Crossbow
+
+Type 2: 9mm clip           SR: None
+                           LR: Clip Pistol, Uzi 9mm
+
+Type 3: Power Pack         SR: Electroblade, Electrosword, Electrolance
+                           LR: Phaser-1,2,3 Comp Blaster
+
+Type 4: Grav Pack          SR: None known
+                           LR: GravBlaster
+
+Type 5: Plasma Pack        SR: None known
+                           LR: PlasmaBlaster
+
+Type 6: Neutron Pack       SR: Neutron Sabre
+                           LR: Neutron Rifle
+
+       Reports of another type of energy, termed the "cell", have been heard
+from adventurers returning from the wastelands. Cells appear to be capable of
+storing energy in a generic format, and supplying whatever energy your
+particular weapons require. Hence, a cell may be capable of supplying both
+power pack energy to an electroblade, as well as gravitons to a gravblaster.
+Cells only work on "energy" type weapons. They cannot supply 9mm bullets or
+crossbow bolts for example.
+
+Section 3.6: Shields and the Aux Weapon
+-----------------------------------------------------------------------------
+
+       In addition to equipping a close weapon, there is an additional slot
+in which you may equip an auxilliary weapon or a shield. This slot is
+referred to as the "aux weapon" slot. Typically, the item in this slot is
+carried in the fighter's left hand, while the primary close weapon is carried
+in the right hand.
+
+       If a close range weapon is equipped into the aux weapon slot, then you
+may switch weapons with the "E" command in the close combat menu. This is
+useful in case you have an ammo-requiring close combat weapon equipped and
+the weapon runs out of ammo. If you have a non-ammo-requiring weapon in the
+aux weapon slot, then you may use the "E" command to switch between them.
+
+       If a shield is equipped in the aux weapon slot, then you will gain
+some additional defensive capabilities. There is a percentage chance that the
+enemy's attack will impact your shield rather than your armor or body. In
+this capacity, the shield acts as sort of an armor suppliment. You may also
+P)arry the enemy if a shield is equipped.
+
+       Using the P)arry option in close combat increases the odds of your
+sheild deflecting a blow by 400%. However, you will inflict no damage while
+parrying. Parrying may be of use in a situation where a player may wish to
+cause the enemy to expend his ammunition reserves. Once the opponent's
+ammunition falls critically low, the player would cease parrying and begin
+normal attacks against the enemy, who now has a depleted ammo supply.
+
+Section 3.7: Armor
+-----------------------------------------------------------------------------
+
+       Armor can be very beneficial to combat. In the case that an enemy's
+blow comes in contact with your person, then there is a percentage chance
+that your armor may absorb this blow, thus protecting your precious hit
+points. Many armor types are available. There are two basic properties of
+armor which are of interest: the deflection percent, and the deflection
+point capacity.
+
+       Deflection Percent is the percentage chance that your armor will
+absorb a blow that would normally hit your body. For example, if your armor
+had 50% deflection, then you could expect roughly half of the blows to impact
+the armor and half to impact you directly.
+
+       Damage point capacity is the number of points of damage that the
+armor has remaining before it is useless. Each time your armor is hit, it
+will lose some of these points. When they reach zero, your armor will no
+longer deflect blows at all.
+
+       Some armor types may be recharged when their deflection points are
+below maximum. The device use to recharge them is usually referred to as a
+"recharger". Rechargers are expensive and difficult to obtain, but you may
+happen across one in your travels.
+
+       The C-Stats ROM can be used to determine the various properties of
+your armor. The GS-224 Laptop and the C-Stats ROM may be purchased at the
+Sacre Base computer store.
+
+Section 3.8: Long Range Combat in Depth
+-----------------------------------------------------------------------------
+
+LONG RANGE COMBAT: "L"
+       This simply fires your ranged weapon at the enemy. You must have a
+ranged weapon equipped to use this option. If the weapon requires ammunition,
+then you will need to have some ammo in your inventory.
+
+CLOSE COMBAT (hand-to-hand): "H"
+       This will bypass your long range combat options and proceed directly
+to close (hand-to-hand) combat.
+
+THROW GRENADE: "G"
+       You throw a radiation grenade in the direction of the enemy. Grenade
+hits are guarenteed 100% due to the increased blast size. After the grenade
+has detonated, close combat will automatically enagage.
+
+RUN: "R"
+       You attempt to use the age old strategy of running away. If your enemy
+has no ranged weapons, he will probably let you go. But, if the enemy does
+have a ranged weapon, he may try to take a shot at you.
+
+SURRENDER: "S"
+       Give him half of your money and he'll probably let you go.
+
+VIEW OPPONENT: "V"
+       Display your opponent's stats.
+
+VIEW CHARACTER: "C"
+       Display your current stats.
+
+STRIKE UP CONVERSATION: "T"
+       For some monsters that look somewhat talkative, this option will
+appear and you can talk to the monster. Odds are you can't talk him out of
+killing you, but you may be able to gain some vital information from the
+monster.
+
+BUY ITEM
+       Sometimes, you'll notice that a particular enemy has an item that
+would be of value to you. Rather than fight for it, you may opt for the more
+civilized approach of buying the item. However, monsters are not usually as
+generous as the Sacre Base supply station and their prices may be quite high!
+
+Section 3.9: Close Combat in Depth
+-----------------------------------------------------------------------------
+
+ATTACK: "A"
+       Charge at the monster with your weapon; Inflict as much damage as
+possible while protecting yourself from injury.
+
+BERSERK: "B"
+       Commit yourself to fighting until death. No aborting! You'll receive a
+minimal (about 10%) combat advantage when berserking, but you lose all chance
+of stopping in case you begin to lose!
+
+SURRENDER: "S"
+       Give him some money and hope he goes away.
+
+RUN: "R"
+       Try to run away. Your chances of successfully running depend on your
+agility in relation to your opponents dexterity. Monsters equipped with LR
+weapons may shoot you in the back while you're running.
+
+VIEW OPPONENT: "V"
+       Display your opponent's stats.
+
+VIEW CHARACTER: "C"
+       Display your current stats.
+
+WARP: "W"
+       If you are carrying a warper, you can push it's button and get out of
+combat fast!
+
+MORE: "M"
+       There's two combat menus - this toggles between them.
+
+EXCHANGE: "E"
+       Exchange your primary weapon with your auxiliary weapon. Usefull if
+your primary weapon runs out of ammunition. This option may not be used if
+you have a shield equipped in your auxilliary weapon slot.
+
+HEAL: "H"
+       Use a medkit dose. Your odds of successfully using a medkit dose depend
+on your agility as opposed to your opponents dexterity.
+
+DEATHPULSE: "D"
+       If your weapon has the special "deathpulse" feature, then you use this
+option to attack in deathpulse mode. Deathpulse conversions are available
+from ACME Weapons, Inc.
+
+OPPONENT-CSTATS: "O"
+       If you have a laptop with the C-Stats ROM loaded on it, then you may
+use this command to get a C-Stats report of your enemy. The C-Stats report
+may be useful to determine if your enemy has nay special features on his
+weapons and/or armor that won't show up in the "V)iew Opponent" command.
+
+PARRY: "P"
+       If you have a shield equipped in your aux weapon slot, then you can
+parry against the opponent. Parrying consists of attempting to block the
+attack using your shield. Parrying inflicts no damage on the enemy, but it
+increases the odds of your shield deflecting a blow by 400%. Since parrying
+inflicts no damage, it is of questionable tactical value.
+
+FLASH
+       If you are carrying a FlashBomb, then you can throw it at the enemy
+to improve the odds of escape.
+
+Section 3.10: Locating Other Human Warriors to Fight
+-----------------------------------------------------------------------------
+
+       As mentioned previously, you may find yourself in a position where
+you wish to fight another human warrior. This can sometimes be a difficult
+process, as most persons are reasonably skilled at protecting their
+location from possible attackers. However, in the event you do wish to
+fight another human, these are the steps that should be taken:
+
+       1) Enter Sacre Base and thoroughly check out the Sacre Base map. Look
+and see if your target has camped inside Sacre Base. If he has, then you
+will, of course, be unable to attack him. You might write him a message
+letting him know how much of a coward he is for hiding out in Sacre Base.
+
+       2) Exit Sacre Base and look around the immediate area. Perhaps your
+target didn't make it back into Sacre Base before running out of time. Or
+perhaps he just didn't know any better.
+
+       3) If you have a scanner device or a LR-Scan, then you might want
+to give it a shot. Both of these devices are capable of detecting players
+at medium-long ranges. If you posess a tricorder, then it may be of great
+use as well.
+
+       4) If you happen across a fortress, then your target may be within.
+Use the G)o command to visit the fortress and use V)iew to get a look at
+it. If the owner listed is your target or one of his teammates, then your
+target may reside within. In this case, your only chance of knowing for
+sure is to attack the fortress and conquer it.
+
+       5) If your you happen across a city, then your target may be camped
+within it. Explore the city and find out. Unlike Sacre Base, not all cities
+have a "no combat" restriction. If you find your target in the Death Warrior
+HQ, for example, then the Death Warriors will probably be more than happy
+to watch you battle to the death.
+
+       6) Explore the wastelands, repeating steps 2 through 5 until you
+find him or get tired of looking.
+
+       7) You can always write your target a message telling him you want
+to fight. If he's courageous enough, then he'll probably write you a message
+with a pre-determined location to fight. If he refuses, make it publicly
+known that he has chickened out. Usually someone will come forth to defend
+his honor.
+
+       There are a few special things to take into consideration when
+fighting another human. This type of combat is generally referred to as
+"player-vs-player" combat. Firstly and most importantly is the experience is
+calculated differently.
+
+       When you defeat another player, experience is rewarded according
+to the following: "The surplus of the loser's experience over the winners
+experience, plus 10% of the losers total experience." Mathematically, this
+could be written as the following:
+
+       EXP gained = Max(0,loser_exp-winner_exp) + loser_exp*0.10
+
+       For example, say you have 10,000 exp and you kill someone who has
+15,000 exp. In this case, you have attacked a player with GREATER experience
+than yourself. The math works out as follows:
+
+       Max(0,15000-10000) + 15000*0.10    { initial formula }
+       Max(0,5000) + 1500                 { ... simplify }
+       5000+1500                          { ... simplify }
+       6500                               { the answer }
+
+       Now, let's look at an example of attacking a player with lesser
+experience. Let's assume you have 15,000 EXP and you attack someone with
+10,000 EXP. The math works out as follows:
+
+       Max(0,10000-15000) + 10000*0.10    { initial formula }
+       Max(0,-5000) + 1000                { ... simplify }
+       0+1000                             { ... simplify }
+       1000                               { the answer }
+
+       As you can see, you are rewarded greatly for attacking someone who
+is more experienced than you. However, the rewards are fairly poor for
+attacking someone who is lesser than you. This is purposely done to
+discourage humongous players from attacking novices, and to prevent a few
+certain "cheats" that have been used in the past.
+
+Section 4.1: Fortresses
+-----------------------------------------------------------------------------
+
+      Fortresses may be constructed by the prosperous adventurer. There are
+  several reasons a fortress is useful and several purposes a fortress can
+  serve:
+
+      A PLACE TO HIDE OUT
+          The wasteland isn't a very nice place. Hiding out in your fortress
+          can be a great defence against monsters and "competitive" players.
+
+      STORAGE VAULT
+          Every fortress includes a storage vault. You can drop off as many
+          objects as you like. As long as your fortress remains intact, your
+          valuables are safe.
+
+      SELLING MEDKITS/AMMO and ITEMS
+          You can designate portions of your medical doses on hand and/or
+          energy on hand to be "for sale". Players may then visit your
+          fortress and purchase medkits/ammo for the price that you decide.
+
+          If you pick a good location and set your prices right, players
+          may opt to shop your at your fortress rather than a pricey
+          town. If your fort is equipped with an energy-producing reactor,
+          then you can make a healthy profit selling energy!
+
+          All forts are equipped with a "sales counter" capable of holding
+          any eight standard devices. You decide what to sell and what
+          price to sell it at. Someone in dire need of a Warper may pay
+          you a healthy price for one!
+
+          It should be noted that when trading, other players are held outside
+          the gates of your fortress. They aren't allowed access to your
+          vault, treasury, etc.
+
+      AVOID RENT
+          If you are a level eight player or above, then you have probably
+          already realized that if you stay in any of the towns, you will be
+          charged rent. And this rent does get expensive.
+
+          So, the solution - build your own base and stay in there. It's
+          safer than hanging out on the wastelands and you don't have to
+          shell out the cash to pay rent every day.
+
+      FACTORIES
+          You can install factories in your fort for producing a variety
+          of items such as mines. A factory produces one item per night and
+          can pay for itself very quickly!
+
+      SCAVENGERS
+          A special "scavenger droid" has been developed especially for
+          fortress use. Each night, the scavenger droid will venture outside
+          your fortress and locate any "junk" laying around. The scavenger
+          droid will sell these items as salvage at 10% of full price!
+
+      All that sounds pretty nice, doesn't it? Well, it sounds nice to just
+  about everyone else as well. So the point is, you'd better protect your
+  fortress pretty well or somebody uninvited will move in! (and move you
+  out!) Fortress defensive options:
+
+      MOAT
+          You can dig a moat around your fortress. When somebody wants to
+          attack, they'll have to get through it. Several different moats
+          are available - from simple water with a crocodile to flesh-
+          dissolving acid!
+
+      DEFENSE FIELD
+          Every fortress should purchase a defense field immediately. The
+          defense field is essentially the fortress's "hit points". When
+          an attacker defeats the defense field, he is inside. Defense fields
+          recharge before battle from the fortress's energy stores.
+
+          Also, do note that if your base runs out of energy, then there will
+          be nothing to recharge your defense field if you are attacked.
+
+      WEAPON
+          So what happens while somebody is hacking away at your defense
+          field? You have a big gun that shoots at him. The better the
+          fortress weapon, the more damage will be inflicted as the attacker
+          attempts to beat the defense field.
+
+      REACTOR
+          All this stuff takes power. Your defense field requires energy
+          to recharge, your base weapon requires energy to fire, etc. So you
+          might want to have a reactor to build up your daily energy
+          supply.
+
+      MINE SPREADER
+          These nifty items will take any mines from your forts storage room
+          and scatter them around your fortress in a random manner. Very
+          useful for automatically creating mine fields.
+
+      PROX SENSORS
+          Proximity sensors - Your fort is equipped with a weapon, right?
+          Well, why not blast everyone who walks by!!! The Prox sensor will
+          let you set your fortress weapon to attack all players who come
+          within a pre-determined distance of your fort.
+
+      TOLL STATIONS
+          Prox sensors are nice, but there isn't much profit in just blasting
+          people. How about charging them a "toll" fee. If they pay, they
+          can continue unharmed. If not..... BLAM!
+
+      FORTRESS SFG (Stealth Field Generator)
+          Hides your fortress from the view of adjacent map cells. The only
+          way someone can see your fortress is by practically standing right
+          on top of it!
+
+      ROBO-DEFENDER
+          RoboDefenders protect your fort if the defense field falls. They
+          are basically just a robot programmed to defend your fortress at
+          all costs.
+
+      Now, the most important thing you have to worry about is supplying your
+  base with energy. Without energy, your base defense field cannot charge and
+  your weapon cannot fire. So, how do you get energy?
+
+       METHOD #1:
+          Buy, steal, or otherwise "acquire" ammunition packs. Take the ammo
+          packs into your fortress configuration room and discharge them
+          into the fortress power banks.
+
+          Any type of energy-based ammunition will do - Power Packs, Grav
+          Packs, etc. But the projectile-ammo is useless (how would you
+          discharge some crossbow bolts???)
+
+       METHOD #2:
+          Buy a reactor (described above) and it will generate a generous
+          amount of energy each day.
+
+      Note: You will want to make sure you place a lot of energy in your
+  fortress when you create it -- There is a tactic becoming increasingly
+  popular where players will lay siege to a fort by repeatedly attacking
+  it and running from it, thus draining the fortresses energy reserves
+  and making it vulnerable to attack!
+
+Section 4.2: Fortress Trading
+-----------------------------------------------------------------------------
+
+      As mentioned above, trading is possible with fortresses. By using the
+  FORTRESS TRADE CONTROL menu, you can set various options about what you
+  wish to buy or sell. Here are some quick hints:
+
+      SELLING HEALING (MEDKIT) DOSES
+          First you'll have to "dump" a medkit into your fortress medkit
+          supply. You can do this from the fortress configuration menu. Then
+          go back to the fortress trading menu and you can decide how much of
+          your medkit stocks you wish to put up for sale and how much you
+          wish to charge per dosage.
+
+      SELLING ENERGY (Power Packs)
+          Like with medkits, go into the fortress configuration menu and
+          dump some energy into the fortress energy banks (unless you already
+          have a plentiful supply of energy in the banks). Then go back
+          to the fortress trade menu and select how much energy you wish to
+          sell and at what price. Don't sell all your energy, because you
+          would leave your base defenseless.
+
+      BUYING/SELLING THE THREE PRODUCTS (minerals, herbs, fuel)
+          Not fully implemented yet. Feel free to experiment with the options.
+
+      THE SALES COUNTER
+          Each base has a sales counter. The base owner may place up to eight
+          items in this sales counter. Other players may then come and buy
+          them from the base.
+
+      SELLING TELEPORTATION
+          If you equip your base with a teleporter, then you can charge other
+          players to use your teleporter. You will receive money both when
+          players depart from and arrive to your base. (Note: You may wish
+          to use the "List with traders union" so people know where your
+          base is)
+
+Appendix 1: Common Close Combat Weapons
+-----------------------------------------------------------------------------
+
+KNIFE
+      This is pretty lame. Sort of a cross between a butter knife and a steak
+  knife, it doesn't inflict much damage. However, if you're on a budget, it
+  is better than nothing.
+
+DAGGER
+      Basically, the Knife designed specifically for combat use.
+
+SWORD
+      If you don't know what a sword is, go back to grade school....
+
+RAZORLANCE
+      The lance is a special variation of a spear. It has razor sharp blades
+  on both ends. The user usually holds the lance from the middle and can twirl
+  it in many directions, hitting the attacker with the blades mounted on each
+  end.
+
+ELECTROBLADE
+      The electroblade is a dagger that has been electrically charged. It
+  gets it's power from a POWER PACK and when the target is struck, the
+  electrical charge dissipates into them, doing enhanced damage. This weapon
+  does require ammo (POWER PACKS) and will do reduced damage without them.
+
+ELECTROSWORD
+      The electrosword is an electrically charged version of the sword. Like
+  the electroblade, it require POWER PACK ammo to function.
+
+ELECTROLANCE
+      The electrolance is the electrically charged companion of the razor
+  lance. When properly loaded with a power pack, it can do massive amounts of
+  damage.
+
+NEUTRON SABRE
+      A recent experimental prototype using Neutron technology. The Neutron
+  sabre is a sword-type weapon that uses neutron energy to charge its
+  blade. Produces an intense burning effect on whatever it hits. Uses
+  NEUTRON PACKs as armor.
+
+Appendix 2: Common Ranged Weapons
+-----------------------------------------------------------------------------
+
+CROSSBOW
+      A purely manually operated weapon. The operator pulls back the string,
+  sets in a crossbow bolt, aims and fires. It requires crossbow bolts for
+  ammunition.
+
+CLIP PISTOL
+      A 9mm clip pistol. You slap a clip in, take aim, and blast a hole in
+  your enemy. Uses 9mm clips for ammo.
+
+PHASER-1
+      A hand held phaser weapon. Sends a charged proton beam into the enemy.
+  Requires power packs for ammo.
+
+PHASER-2
+      More powerful version of phaser-1.
+
+PHASER-3
+      More powerful version of phaser-2.
+
+COMP BLASTER
+      The most powerful power-pack weapon built. Similar to a phaser, but
+  uses higher efficiency circuitry to achieve a stronger effect.
+
+GRAVBLASTER
+      This weapon sends a beam of gravitons against the target. The gravitons
+  create an immense gravitational disruption in the target's cells, causing
+  the gravitational forces to rip his cell structure apart. Uses gravblast
+  clips.
+
+PLASMABLASTER
+      Sends plasma energy into the enemy. Uses plasma clips for ammo.
+
+NEUTRON RIFLE
+      Experimental prototype. Uses Neutron packs as ammunition to produce
+  massive damage on whatever it hits.
+
+GRENADE PACK
+      This is a package of grenades. It is neither a long range nor a close
+  range weapon. When you enter combat, you have the choice of throwing a
+  grenade at your foe instead of firing a weapon. Grenades have the advantage
+  of almost always hitting the opponent and their damage can go right through
+  an opponent's armor.
+
+Appendix 3: Misc. Items
+-----------------------------------------------------------------------------
+
+RADIO
+      This two-way field radio can be used to tie into the base's
+communications system. You can send and leave messages just as if you were
+sitting in the safe comfort of the base.
+
+LR SCAN
+      The LR Scan is a very useful device. What it does is tie into the ZR327L
+military surveillance satellite and generate a satellite picture of the
+surrounding terrain. Very handy if you get yourself lost.
+
+MEDICAL KIT
+      The medical kit contains a number of self-contained "healing" drugs.
+One quick shot from one of these drugs can do wonders for a person's
+injuries. (These wonder drugs were actually created in 1973, but held up
+in various government agencies for 70 or so years)
+
+RATIONS
+      A package of poorly tasting, but very nourishing troop rations. Mostly
+gathered from the remains of dead beasts, it tastes pretty bad, but is
+very necessary to your survival.
+
+SCANNER
+      This is a hand-help radar scanning unit. It can give you a quick idea
+of the type of terrain around you as well as locate prominent establishments
+such as towns.
+
+STEALTH FIELD GENERATOR
+      The SFG is a unique product of modern technology. It allows you to
+create a field around your person which can either interfere positively
+(amplify) or negatively (cancel out) the noise that you create. Since many of
+the wasteland creatures are dependant upon noise as a means of locating
+targets, you can either increase or decrease your encounter chances with this
+device.
+
+LAPTOP
+      The GS-224 Laptop is a very valuable instrument when equipped with the
+necessary programs. You can buy a laptop at sacre base as well as software
+for the laptop. I'll leave it to you to discover what the laptop does. (Try
+talking to TROY HADLEY at the Sacre Base Tavern)
+
+MINIRAFT
+      In case you should need to cross some rivers or lakes, then the
+Miniraft may be of some use to you.
+
+Appendix 4: Credits
+-----------------------------------------------------------------------------
+
+   SHANE CHAMBERS       ANSI and EGA graphics designer.
+
+   MARK COX             Author of MOD-OBJ, the code that was used to provide
+                        .MOD music support to LOD.
+
+   CHRIS AZURE          Composer of most of our MOD music.
+
+   CHRISTOPHER DARQUE   Lots of EGA pictures, some plot ideas, and some
+                        great beta testing.
+
+   RICK ARMSTRONG       EGA Pictures
+
+   DAVE ROSSON          EGA Pictures
+
+   DOUG MERHA           EGA Pictures
+
+   RAY BACON            Set up the LAND echo for us!
+
+@@GTERM
+Gterm: The LOD EGA Graphic Terminal
+-----------------------------------
+
+       In case you aren't using Gterm at this time, then this document is
+provided to explain GTERM's benefits, requirements, and capabilities. If
+you are using GTERM, then you need not read this file.
+
+GTERM REQUIREMENTS
+
+       First of all, we need to make sure your machine is equipped to run
+GTERM. You need:
+
+       VIDEO: SVGA 800x600x256 or above; Minimum of 500k of video memory
+       RAM:   about 384k or so
+       DISK:  ten megs would give you plenty of room
+       MODEM: 2400+ recommended
+       CPU:   386 processor required.
+
+WHAT IS GTERM?
+
+       What is Gterm? Well, it is an SVGA graphical terminal for the Land Of
+Devastation door game. Basically, it takes the plain ascii/ansi interface
+and adds some nice graphics to enhance playing. Instead of seeing little ".."
+and "MM" symbols for the wastelands map, you will see 16 color ega pictures
+in their place.
+       GTERMs graphics basically cover two areas: The map grid and the
+inventory display. Is explained above, the map grid will display the map
+in full EGA color with none of those bland looking symbols. Similarly, the
+inventory display will show you pictures of your inventory rather than
+simple text.
+       GTERM also includes a few other utilities - a rankings capture, LR
+scan capture, and a rankings profile to name a few. These are explained
+further in the GTERM documentation.
+       It should also be noted that on an 8mhz+ machine, display may be
+actually FASTER than the normal text. The graphical interface uses a
+binary method to transfer data between LOD and GTERM versus the text method
+used by a normal terminal program.
+
+SPECIFIC BENEFITS OF USING GTERM
+
+       1] As stated above, your map display and inventory listings will
+          be displayed using EGA pictures rather than text symbols.
+
+       2] Certain ANSI displays used in LOD (i.e. the color menus and such)
+          are also stored with GTERM. LOD can "call up" these pictures so
+          they will appear instantly rather than having to send all of the
+          ANSI data across the modem. For 2400 baud and below users, this
+          is a great speed up.
+
+       3] A few miscellaneous utilities - a rankings capture, a rankings
+          profile capture, etc.
+
+       4] In many cases, playing using GTERM on a slow modem (i.e. 2400
+          or lower) will result in faster game play.
+
+       5] Monster pictures - we have drawn up several nice pictures of the
+          monsters which you encounter out in the wastelands. These SVGA
+          pictures pop up over the map window to show you our idea of
+          what you are fighting.
+
+       6] ADLIB/SOUNDBLASTER support. GTERM supports full MOD music. There
+          is quite a large musical score for LOD, composed primarily by
+          Chris Azure.
+
+WHAT DOES IT TAKE TO SET UP GTERM?
+
+       Basically, the simplest way to set up GTERM is by installing it as
+an "external protocol" to your terminal program. Then, just select that
+protocol when you go into LOD and you will be up and running in full EGA
+color.
+
+WHERE CAN YOU GET GTERM?
+
+       Most boards that have LOD up for download also have GTERM sitting
+around somewhere. If you can't find it or you want the most recent version,
+then you may contact the authors bbs at:
+
+       The Not-Yet-Named bbs
+       (520) 544-4655  1200/2400/9600  (V.32)
+       (520) xxx-xxxx  2400/9600/14400 (USR DUAL) (temporarily down)
+@@USERNEW
+Whats New!
+
+This file is intended for players and will contain a listing of major
+playing differences from previous versions. This is for players who have
+played before and want to know what has changed that will effect
+them.
+
+-------------------------------------------------------------------------
+
+[Version 5.11]
+
+This release was mostly just a bugfix and general update, so there are not
+many significant changes to game-play.
+
+Two new games are available in the Casino - Double-Up and Video Poker.
+
+You can now steal from camped players.
+
+[Version 5.00]
+
+This release has some MAJOR changes. The user documentation has been almost
+completely rewritten and I suggest you stop by the doc center and give it a
+thorough reading.
+
+You'll probably find a few new locations out there, including the much
+anticipated Holostore and Sam's Super Surplus Stores.
+
+The "towns" all have seperate town maps now -- there is no "base operations"
+menu for the towns anymore. To log off in a town, just enter the town and use
+the A)-camp command. If you camp in Sacre Base, then you will be
+automatically protected against attacks.
+
+There are a lot more weapons upgrades available at ACME weapons. Some of the
+new weapon features may be found on monsters and/or forsale at various
+locations as well.
+
+Several new devices and items have been added. Of particular interest is
+the Warper Waypoint Manager, Tricorder, and Hypervault. There are also
+several new ROM cartridges.
+
+The Casino has some new slot machines and some additional trivia tables.
+Playing the slots CAN be very profitable, especially if you find a certain
+item that will throw the odds in your favor!
+
+If you die while attacking a fortress, then the fortress will take any
+inventory that you drop and place it in the fort's storage room. So, be
+CAREFUL while attacking forts!
+
+[Version 4.20]
+
+The major changes for this version is the switch to 800x600x256 SVGA mode
+for GTERM and LOD/VGA. Some bugs have also been fixed.
+
+The MAPPER device now has a simple ANSI format so that non-gterm users may
+now make some use of it.
+
+ANSI players now have a 5x5 map grid option. You can toggle between 5x5 and
+3x3 in the ansi options section of the troop quarters.
+
+[Version 4.10]
+
+There are special new rules for experience in player-vs-player combat. This
+ONLY applies to combat with another PLAYER, not to combat with monsters.
+Experience is calculated according to the formula:
+   Exp_gain = Max(0,Loser_Exp-Winner_Exp) + Loser_exp*0.10
+See the "Combat Basics" section of the user docs for more specifics.
+
+[Version 4.00]
+
+For REGISTERED systems ONLY: Find the new ACME weapons store. There are
+cool new weapons plus a full-time gunsmith on hand to make some unique new
+mods to your existing weapons. [Someone at the Death Warrior HQ may be able
+to give directions]
+
+Those in need of the Puritron CPU might find interest in knowing that Loki
+has it. This quest is somewhat more involved than previous puritron quests,
+so be prepared to think a little more. Seek out one of Loki's High Priests
+for an item that might be used to summon Loki himself.
+
+Visit Defs Sacre in the Sacre Base Tavern and inquire about the elementals.
+You won't regret it.
+
+Form teams! All stores will now give teams with 2 or more members a 5% team
+discount.
+
+The Scanner device has been revised. It is now much more useful and reports
+bearings correctly.
+
+Take a look at the laptop commands "help" and (if you have it) "cstats".
+
+I raised the default experience table quite a bit for higher level
+characters. People beyond level 8 will notice a difference.
+
+Experience for zone 3 + monsters has been tightened up a bit to slow down
+advancement of mega-huge players.
+
+Massive changes to fortresses. Many new items available, expanded trading
+potential, etc.
+
+(Default Dataset) Users may only train ("go up a level") at Sacre Base.
+Other cities (Freedom City, DWHQ, whatever) just don't have the knowledge,
+resources, or the desire to train you.
+
+(Default Dataset) The Sacre Base section has been changed around a bit to
+spice things up a little.
+
+(Default Dataset) Terra Labs is now out there.... try to find it and it's
+supply of Ultrawarpers, Ultrachargers, and Ultracloaks!
+
+[Version 3.80]
+
+If you die and chose to CREATE a new character rather than restarting
+from a saved clone, then your saved clone (if you have one) will be lost
+forever.
+
+Mines now have a "warning" feature which can be turned on or off.
+
+EMWarp programs have been shown to occasionally "malfunction" when a mine
+goes off!
+
+Kill, Inc may have some new items in stock....
+
+Those having trouble crossing the lava river near Xeboc's lair may wish to
+seek the location of the Fang Gang City, Blood Lust. There is someone there
+who can provide you with a clue about what to do next.
+
+Talking with the Horticulture Center manager again my provide some insight
+into one of the new special quests.
+
+[Version 3.70]
+
+Internal bug fixes & cosmetic upgrades.
+
+A few more people in the taverns....
+
+A new ROM you might be able to find.
+
+When the puritron is found, the wasteland will be "cleansed" of impurities.
+
+Players with fortresses should find many new and interesting items available
+at the fortress stores!
+
+The character display has been improved to look a bit better. Users who
+prefer the older display may set their preference using the ansi options
+menu in the troop quarters.
+
+Fortresses will now let their owners enter without a password requirement.
+
+The final encounter with Xeboc may bit a bit more difficult than you
+expected.
+
+Towns now carry specific inventories.
+
+During a storm that lasted several weeks, several lakes were formed onto
+the wasteland. (well, how else do you want me to explain this???!!!)
+
+Reports of a few new towns were detected.
+
+The people of Freedom City have just gotten a bit more particular about their
+visitors.
+
+@@USERQCK
+[QuickStart Docs]
+
+With every game, there are those people who will not take the time to
+read the game docs before playing... This file is for them!
+
+GENERAL INFO:
+
+Ok. LOD is your basic RPG. You start out in Sacre Base where you may
+buy/sell weapons, talk to people, etc.
+
+You start out with a few thousand bucks, a medkit, and some rations. First
+thing you should do is get yourself a weapon. Go to the supply station, then
+to the SR (short range) weapons store and buy the best you can afford.
+
+Make sure to EQUIP your new weapon either in the T]roop quarters menu or
+once you get to the wasteland.
+
+Then go out into the wasteland and kick some butt. Stay close to Sacre
+Base and remember it's location. The "easy" monsters are around the base. If
+you stray away too far, you'll start running into the hard monsters.
+
+Once you've gotten enough money to buy some better equipment (or you run out
+of medkit applications), head back to sacre base and stock up.
+
+COMBAT:
+
+Combat is played in two stages; Long range when you first see your enemy and
+short range when you are in close combat.
+
+If you don't have a LR weapon, then you can't do a whole lot at long range.
+Just hit hand to hand and fight closely.
+
+You can "surrender" by giving your opponent half your money (providing you
+have a decent amount of money). Or you can "run" in which your odds are
+based on your agility.
+
+That's all of the essentials. I encourage you to go and read the complete
+user manual. There is some very important information in it.
+
+Scott Baker, Author of LOD.
+@@LODWALK
+The following is a little walkthrough of a new player. If you are still
+fuzzy about how to play LOD, then the following should help you out a little
+bit.
+
+Please note, for space-saving reasons, I have played out the game in LOD's
+worst graphics mode - for most, people, you will either be using the enhanced
+ANSI display or the full EGA graphics display (with GTERM).
+------------------------------------------------------------------------------
+
+Standby, looking for you...
+
+Look's like you are new here. I'll have to ask a few questions and then you
+can be on your way.
+
+What would you like to be called around here?
+>Waste-M-All
+Waste-M-All, Correct (Y/N) ? y
+
+OK. You're all taken care of now.
+You might want to stop by the supply station and pick up some equipment.
+
+News
+----
+Welcome to version 2.10! Many enhancements for this version. Players will
+probably want to go to the documentation menu and have a look at the updates
+file.
+
+Remember, the farther you stray from Sacre Base, the worse monsters you will
+encounter!
+
+
+------------------------------------------------------------------------------
+This copy registered to : Scott Baker
+Please thank your sysop for registering his copy
+------------------------------------------------------------------------------
+
+13 new messages are present.
+
+Base Operations
+---------------
+   [S] Enter the supply station.
+   [T] Enter troop quarters.
+   [D] Documentation Menu.
+   [P] Commodities trading.
+   [G] Base Casino.
+   [M] Mail Room.
+   [U] Puritron Room.
+   [C] View your character.
+   [W] Enter the wasteland.
+   [Q] Exit Game.
+
+Base Operations Selection ]Supply Station
+Supply Station
+--------------
+   [W] Weapons (Short Range).
+   [L] Weapons (Long Range).
+   [A] Armor.
+   [M] Miscellaneous.
+   [B] Ammunition
+   [E] Computer Store
+   [S] Sell something to store
+   [C] View your character.
+   [Q] Base Operations.
+
+Supply Station Selection ]SR Weapons Store
+Short Range Weapons store
+-------------------------
+   [L] List SR weapons available.
+   [B] Purchase a weapon.
+   [S] View data on a weapon.
+   [C] View your character.
+   [Q] Supply Station.
+
+SR Weapons Store Selection ]Buy
+Purchase which weapon number (Q=Quit,?=List) ? ?
+## Name               Cost     Damage Ammunition Req'd
+-- ------------------ -------- ------ ----------------
+ 1 Knife                   350    1-3 None
+ 2 Dagger                  500    2-3 None
+ 3 Sword                  1000    2-5 None
+ 4 RazorLance             2100    3-7 None
+ 5 ElectroBlade           7500    4-8 Power Pack
+ 6 ElectroSword          20000   5-10 Power Pack
+ 7 ElectroLance          40000   6-12 Power Pack
+ 8 Neutron Sabre        250000  14-22 Neutron Pack
+
+Purchase which weapon number (Q=Quit,?=List) ? 3
+Purchase a Sword (Y/N) ? y
+Ok. It's yours.
+Short Range Weapons store
+-------------------------
+   [L] List SR weapons available.
+   [B] Purchase a weapon.
+   [S] View data on a weapon.
+   [C] View your character.
+   [Q] Supply Station.
+
+SR Weapons Store Selection ]Supply Station
+Supply Station
+--------------
+   [W] Weapons (Short Range).
+   [L] Weapons (Long Range).
+   [A] Armor.
+   [M] Miscellaneous.
+   [B] Ammunition
+   [E] Computer Store
+   [S] Sell something to store
+   [C] View your character.
+   [Q] Base Operations.
+
+Supply Station Selection ]Miscellaneous Store
+Misc. store
+-----------
+   [L] List Items available.
+   [B] Buy item.
+   [S] View data on item.
+   [C] View your character.
+   [Q] Supply Station.
+
+Misc. Store Selection ]Buy
+Purchase which item number (Q=Quit,?=List) ? ?
+## Name               Cost
+-- ------------------ --------
+ 1 Radio                  1000
+ 2 LR Scan               32000
+ 3 MedKit/10               750
+ 4 MedKit/15              1500
+ 5 MedKit/25              5000
+ 6 MedKit/50             10000
+ 7 Rations/5               250
+ 8 Rations/10              750
+ 9 Rations/20             5000
+10 Scanner               25000
+11 Stealth Field          2000
+12 Recharger/3          250000
+13 Pylon Key               250
+
+Purchase which item number (Q=Quit,?=List) ? 3
+Purchase a MedKit/10 (Y/N) ? y
+Ok. It's yours.
+Misc. store
+-----------
+   [L] List Items available.
+   [B] Buy item.
+   [S] View data on item.
+   [C] View your character.
+   [Q] Supply Station.
+
+Misc. Store Selection ]Supply Station
+Supply Station
+--------------
+   [W] Weapons (Short Range).
+   [L] Weapons (Long Range).
+   [A] Armor.
+   [M] Miscellaneous.
+   [B] Ammunition
+   [E] Computer Store
+   [S] Sell something to store
+   [C] View your character.
+   [Q] Base Operations.
+
+Supply Station Selection ]Base Operations
+Base Operations
+---------------
+   [S] Enter the supply station.
+   [T] Enter troop quarters.
+   [D] Documentation Menu.
+   [P] Commodities trading.
+   [G] Base Casino.
+   [M] Mail Room.
+   [U] Puritron Room.
+   [C] View your character.
+   [W] Enter the wasteland.
+   [Q] Exit Game.
+
+Base Operations Selection ]Troop Quarters
+Troop Quarters
+--------------
+   [O] Combat Mode Selection.
+   [L] List player rankings.
+   [X] Toggle expert mode.
+   [A] Ansi options.
+   [T] Tavern.
+   [I] Investment options.
+   [M] Inventory Maintenance.
+   [E] Equip Character.
+   [V] View Log.
+   [C] View your character.
+   [Q] Base Operations.
+
+Troop Quarters Selection ]View Character
+Character Profile
+-----------------
+Name..........: WASTE-M-ALL       Weapon (Close): None.
+Hit Points....: 25/25             Weapon (Range): None.
+Strength......: 21                Armor.........: None.
+Dexterity.....: 21                Med Lining....: None.
+Agility.......: 21                B.A.D. Device.: None.
+Experience....: 0                 Aux Close Weap: None.
+Money.........: 250
+Minerals......: 0 cm3
+Fuel..........: 0 cm3
+Herbs.........: 0 cm3
+Special Quests: -------
+Inventory.....: 
+  1>MedKit/10        2>Rations/5        3>Sword            4>MedKit/10        
+  5>                 6>                 7>                 8>                 
+  9>                 10>                11>                12>                
+  13>                14>                15>                16>                
+
+
+ฐฐฐฑฑฑฒฒฒ Press Any Key ฒฒฒฑฑฑฐฐฐ
+Troop Quarters
+--------------
+   [O] Combat Mode Selection.
+   [L] List player rankings.
+   [X] Toggle expert mode.
+   [A] Ansi options.
+   [T] Tavern.
+   [I] Investment options.
+   [M] Inventory Maintenance.
+   [E] Equip Character.
+   [V] View Log.
+   [C] View your character.
+   [Q] Base Operations.
+
+Troop Quarters Selection ]Enter Tavern
+Welcome to the Tavern!
+
+You casually enter the Tavern and begin to look around. While you are here,
+You notice the following people:
+
+   1> Defs Sacre
+   2> Jeffrey
+   3> Troy Hadley
+   4> Mean Max
+   5> Captain Targon
+
+Who do you want to talk to ? 1
+Howdy there. NAME's Defs Sacre. I used to be a warrior, but now I've retired
+and serve as bartender here at the base. I know lots about MONSTERS, ARMOR,
+WEAPONS, etc. What you want to know about?
+
+]name
+NAME's Defs Sacre, like I said.
+
+]monsters
+The wasteland is populated by many different creatures. Most of the ones
+around the base here are pretty wimpy and some are even unarmed. But once you
+go farther out, things get real nasty real quick. What MONSTER do you want to
+know about?
+
+]ant
+ANT Men? They are a strange lot. Kind of a cross between an ANT and a man.
+Nobody knows how it happened - probably more radiation caused mutation.
+
+]weapons
+I know lots about WEAPONS. What do you want to know about? SHORT range or
+LONG range WEAPONS? I also have used some GRENADES in my time.
+
+]short
+There are lots of SHORT range WEAPONS. My favorite is the Slicer-Dicer. They
+don't sell them around here - I found it on some kinda robot a ways away from
+here. Hell of a battle getting the thing.
+
+]bye
+Later, dude. Hope to see you again in one piece.
+
+Welcome to the Tavern!
+
+You casually enter the Tavern and begin to look around. While you are here,
+You notice the following people:
+
+   1> Defs Sacre
+   2> Jeffrey
+   3> Troy Hadley
+   4> Mean Max
+   5> Captain Targon
+
+Who do you want to talk to ? 
+Troop Quarters
+--------------
+   [O] Combat Mode Selection.
+   [L] List player rankings.
+   [X] Toggle expert mode.
+   [A] Ansi options.
+   [T] Tavern.
+   [I] Investment options.
+   [M] Inventory Maintenance.
+   [E] Equip Character.
+   [V] View Log.
+   [C] View your character.
+   [Q] Base Operations.
+
+Troop Quarters Selection ]Base Operations
+Base Operations
+---------------
+   [S] Enter the supply station.
+   [T] Enter troop quarters.
+   [D] Documentation Menu.
+   [P] Commodities trading.
+   [G] Base Casino.
+   [M] Mail Room.
+   [U] Puritron Room.
+   [C] View your character.
+   [W] Enter the wasteland.
+   [Q] Exit Game.
+
+Base Operations Selection ]Wasteland
+Enter Wastelands, are you sure (Y/N) ? Yes.
+Type "?" for help.
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,7,5        Health...: 25/25
+บ -- -- || บ  Type.....: Town         St/Dx/Ag.: 21/21/21
+บ || 11^|| บ  Dist/Zone: 0/1
+บ || -- mm บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 227          Level....: 1
+
+<*>West        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || 11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 227          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,6        Health...: 25/25
+บ -- || 11^บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || -- บ  Dist/Zone: 1/1
+บ || || -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 227          Level....: 1
+
+<*>Equip       
+
+Equip What:
+   C-Close Weapon      A - Armor             B - B.A.D. Device
+   R-Ranged Weapon     L - Medical Lining    X - Aux Close Weapon
+
+Selection ? Close Weapon
+Select which item number (?=List,0=None) ? ?
+  1>MedKit/10        2>Rations/5        3>Sword            4>MedKit/10        
+  5>                 6>                 7>                 8>                 
+  9>                 10>                11>                12>                
+  13>                14>                15>                16>                
+
+Select which item number (?=List,0=None) ? 3
+
+Equip What:
+   C-Close Weapon      A - Armor             B - B.A.D. Device
+   R-Ranged Weapon     L - Medical Lining    X - Aux Close Weapon
+
+Selection ? Quit
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,6        Health...: 25/25
+บ -- || 11^บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || -- บ  Dist/Zone: 1/1
+บ || || -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 227          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,7        Health...: 25/25
+บ -- || -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || -- บ  Dist/Zone: 2/1
+บ mm -- -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>West        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,5,7        Health...: 25/25
+บ mm -- || บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 3/1
+บ || mm -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>West        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,7        Health...: 25/25
+บ MM mm -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ MM || || บ  Dist/Zone: 4/1
+บ MM || mm บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,8        Health...: 25/25
+บ MM || || บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ MM || mm บ  Dist/Zone: 4/1
+บ MM CC MM บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,9        Health...: 25/25
+บ MM || mm บ  Type.....: Clone Cntr   St/Dx/Ag.: 21/21/21
+บ MM CC MM บ  Dist/Zone: 5/1
+บ MM MM MM บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>Enter Town  
+
+Clone Center
+------------
+   [V] View current clone.
+   [D] Delete current clone.
+   [S] Swap with clone.
+   [M] Make a new clone.
+   [C] View your character.
+   [Q] Quit to wastelands.
+
+Clone Center Selection ]View current clone
+You do not have a clone.
+
+ฐฐฐฑฑฑฒฒฒ Press Any Key ฒฒฒฑฑฑฐฐฐ
+
+Clone Center
+------------
+   [V] View current clone.
+   [D] Delete current clone.
+   [S] Swap with clone.
+   [M] Make a new clone.
+   [C] View your character.
+   [Q] Quit to wastelands.
+
+Clone Center Selection ]Make new clone
+Cloning yourself will cost $4400. Proceed [Y/N] ? No
+
+Clone Center
+------------
+   [V] View current clone.
+   [D] Delete current clone.
+   [S] Swap with clone.
+   [M] Make a new clone.
+   [C] View your character.
+   [Q] Quit to wastelands.
+
+Clone Center Selection ]Quit to wastelands
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,9        Health...: 25/25
+บ MM || mm บ  Type.....: Clone Cntr   St/Dx/Ag.: 21/21/21
+บ MM CC MM บ  Dist/Zone: 5/1
+บ MM MM MM บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>North       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,8        Health...: 25/25
+บ MM || || บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ MM || mm บ  Dist/Zone: 4/1
+บ MM CC MM บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>North       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,4,7        Health...: 25/25
+บ MM mm -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ MM || || บ  Dist/Zone: 4/1
+บ MM || mm บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,5,7        Health...: 25/25
+บ mm -- || บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 3/1
+บ || mm -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,7        Health...: 25/25
+บ -- || -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || -- บ  Dist/Zone: 2/1
+บ mm -- -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>North       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,6        Health...: 25/25
+บ -- || 11^บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || -- บ  Dist/Zone: 1/1
+บ || || -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+<*>North       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || 11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 0
+ศออออออออออผ  Time Left: 226          Level....: 1
+
+A voice yells out from the brush "Like gimme like all of your money or 
+like I'll have to like kill you! Like do what I say, like now, ok?". It is 
+a mutant valley-girl. Once dreaded only as department store temporaries 
+during holiday seasons, the radiation has turned them into a very hideous 
+foe. 
+
+Press any key.
+Long Range Encounter
+--------------------
+
+  [L] Fight long range combat
+  [G] Chuck a rad-grenade at enemy
+  [H] Fight close range combat (hand-to-hand)
+  [R] Run away
+  [S] Surrender
+  [T] Attempt to strike up a conversation.
+
+  [C] Check status
+  [V] View Opponent
+
+
+Long Range Encounter ]Talk to Opponent
+Like what do you like want? I'm gonna like KILL you like right now. Like
+understand?
+
+]kill
+Like gimme a K! Like gimme an I! Like gimme an L! Like gimme another L!
+I'm gonna like KILL you!
+
+]bye
+Ok. I gotta like KILL you now.
+
+
+ฐฐฐฑฑฑฒฒฒ Press Any Key ฒฒฒฑฑฑฐฐฐ
+Long Range Encounter
+--------------------
+
+  [L] Fight long range combat
+  [G] Chuck a rad-grenade at enemy
+  [H] Fight close range combat (hand-to-hand)
+  [R] Run away
+  [S] Surrender
+  [T] Attempt to strike up a conversation.
+
+  [C] Check status
+  [V] View Opponent
+
+
+Long Range Encounter ]Hand-To-Hand
+
+You prepare for hand-to-hand combat!
+
+[Status - Waste-M-All: 25/25; Valley Girl: 20/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+Your Sword bounces off of Valley Girl's armor.
+
+The Valley Girl throws a mighty punch to your face, throwing you to 
+the ground.
+
+[Status - Waste-M-All: 24/25; Valley Girl: 20/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+With a savage war-cry, you slam your Sword into your enemy's chest, 
+crushing his ribs!
+
+Catching you in surprise, the Valley Girl throws you to the ground 
+with a low-kick.
+
+[Status - Waste-M-All: 23/25; Valley Girl: 16/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+Your Sword streaks past Valley Girl in a vain miss.
+
+The Valley Girl's takes a flying leap at you and lands face-first on 
+the ground.
+
+[Status - Waste-M-All: 23/25; Valley Girl: 16/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+With the might of a warrior, you hack off some of Valley Girl's flesh 
+as a souvenir!
+
+You successfully block the Valley Girl's oncoming attack and send him 
+flying to the ground in defeat.
+
+[Status - Waste-M-All: 23/25; Valley Girl: 14/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+Your Sword fails to penetrate Valley Girl's armor.
+
+You successfully block the Valley Girl's oncoming attack and send him
+flying to the ground in defeat.
+
+[Status - Waste-M-All: 23/25; Valley Girl: 14/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+You viciously tear into Valley Girl with your Sword!
+
+The Valley Girl lunges at you, knocking you off your feet.
+
+[Status - Waste-M-All: 22/25; Valley Girl: 9/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+Anticipating your attack, Valley Girl proves a bit faster than the 
+you, and executes a skillful dodge.
+
+Catching you in surprise, the Valley Girl throws you to the ground 
+with a low-kick.
+
+[Status - Waste-M-All: 21/25; Valley Girl: 9/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+With a savage war-cry, you slam your Sword into your enemy's chest, 
+crushing his ribs!
+
+Catching you in surprise, the Valley Girl throws you to the ground 
+with a low-kick.
+
+[Status - Waste-M-All: 19/25; Valley Girl: 7/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+Your Sword slices through Valley Girl's skin as he falls backward in 
+defeat!
+
+The Valley Girl lunges at you, knocking you off your feet.
+
+[Status - Waste-M-All: 17/25; Valley Girl: 5/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+You plunge your Sword deep into Valley Girl's chest, sending it to 
+the ground howling in pain!
+
+Catching you in surprise, the Valley Girl throws you to the ground 
+with a low-kick.
+
+[Status - Waste-M-All: 16/25; Valley Girl: 2/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+The Valley Girl successfully blocks your oncoming attack and sends
+you flying to the ground in defeat.
+
+Catching you in surprise, the Valley Girl throws you to the ground
+with a low-kick.
+
+[Status - Waste-M-All: 14/25; Valley Girl: 2/20]
+A]ttack T]ill-death R]un S]urrender V]iew C]har W]arp E]xchange >->Attack
+You catch Valley Girl off-guard and slice it with your Sword!
+
+[Status - Waste-M-All: 14/25; Valley Girl: 0/20]
+As the mutant valley girl falls toward the ground, she utters "This like 
+really sucks dude." She will trouble you no more now. 
+
+You gain 252 experience and 105 gold from the encounter.
+
+<*>
+Wastelands Help
+---------------
+  North...: N or 8     Pick Up Item: P     Enter Town....: G
+  South...: S or 2     Drop Item...: D     Camp out here.: A
+  East....: E or 6     Check Status: C     Construct fort: F
+  West....: W or 6     Equip.......: Q     Enter Fort....: I
+  Look....: L or 5     Use Item....: U     Inv Maint.....: M
+  Kill Obj: K          Quick Heal..: Y     B.A.D. Spell..: B
+
+ฐฐฐฑฑฑฒฒฒ Press Any Key ฒฒฒฑฑฑฐฐฐ
+
+Nearby Items
+------------
+ 356>Cheerldr Suit/1 357>Ghetto Blaster
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 14/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- ||+11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Quick Heal  
+Quick heal used 2 medkit doses. 18 remain.
+
+Nearby Items
+------------
+ 356>Cheerldr Suit/1 357>Ghetto Blaster
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- ||+11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Pick Up     
+Pick up which object from ground (?=List) ? 356
+
+Nearby Items
+------------
+ 357>Ghetto Blaster
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- ||+11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Pick Up     
+Pick up which object from ground (?=List) ? 357
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || 11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Use Object  
+Use which object from inventory (?=List) ? ?
+  1>MedKit/8         2>Rations/5        3>Cheerldr Suit/1  4>MedKit/10        
+  5>Ghetto Blaster   6>                 7>                 8>                 
+  9>                 10>                11>                12>                
+  13>                14>                15>                16>                
+
+Use which object from inventory (?=List) ? 5
+
+"Today, several villagers were killed as yet another earthquake rocked the 
+island of California ..."
+
+ฐฐฐฑฑฑฒฒฒ Press Any Key ฒฒฒฑฑฑฐฐฐ
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,6,5        Health...: 25/25
+บ mm -- -- บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || 11^บ  Dist/Zone: 1/1
+บ -- || -- บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,7,5        Health...: 25/25
+บ -- -- || บ  Type.....: Town         St/Dx/Ag.: 21/21/21
+บ || 11^|| บ  Dist/Zone: 0/1
+บ || -- mm บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,8,5        Health...: 25/25
+บ -- || || บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ 11^|| mm^บ  Dist/Zone: 1/1
+บ -- mm mm บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>North       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,8,4        Health...: 25/25
+บ -- mm mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ -- || || บ  Dist/Zone: 1/1
+บ 11^|| mm^บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,9,4        Health...: 25/25
+บ mm mm mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 2/1
+บ || mm^mm^บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,10,4       Health...: 25/25
+บ mm mm mm+บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 3/1
+บ mm^mm^mm^บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,11,4       Health...: 25/25
+บ mm mm+mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 4/1
+บ mm^mm^|| บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>North       
+
+Nearby Items
+------------
+ 353>MedKit/10      354>Rations/5     
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,11,3       Health...: 25/25
+บ MM MM MM บ  Type.....: Mountains    St/Dx/Ag.: 21/21/21
+บ mm mm+mm บ  Dist/Zone: 4/1
+บ || || || บ  Danger...: 15%          Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Pick Up     
+Pick up which object from ground (?=List) ? 353
+
+Nearby Items
+------------
+ 354>Rations/5     
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,11,3       Health...: 25/25
+บ MM MM MM บ  Type.....: Mountains    St/Dx/Ag.: 21/21/21
+บ mm mm+mm บ  Dist/Zone: 4/1
+บ || || || บ  Danger...: 15%          Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>Pick Up     
+Pick up which object from ground (?=List) ? 354
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,11,3       Health...: 25/25
+บ MM MM MM บ  Type.....: Mountains    St/Dx/Ag.: 21/21/21
+บ mm mm mm บ  Dist/Zone: 4/1
+บ || || || บ  Danger...: 15%          Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,11,4       Health...: 25/25
+บ mm mm mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 4/1
+บ mm^mm^|| บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,12,4       Health...: 25/25
+บ mm mm MM บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || MM บ  Dist/Zone: 5/1
+บ mm^|| mm บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,12,5       Health...: 25/25
+บ || || MM บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ mm^|| mm บ  Dist/Zone: 5/1
+บ mm || mm บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,12,6       Health...: 25/25
+บ mm^|| mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ mm || mm บ  Dist/Zone: 5/1
+บ mm || .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>South
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,12,7       Health...: 25/25
+บ mm || mm บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ mm || .. บ  Dist/Zone: 5/1
+บ mm || || บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>South       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,12,8       Health...: 25/25
+บ mm || .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ mm || || บ  Dist/Zone: 6/1
+บ .. .. .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 225          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,13,8       Health...: 25/25
+บ || .. .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 7/1
+บ .. .. .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 224          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,14,8       Health...: 25/25
+บ .. .. .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || || บ  Dist/Zone: 8/1
+บ .. .. .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 224          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,15,8       Health...: 25/25
+บ .. .. .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || || ||+บ  Dist/Zone: 9/1
+บ .. .. .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 224          Level....: 1
+
+<*>East
+
+Nearby Items
+------------
+  65>Apron/8        192>Cloth/2       
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,16,8       Health...: 25/25
+บ .. .. .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ || ||+|| บ  Dist/Zone: 9/1
+บ .. .. || บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 224          Level....: 1
+
+<*>East        
+
+                    [Terrain]               [Status]
+ษออออออออออป  Location.: 1,17,8       Health...: 25/25
+บ .. .. .. บ  Type.....: Road         St/Dx/Ag.: 21/21/21
+บ ||+|| .. บ  Dist/Zone: 10/1
+บ .. || .. บ  Danger...: 5%           Exper....: 252
+ศออออออออออผ  Time Left: 224          Level....: 1
+
+<*>Camp Out    
+Camp here, are you sure (Y/N) ? Yes
+@@FININFO
+Financial Options
+-----------------
+      In the investment options menu of the troop quarters, there are a few
+  different financial options that you can perform. These are:
+
+  1] Withdrawing/Depositing money in your "standard account"
+
+     The standard account is a safe investment which will earn you 7% of your
+  money per night. Your money is always safe there - it can't be lost, stolen,
+  etc.
+
+  2] Withdraw/Deposit money in your "game account"
+
+     The game account is a special account which will earn you 14% per
+  day. However, this money is not without risk. Other players can "challenge"
+  you to games. They will challenge you for up to 50% of what is in your
+  account. If they win, you will gain 50%, if you lose, then you will lose
+  50% for them. For example:
+
+    a> Defs Sacre has $500 in his account.
+
+    b> Atlas Eyes challenges for $250. If Atlas Eyes wins the game then he
+       will get $250 of Defs Sacre's money. Otherwise, Atlas Eyes will lose
+       $250 of his money to Defs Sacre.
+
+    c> Atlas Eyes loses. And Defs Sacre ends up with $750.
+
+    d> maint runs and Defs Sacre earns 14% interest on his $750, bringing his
+       total up to $1000. Not bad!
+
+  3] Request a loan
+
+     You may request a lone from the bank. They will usually loan you up to
+  5% of your worth. Each day the amount you are required to pay back will
+  rise by 18%. They will get increasingly upset if you do not pay this
+  off very quickly.
+
+  4] Pay off loan
+
+     You can pay off as much of your loan as you wish at any time. Paying off
+  your loan is wise as any unpaid balance accumulates 20% interest per
+  night.
+
+  5] Financial Statement
+
+     Just summarizes how much money you have (or don't have?)
+
+  6] Financial Info
+
+     A brief summary of the available financial options.
+
+  7] Deposit/Withdraw rent account
+
+     The rent account is a special account that is managed by Hotels-R-Us.
+  Here's how it works: The guys at Hotels-R-Us are very nice - they will
+  let you stay at any city for FREE until you reach level eight. But, once
+  you reach level 8, you will have to start paying rent.
+
+     Each night, an additional rent charge will be added to your account.
+  When you get on at your next log on, you should probably pay this charge
+  off. If you have not paid by the next time, then Hotels-R-Us will deny
+  you access to the city! (although there are some rather unpleasant
+  ways to get back into the city).
+
+     Unlike the other two accounts, the rent account can have either a
+  surplus or a deficit in it. A deficit (negative money) means that you
+  owe Hotels-R-Us and they will get upset if they aren't paid.
+
+     A surplus in the account means that you have extra money there that
+  might pay for a few days rent.
+
+     So what does all this mean? It means, once you get to level 8, buy
+  a base and live there instead! (If you stay in a base or camp out in the
+  wasteland, you are not charged rent)
+
+
+@@Q&A
+Questions and Answers:
+
+Q. When I view a monster, it says his weapons do a certain amount of damage,
+   but when I fight him, he hits for many more points!
+
+A. The damage listed for his weapons is the BASE damage level. The actual
+   damage is dependent on his strength. For a weak monster, the damage
+   done will be less that the weapons rating. For a strong monster, the
+   damage will be greater.
+
+
+Q. How do I get to the lower levels?
+
+A. You don't! Starting with version 2.00 of LOD and up, there is no lower
+   map. The top level was increased in size to provide for a more
+   realistic game environment.
+
+
+Q. What are these "special quests" ?
+
+A. They are exactly as the name implies - a few little side adventures
+   thrown in to add flavor to the game. Sometimes talking to the residents
+   of a town may get you some insight into a quest, otherwise, locating
+   and using a special object may help. Remember, always try out all of
+   the gadgets you find in the wasteland!
+
+
+Q. I don't like this "xxx's weapon disintegrates as it falls to the ground"
+   stuff. How can I get rid of it?
+
+A. If you're the sysop (or game operator), then you can go into monster.def,
+   find the character "DEFAULT_1", go down to the line which says "DESINT 35"
+   and change it to a smaller value. The smaller the value, the less the
+   chance that weapons, armor, etc will be disintegrated.

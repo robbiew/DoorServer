@@ -1,0 +1,2000 @@
+Land Of Devastation
+By Scott M. Baker
+
+NOTE: Tucson's area code has CHANGED from 602 to 520! That means the LOD
+      Support bbs is now at 520-544-4655
+
+
+Need-to-Know information
+
+  Sec 0:  System Requirements
+
+For the experienced door installers: Getting started quickly
+
+  Sec 1:  Files included
+  Sec 2:  Quick installation
+  Sec 3:  Command line switches
+  Sec 4:  Examples
+
+In depth information about installing and operating LOD
+
+  Sec 5:  Glossary of common terms
+  Sec 6:  VGA graphics
+  Sec 7:  Memory requirements
+  Sec 8:  Audio support
+  Sec 9:  Multinode use
+  Sec 10: Common problems / trouble shooting
+  Sec 11: Restarting the game
+  Sec 12: Alternate data sets
+
+Miscellaneous
+
+  Sec 13: Unfinished stuff
+  Sec 14: Error codes
+  Sec 15: Corrupted data files
+  Sec 16: Recent revision history
+  Sec 17: Credits
+  Sec 18: How to reach me
+  Sec 19: *** Registration ***
+
+
+System Requirements
+-------------------
+       LOD is a very hardware-hungry program. To get the full configuration
+operating (SVGA graphics and MOD Music), you'll need a pretty significant
+setup.
+
+       I do not recommend using LOD under desqview, but it can be done. I
+would suggest that if you do so, you restrict yourself to operating LOD in
+text mode. I do not own a copy of desqview and thus cannot test LOD under
+that environment.
+
+       *** CPU
+
+       Any 80286 or greater should function with LOD in TEXT mode, but
+you'll need at least a 80386/33 for reasonable performace in the SVGA
+graphics mode. LOD's graphics routines use embedded 386 assembly
+instructions and therefore a 286 just won't work with graphics enabled.
+
+       *** VIDEO CARD
+
+       LOD can be operated in either TEXT or SVGA mode. Any old graphics
+adapter will work for text mode, but SVGA requires a graphics adapter
+capable of supporting 800x600x256 SVGA graphics. The graphics adapter
+must have at least 512k memory on board, and should support the VESA video
+bios standard. The program VGATEST is included to test whether an adapter
+is supported by LOD or not.
+
+       If 800x600x256 is not available, then LOD will attempt to fall back
+to 640x480x256. The 640x480 mode does not include nearly as much information
+as 800x600 and is not recommended unless absolutely necessary.
+
+       *** DISK SPACE
+
+       A hard drive is required. LOD doesn't use too much space beyond
+what is stored inside the zip files, so if you can uncompress the thing
+and still have about a meg left, then you ought to be safe.
+
+       *** MEMORY
+
+       This depends significantly on the installation that you perform.
+Running LOD in TEXT mode uses the least amount of memory. Operating in
+SVGA graphics mode will add about 30-50k to the requirements. MOD Music
+support requires that you either have EMS memory available or run the
+DPMI version of LOD.
+
+       The basic conventional memory requirement for LOD/TEXT is 450k.
+LOD/SVGA is 500k. If you use the /EMS switch on LOD's command line, then
+LOD will load some data into EMS memory, reducing the memory requirements
+slightly.
+
+       *** MODEM
+
+       Most of LOD's game play involves moving about in the wastelands.
+When this occurs, the user's display must be updated quickly. The better
+the modem, the faster this happens. I recommend using at least a 9600
+baud modem.
+
+       *** SOUND CARD
+
+       LOD should operate on a Sound Blaster 16, 1.x, 2.0, pro, the
+Media Vision Pro Audio Spectrum, Gravis Ultrasound, or any sound card
+compatible with those standards.
+
+
+Files Included
+--------------
+       Below is a listing of all files contained within the Land Of
+Devastation distribution archives. As you can see, the files are split
+into several separate archives. The file LODFILES.TXT contains information
+on which archives you need, what they are for, etc. I recommend READING
+THIS FILE.
+
+Archive LODxxxA.ZIP - Land Of Devastation Docs & Install info  [REQUIRED]
+
+ LODFILES.TXT - LOD packaging information
+ LODQUICK.DOC - A quick description of what LOD is about
+ USERDOC.TXT  - User documentation
+ SYSOP.DOC    - Sysop documentation
+ NEWSLETT.TXT - Newsletter data file
+ REGLIST.TXT  - List of registered users
+ DOCVIEW.EXE  - Documentation/Newsletter view/extract utility
+ AUTHENTI.LOD - Authenticity Verification - do not delete
+
+Archive LODxxxB.ZIP - Land Of Devastation main program disk    [REQUIRED]
+
+ LODFILES.TXT - LOD packaging information
+ GAME.EXE     - Executable file for LOD
+ GAME.OVR     - Overlay file for LOD
+ GAME.CTL     - Control file for setting up LOD
+ REGISTER.FRM - Registration form
+ ANSI.DEF     - Library containing ansi graphics pictures
+ MISC.DEF     - Miscellaneous game parameters
+ MAP.DEF      - Main map file
+ TERRAIN.DEF  - Definitions for the various terrain types
+ DEVICES.DEF  - Definitions of all items in the game (weapons,armor, etc)
+ GAME.DEF     - Master game definition file         [Compiled - don't edit]
+ TRIVIA.DEF   - Definitions of trivia questions (encrypted)
+ LODLOK.TXT   - Explains to multinode users than another use is online.
+ REGISTER.EXE - Registration code utility
+ GAMEEDIT.EXE - Sysop player editing tool
+ STR3TO4.PAT  - String patch file to get 4.10 datasets to work with 4.20
+ RESET.EXE    - Utility to manually reset the game
+ DSPATCH.EXE  - Dataset patch utility
+
+Archive LODxxxC.ZIP - Land Of Devastation VGA support disk     [OPTIONAL]
+
+ LODFILES.TXT - LOD packaging information
+ GTSTRS.DEF   - String definitions used by graphical display
+ GMAPEDIT.EXE - Graphical (SVGA) map editor
+ BMPSTD.RES   - Main VGA graphics library for graphical versions
+ LODVGA.PAL   - VGA Palette
+ FONT8X8.FNT  - VGA display font: 8x8
+ FONT8X12.FNT - VGA display font: 8x12
+ FONT8x14.FNT - VGA display font: 8x14
+ VGATEST.EXE  - VGA test & benchmark utility
+ VGATEST.DOC  - Documentation for VGATEST
+ RESCOMP.EXE  - Resource file compressor/decompressor
+ PICTURES.IDX - Listing of user-submitted pictures in BMPBIG.RES
+
+Archive LODxxxD1.ZIP - Land Of Devastation additional VGA pics  [OPTIONAL]
+
+ LODFILES.TXT - LOD packaging information
+ BMPBIG.RES   - Secondary [optional] VGA graphics file for graphical versions
+
+Archive LODxxxD2.ZIP - Land Of Devastation additional VGA pics  [OPTIONAL]
+
+ LODFILES.TXT - LOD packaging information
+ BMPBIG1.RES   - Secondary [optional] VGA graphics file for graphical versions
+
+Archive LODxxxD3.ZIP - Land Of Devastation additional VGA pics  [OPTIONAL]
+
+ LODFILES.TXT - LOD packaging information
+ BMPBIG2.RES   - Secondary [optional] VGA graphics file for graphical versions
+
+Archive LODxxxE.ZIP - Sysop Customization Package              [OPTIONAL]
+
+ LODFILES.TXT - LOD packaging information
+ LODFAQ1.TXT  - Konnor's LOD FAQ #1
+ CUSTOM.DOC   - Customization documentation
+ NEHELP.HLP   - Context Sensitive help file for NEWLODED.EXE.
+ ANSIPUT.EXE  - Utility to manipulate ANSI.DEF.
+ PROGRAMR.ZIP - Archive containing data types for programmers
+ TSAMP1.TXT   - Sample trivia file
+ TRIVCOMP.EXE - Trivia compiler utility
+ COMPILE.EXE  - Used to compile STRINGS.TXT,MONSTERS.TXT,etc into GAME.DEF
+ CUSTOM.EXE   - Custom game editing tool
+ LCDOS.EXE    - LGPL Compiler (DPMI version)
+ LCWIN.EXE    - LGPL Compiler (Windows version)
+ LGPL.IN      - LGPL source code file
+ LGPL.OUT     - Compiled LGPL program
+ *.INC        - LGPL source include files
+ RTM.EXE      - misc file needed for DPMI (Copyright Borland International)
+ DPMI*.*      - misc file needed for DPMI (Copyright Borland International)
+ STANDARD.ZIP - Contains text files for the standard LOD data set
+    STRINGS.TXT  - ASCII most strings used in game [Edit w/ any text editor]
+    MONSTER.TXT  - ASCII monsters                  [Edit w/ any text editor]
+    TALK.TXT     - ASCII dialog from taverns       [Edit w/ any text editor]
+    COMBAT.TXT   - ASCII combat strings            [Edit w/ any text editor]
+    TROYINFO.TXT - ASCII troy's info rom           [Edit w/ any text editor]
+    TRELLNOT.TXT - ASCII Trell's note              [Edit w/ any text editor]
+    HISTORY.TXT  - ASCII History text rom          [Edit w/ any text editor]
+    TAVERN.TXT   - ASCII Who is in which tavern    [Edit w/ any text editor]
+    MISC.BIN     - Miscellaneous game parameters   [Use CUSTOM.EXE]
+    MAIN.MAP     - Main map file                   [Use CUSTOM.EXE]
+    TERRAIN.BIN  - The various terrain types       [Use CUSTOM.EXE]
+    DEVICES.BIN  - Definitions of all items        [Use CUSTOM.EXE]
+
+Archive LODxxxF.ZIP - Sound support
+
+ LODFILES.TXT - LOD packaging information
+ ACCURSED.GDM - Music file
+ DEATH.GDM    - Music file
+ ETERNAL.GDM  - Music file
+ FATE.GDM     - Music file
+ MYSTERY2.GDM - Music file
+ TALAMASC.GDM - Music file
+ WITCHING.GDM - Music file
+ GUS.MSE      - Sound Driver: Gravis Ultrasound
+ PAS.MSE      - Sound Driver: Pro Audio Spectrum
+ SB16.MSE     - Sound Driver: SoundBlaster 16
+ SB1X.MSE     - Sound Driver: SoundBlaster 1.x
+ SB2X.MSE     - Sound Driver: SoundBlaster 2.x
+ SBPRO.MSE    - Sound Driver: SoundBlaster Pro
+
+Archive LODxxxG.ZIP - VGA developers kit
+
+ LODFILES.TXT - LOD packaging information
+ BMPPUT.EXE   - bmp library program
+ VGAKIT.DOC   - documentation
+ LODART.DOC   - article by Dave Rosson about creating images
+
+Archive LODxxxL.ZIP - Lite version
+
+ LODFILES.TXT - LOD packaging information
+ GAMELITE.DOC - Documentation/Release notes for lite version
+ GAMELITE.EXE - "Lite" version of Lod - no sound or graphics support
+ GAMELITE.OVR - Overlay file for gamelite
+
+Archive LODxxxO.ZIP - OS/2 mode executables
+
+ LODFILES.TXT - LOD packaging information
+ GAME_PM.EXE  - OS/2 graphical replacement for game.exe
+ GAME_OS2.EXE - OS/2 character mode replacement for game.exe
+ COMP_OS2.EXE - OS/2 character mode replacement for compile.exe
+ DOCV_OS2.EXE - OS/2 character mode replacement for docview.exe
+ REG_OS2.EXE  - OS/2 character mode replacement for register.exe
+ APUT_OS2.EXE - OS/2 character mode replacement for ansiput.exe
+ TRIV_OS2.EXE - OS/2 character mode replacement for trivcomp.exe
+ BPUT_OS2.EXE - OS/2 character mode replacement for bmpput.exe
+ GMED_OS2.EXE - OS/2 character mode replacement for gameedit.exe
+ CUST_OS2.EXE - OS/2 character mode replacement for custom.exe
+ RSET_OS2.EXE - OS/2 character mode replacement for reset.exe
+ CONTROLS.DLL - Custom control DLL for GAME_PM
+ LODPM.DLL    - Menu & Dialog DLL for GAME_PM
+
+Archive LODxxxP.ZIP - DPMI executables
+
+ LODFILES.TXT - LOD packaging information
+ GAME_DPM.EXE - DPMI (Dos Protected Mode) replacement for game.exe
+ COMP_DPM.EXE - DPMI (Dos Protected Mode) replacement for compile.exe
+ DOCV_DPM.EXE - DPMI (Dos Protected Mode) replacement for docview.exe
+ REG_DPM.EXE  - DPMI (Dos Protected Mode) replacement for register.exe
+ APUT_DPM.EXE - DPMI (Dos Protected Mode) replacement for ansiput.exe
+ TRIV_DPM.EXE - DPMI (Dos Protected Mode) replacement for trivcomp.exe
+ BPUT_DPM.EXE - DPMI (Dos Protected Mode) replacement for bmpput.exe
+ GMED_DPM.EXE - DPMI (Dos Protected Mode) replacement for gameedit.exe
+ CUST_DPM.EXE - DPMI (Dos Protected Mode) replacement for custom.exe
+ RTM.EXE      - misc file needed for DPMI (Copyright Borland International)
+ DPMI*.*      - misc file needed for DPMI (Copyright Borland International)
+
+Files created by LOD upon initialization
+
+ USERS.DAT    - Master players file
+ OBJECTS.DAT  - Objects left laying around on the wasteland
+ BASES.DAT    - Fortress data file
+ LOG.DAT      - Log of what happens in the game
+ USERIDX.DAT  - User file quick index
+ CLONES.DAT   - File containing clone information
+ CASSTATS.DAT - Casino statistics data file
+ PTRON380.DAT - Puritron data file
+ TEAMS.DAT    - Team information
+ DAYSTATS.DAT - Current day game statistics
+ *.NTS        - Contains users notes taken during play
+ MSGIDX.DAT   - Message base index file
+ MSGBDY.DAT   - Message base body file
+ MREPORT.TXT  - Maintenance report (created when maint is run)
+ LODERROR.LOG - Log of critical runtime errors
+
+Other notable files
+
+ NEWDOOR.IDX  - Old style message base - obsolete - may be deleted
+ NEWDOOR.BDY  - Old style message base - obsolete - may be deleted
+ MONSTER.DEF  - Old .def file - may be deleted
+ TALK.DEF     - Old .def file - may be deleted
+ COMBAT.DEF   - Old .def file - may be deleted
+ *.MOD        - Old music file - may be deleted
+
+ [Note: I recommend reading LODFILES.TXT for a better understanding of what
+        each distribution archive is for.]
+
+Quick Installation
+------------------
+
+  A) Create a directory on your disk to contain LOD and change dir to
+     it. (e.g. "MD \LOD" and "CD \LOD")
+
+  B) Unzip the required archive files. A chart at the end of this section
+     lists which files are required for a particular installation. You can
+     never go wrong by unzipping too much, but if certain files are -missing-,
+     then certain components may not work.
+
+  C) If you are running LOD with a bbs system, then you will need to edit
+     GAME.CTL to set up the required interface to the bbs software. In
+     particular you will wish to modify the following items:
+
+        SYSOPFIRST, SYSOPLAST - your first & last name
+        BBSNAME - the name of your bbs
+        BBSTYPE - the type of "drop file" that is created by your bbs
+        LOCKBAUD - a locked baud rate, if applicable
+
+     The default DOS setup is configured to operate with a fossil driver. If
+     you are not running a fossil driver, then you will need to uncomment
+     the ";INTERNAL" line in game.ctl.
+
+     There may be more options of interest to you in GAME.CTL. I suggest
+     thoroughly reading that file.
+
+  D) If you are running LOD with a bbs system, then you will also need
+     to create the proper batch files to interface with your bbs. Please
+     see the documentation included with your bbs software for more
+     information.
+
+     Basically, the batch file should change to lod's directory, optionally
+     copy the drop file to that directory, invoke GAME.EXE with various
+     parameters, and finally change dir back to your bbs and exit.
+
+  E) For a quick local logon, you can load up LOD with the /L switch.
+     For example, "GAME.EXE /L" or "GAME.EXE /VGA /L". This can be a
+     quick way to test and make sure that LOD itself is operating
+     properly.
+
+Required archive chart: The following chart lists the archives that are
+  required for a particular installation under a particular operating
+  environment:
+
+  DOS
+    Text Only:
+
+       LODxxxA.ZIP, LODxxxB.ZIP
+
+    Partial VGA Graphics:
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP
+
+    Full VGA Graphics:
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP, LODxxxD*.ZIP
+
+    To add audio support:
+
+       LODxxxF.ZIP
+
+  DOS-DPMI
+    Text Only:
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxP.ZIP
+
+    Partial VGA Graphics:
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP, LODxxxP.ZIP
+
+    Full VGA Graphics:
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP, LODxxxD*.ZIP, LODxxxP.ZIP
+
+    To add audio support:
+
+       LODxxxF.ZIP
+
+  OS/2
+    Character Mode: Game_os2.exe (Text Only)
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxO.ZIP
+
+    PM Mode: Game_pm.exe - partial graphics
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP, LODxxxO.ZIP
+
+    PM Mode: Game_pm.exe - full graphics
+
+       LODxxxA.ZIP, LODxxxB.ZIP, LODxxxC.ZIP, LODxxxD*.ZIP, LODxxxO.ZIP
+
+Command Line Switches
+---------------------
+
+     /L       Load in Local mode.
+
+     /S       Sysop fast log on. (uses sysop name in GAME.CTL)
+
+     /M       Force maintenance run. (Unnecessary unless "NOAUTOMAINT" is
+              present in GAME.CTL)
+
+     /VGA     Displays VGA GRAPHICS on sysop's computer.
+
+     /640     Force LOD to operate in 640x480x256 instead of 800x600x256.
+              This option is handy if your monitor does not support 800x600
+              yet you still wish to operate in graphics mode.
+
+  /LARGEFONT  This will cause LOD to use an 8x12 font in SVGA mode rather
+              than the defaut 8x8 font. The 8x12 font is significantly
+              larger and may be easier for some people to read. However, the
+              inventory display will be reduced to displaying only one
+              line (6 items). May be abbreviated "/LF"
+
+   /HUGEFONT  This will cuase LOD to use an 8x14 font in SVGA mode. It is
+              much larger than the standard font and may be more easily
+              readable by some people. The entire bottom inventory display
+              will be dropped however. May be abbreviated "/HF"
+
+    /NOACCEL  Disables checking for S3 accelerator chip in SVGA mode. If
+              SVGA mode yields unpredictable results or lockups then you
+              may wish to use this option. May be abbreiviated "/NA".
+
+     /NOVESA  Disables use of VESA Bios extensions. LOD includes limited
+              support for a few SVGA adapaters. This will cause LOD to
+              attemp to use the adapter directly rather than going through
+              the VBE. You try running VGATEST with the /NOVESA flag
+              before trying it under LOD. May be abbreviated "/NV".
+
+   /FORCEINT  Forces LOD to use an interrupt based VESA flipper rather than
+              a call based VESA flipper. Use it if VGATEST tells you to.
+              May be abbreviated "/FI"
+
+  /FORCEDUAL  Forces LOD to use a dual page based VESA flipper rather than
+              a single page based VESA flipper. Use it if VGATEST tells you
+              to. May be abbreviated "/FD".
+
+     /EMS     Use ems memory if available.
+
+   /SERHANDx  [OS/2 version only!] "x" is assumed to be the file handle
+              number of an open serial port. You'll probably need to do
+              this with maximus/2.
+
+     /Nx      Specifies node number. (i.e. /N1 for node 1, /N2 for node 2,
+              etc)
+
+     /Pyy     Specifies path to drop files. (i.e. /PC:\BBS, for c:\bbs, etc)
+
+     /CHECK   Perform multinode check (see multinode use below)
+
+     /Bxxxx   Specify lock baud rate. For example, "/B38400" would force the
+              com port to be 38,400 baud no matter what the drop file (i.e.
+              DORINFOx.DEF) says the baud is.
+
+     /?       Display a brief command line option summary.
+
+     /OVREMS  Will cause LOD to attempt to load its overlay into EMS memory
+              if possible.
+
+/REMOTEDIAGS  Allows "remote" users to use the diagnostics menu if they have
+              the Diagnostics flag set in their user record. The diagnostics
+              flag may be set by using the "Prefs" button in the user editor
+              in GAMEEDIT.EXE.
+
+              Lod's diagnostics menu is invoked by pressing "|" at the
+              wastelands prompt. (User must have diagnostics flag set!)
+
+
+   /AUDIOxxx  For DOS and DPMI versions only. Initializes the MOD music
+              system. See the section below entitled "audio support"
+              for more details. Valid codes are:
+
+                 /AUDIOSB:    SoundBlaster 1.x
+                 /AUDIOSB1X:  SoundBlaster 1.x (same as /AUDIOSB)
+                 /AUDIOSB2X:  SoundBlaster 2.x
+                 /AUDIOSBPRO: SoundBlaster Pro
+                 /AUDIOPAS:   Pro Audio Spectrum
+                 /AUDIOGUS:   Gravis Ultrasound
+
+              This option requires LODxxxF.ZIP.
+
+     /IRQx    Specify Sound Card IRQ level (SB Default=5)
+
+     /DMAx    Specify Sound Card DMA level (SB Default=1)
+
+     /BASExxx Specify Sound Card BASEIO, in hexadecimal (SB Default=220)
+
+     /FR      Play audio when remote users are on. By default, LOD will
+              NOT play music on the sysops machine when the caller is
+              on from REMOTE. This is done to not wake up the sysop in
+              the middle of the night when a player enters the game! However,
+              if you want the music to play no matter whether the user
+              is on locally, or remotely, then you can use this switch.
+
+Examples
+--------
+  "GAME /L /EMS /VGA"
+
+      Loads LOD in local mode with VGA graphics active and EMS memory
+      will be used if available.
+
+  "GAME /N1 /EMS /VGA /PI:\MAX /B38400"
+
+      Loads LOD in remote mode with VGA graphics active. EMS memory will be
+      used if available. Node #1 has been selected (i.e. DORINFO1.DEF or
+      DOOR1.SYS will be used). The drop file will be searched for in the
+      path I:\MAX. The baud rate will be locked to 38,400
+
+  "GAME /L /EMS /VGA /AUDIOSB"
+
+      Load locally, enable VGA graphics, use EMS if available, and use
+      soundblaster 1.x audio.
+
+  "GAME /L /EMS /VGA /AUDIOSB16 /IRQ5 /DMA1 /BASE220"
+
+      Load locally, using VGA graphics and EMS, and use SoundBlaster 16
+      audio at irq=5, dma=1, and base address = 220.
+
+Glossary
+--------
+     Here's the definitions of a few terms that I will be using quite
+ frequently in this document.
+
+     640x480x256 -  This mode is also supported by LOD. Not all information
+                    that is present in 800x600 is available, but this mode
+                    can be used in the case that you do not support 800x600.
+                    640x480 does still require a SVGA adapter, but you can
+                    probably get by with a normal VGA monitor.
+
+     800x600x256 -  This is the video mode at which the VGA version of LOD
+                    operates. Specifically, it is 800 pixels horizontal,
+                    600 pixels vertical, and each color is chosen from a
+                    256 color palette. An 800x600 screen requires 480,000
+                    bytes of video memory and thus should operate on a SVGA
+                    card with 512k or more of memory.
+
+     Baud -         The speed at which the user is calling.
+
+     DORINFOx.DEF - Common drop file used by a variety of bbs programs. It is
+                    the most extensively tested drop file format in LOD, and
+                    therefore, the most reliable.
+
+     Drop File - The file that is created by the bbs program when it goes to
+                 execute the door. It contains the baud rate, com port,
+                 name of the user online, etc. Common drop files are
+                 DORINFO.DEF, DOOR.SYS, PCBOARD.SYS, EXITINFO.DAT, etc.
+
+     EGA - "Enhanced Graphics Adapter". The graphics standard that LOD
+           and GTERM used to use. We have since upgraded to SVGA. Most
+           modern video adapters (VGA, SVGA, etc) also support the EGA
+           modes. EGA support is no longer available with LOD 4.20 and
+           above. [See also: VGA, SVGA]
+
+     EMS - "Expanded Memory Specification". If your machine has over 1
+           megabyte of memory, then you may have some available. LOD can
+           utilize EMS to improve game performance and reduce conventional
+           memory requirements.
+
+     Locked Baud - In order to get the most efficiency out of a high speed
+                   error correcting modem (9600 baud or above), then you may
+                   lock the baud rate to a speed higher than what the caller
+                   is actually using. By locking the baud to 38,400, the
+                   modem can actually compress the data that is being sent
+                   and achieve a baud rate much higher than the actual
+                   transmission rate. Please see the section on high speed/
+                   locked bauds below.
+
+     LOD - "Land Of Devastation", the name of the game you are trying to
+           install!
+
+     MOD - A commonly used music file format. Most MOD songs are high
+           quality four voice with digital effects. Land Of Devastation
+           uses MODs for it's music.
+
+     Maint - Maintenance mode. LOD must perform maintenance once per day to
+             do various things with it's data files. See the section below
+             on maintenance.
+
+     Multinode - A bbs system with either more than one computer attached
+                 or using a multi tasker (desqview, windows) that allows
+                 more than one person to call at a time.
+
+     Node - Refers to a member of a multinode system.
+
+     Overlay - A file included with LOD (either GAME.OVR or GAMEEGA.OVR)
+               which is used to keep portions of the program on disk to
+               reduce memory requirements. It is all automatic and you should
+               not need to worry about it.
+
+     Sound Blaster - A common sound card that is installed in many computers.
+                     The Sound Blaster card is produced by Creative Labs and
+                     includes support for both music and digital voice
+                     effects. Several other cards are available that are
+                     "compatible" with the Sound Blaster standard, such
+                     as the Thunderboard and the Pro Audio Spectrum.
+
+     SVGA - "Super VGA". A generic term that applies to graphics adapters
+            that support higher resolutions and/or colors than the VGA
+            standard supports. LOD _requires_ an SVGA adapter with 512k+
+            of memory to operate in graphics mode.
+
+     VESA - A popular standard for SVGA cards. LOD supports VESA graphics
+            in the 800x600x256 and 640x480x256 modes. The 800x600x256
+            mode is preferred and LOD will use that mode if available.
+
+     VGA -  "Video Graphics Array". A graphics standard supporting resolutions
+            up to approximately 640x480x16 and 320x200x256. Most current
+            graphics adapters are actually SVGA cards supporting more
+            advanced modes. In this document, I tend to use the term VGA
+            interchangeably with SVGA. [See also: SVGA]
+
+VGA Graphics Version
+--------------------
+
+     LOD has been designed with _optional_ VGA graphics to enhance the
+ playing experience. By default, LOD will load with just the plain text
+ graphics.
+
+     To enable the VGA graphics, you must use the "/VGA" switch on the
+ command line. For example, "GAME /L /VGA". VGA graphics do consume more
+ memory and may not run on your computer. If you have trouble, you may
+ wish to try using the "/EMS" switch described below under "memory
+ requirements".
+
+     To utilize VGA graphics, LOD requires a video card capable of supporting
+ 800x600x256 graphics. Most modern cards with 512k or more of memory do
+ support this mode. LOD also requires a card that supports the VESA video
+ bios standard. Most newer cards incorporate this standard directly, and
+ drivers are available for some of the older cards.
+
+     It is possible that your current video card may not support
+ 800x600x256 graphics. In this case, you will have to run LOD in text
+ mode. I'm sorry for the inconvenience to those who are running video cards
+ incapable of supporting this mode, but tailoring LOD to a particular
+ video mode is very difficult and for me to maintain support for multiple
+ video resolutions would be nearly impossible.
+
+     A program called "VGATEST" has been included in LODxxxC.ZIP. This
+ program will report on whether or not your card supports SVGA800x600x256
+ and perform a simple test and benchmark.
+
+     NOTE: By using VGA graphics on the sysop side, you are not "forcing"
+ your users to use VGA graphics too. The remote user graphics are totally
+ independent of the sysop's graphics.
+
+
+Memory Requirements
+-------------------
+
+ NOTE: A runtime error 203 or 253 indicates insufficient memory!
+
+     LOD can be adequately described as a "memory hog". LOD likes as much
+ memory as you can give it. LOD's memory requirements differ depending on
+ the configuration that you use.
+
+     TEXT version (GAME.EXE without /VGA):
+
+        The lowest possible memory requirements. No VGA graphics will be
+        displayed on the sysop's side, but your users can still have ega
+        if they use the gterm terminal program.
+
+        I suggest running the text version if all else fails.
+
+     GRAPHICS version (GAME.EXE with /VGA):
+
+        Consumes substantially more memory, but gives the sysop a nice
+        pretty EGA display, similar to what the user with gterm sees. If
+        you have memory troubles, try using the /EMS switch.
+
+     GRAPHICS and SOUND (GAME.EXE with /VGA and /AUDIOSB):
+
+        Gobbles up an immense amount of memory. Using the /EMS switch is
+        a necessity to give LOD access to EMS memory so it can store some
+        data up there.
+
+ --> What is EMS memory?
+
+     EMS memory stands for "expanding memory specification". It is a way
+ for your computer to use memory above the standard 640k that dos has. LOD
+ is capable of storing some of it's data in EMS memory, thus freeing up
+ more space in the lower 640k for sound and graphics.
+
+     Most computers provide EMS memory with a special driver in their
+ config.sys file - QEMM, EMM386, and 386MAX are popular ones. Most 386+
+ computers have EMS memory. If you are using DOS 5.0 or greater, then you
+ can type "MEM" to get a display about how much EMS memory you have.
+
+     LOD must be EXPLICITLY TOLD TO USE EMS. For compatibility reasons,
+ LOD won't use it by default. You must place the switch "/EMS" on the
+ command line when you invoke game.exe. For example, "GAME /L /EMS".
+
+     If you aren't sure whether you have EMS memory, then try using the
+ /EMS switch anyway - it can't hurt anything.
+
+ --> What about EXTENDED (XMS) memory?
+
+     To use LOD with extended memory, you will need to use the DPMI version
+ of LOD. This is located in the archive LODxxxP.ZIP and the executable is
+ called GAME_DPM.EXE. It supports all of the functionality of the plain
+ dos version, but it does operate in protected mode and will make use of
+ extended memory.
+
+Audio Support
+-------------
+     Starting with version 3.60, Land Of Devastation and GTERM now have some
+ sound/music capability. Here is how to get the sound system to work:
+
+     1) You must have downloaded and unarchived LODxxxF.ZIP into the
+        directory where you are running LOD (or GTERM).
+
+     2) You must use one of the /AUDIOxxx options, for example
+        "/AUDIOSB" for generic SoundBlaster 1.x support.
+
+     3) If you do not specify any "/IRQ", "/DMA", and "/BASE" options,
+        then the IRQ, DMA, and BASE will be auto-detected. If the
+        autodetection does not work, then you may wish to specify the
+        values directly.
+
+     4) If you're using the DPMI version of LOD (GAME_DPM.EXE), then
+        you MUST specify the IRQ and DMA parameters. Autodetection (at
+        least on my system) does not function in DPMI mode.
+
+        Also, with GAME_DPM.EXE, you must specify the following line
+        in the batch file that calls LOD (or GTERM):
+
+           SET RTM=REALLEAVE 14336
+
+        A sample dpmi batch file is provided called "DPMI_AUD.BAT" in
+        LODxxxP.ZIP.
+
+     Examples: (For Land Of Devastation - on the sysop's side)
+
+        "GAME /L /EMS /EGA /AUDIOSB"
+          Load LOD with Soundblaster 1.x enabled.  IRQ, DMA, and BASEIO
+          will be autodetected.
+
+        "GAME /L /EMS /EGA /AUDIOGUS /IRQ5 /FR"
+          Load LOD with Gravis Ultrasound at IRQ 5, force music to play
+          when remote users are on.  DMA and BASEIO will be autodetected.
+
+     Examples: (For GTERM - on the remote user's side)
+
+        "GTERM COM 2 BAUD 19200 /AUDIOPAS"
+          Load GTERM with ProAudioSpectrum set.
+
+        "GTERM COM 1 BAUD 2400 /AUDIOSB16 /BASE220 /IRQ5 /DMA1"
+          Load GTERM with soundblaster at base=220, irq=5, and dma=1.
+
+
+ Notes:
+
+     We are now using a new Audio system.  It hasn't been tested a whole
+ lot and may have problems.  It does support STEREO and 16-bit cards
+ whereas the previous routines we were using do not.
+
+     If you have trouble running LOD with audio support, then shut it
+ off!
+
+     The audio system eats up quite a bit of memory (almost 150k). Therefore,
+ when running LOD or GTERM, you might not have enough conventional memory to
+ initialize the audio system and you won't hear anything.
+
+     Having music active on one side does not require having music active
+ on the other. For example, a user with GTERM might have music enabled, but
+ the sysop might have it disabled - this will work fine - the user will hear
+ his music and the sysop will have some nice silence!
+
+     If you like, you can bring up a display of the current MOD system
+ status (also shows any possible errors) by pressing ALT-3. This works with
+ either GTERM or the EGA (GAME /EGA) version of LOD. The non-EGA
+ version of LOD does not have the mod status screen.
+
+
+ Music system credits:
+
+     Our original MOD support was provided by Mark J Cox's excellent
+ MOD-OBJ package.
+
+     Our current MOD support (i.e. the GDM and MSE files) were provided
+ by Edward Schlunder's BWSB package.
+
+     Most (if not all!) of our songs were composed by Chris Azure.
+
+
+Multinode use
+-------------
+     LOD does NOT allow multinode use. Furthermore, I have no future plans
+ to develop a version of LOD that does at this time. However, LOD can be
+ set to "lock out" other nodes while one node is playing. (i.e. Node 1
+ is playing so nodes 2 & 3 cannot).
+     This is done using the /Nx and /CHECK switches. /Nx tells which node
+ number is using the door. (i.e. "GAME /N2 /CHECK" would be for node 2).
+ And /CHECK says to check for multinode use.
+     The start up commands for LOD for a 2-node system would be as follows:
+
+     NODE 1: Game /N1 /CHECK
+
+     NODE 2: Game /N2 /CHECK
+
+     When LOD encounters another player trying to play while one is already
+ playing it will spew out the file "LODLOK.TXT" to the user to explain the
+ situation to him.
+
+     NOTE: Apparently, there is some kind of "glitch" in either Turbo Pascal
+           or DOS which causes "sharing violations" to occur when LOD is
+           activated by more than one person. If you have this problem, then
+           you may wish to try to set the "read-only" bit on the executable
+           files (i.e. GAME.EXE,GAME.OVR,GAMEEGA.EXE,GAMEEGA.OVR).
+
+           You can do this by typing the following: "ATTRIB +R GAME.EXE".
+
+
+Common Problems (Locked Bauds, High Speed modems, Music, etc)
+-------------------------------------------------------------
+  NOTE: If you are having a communications-related problem, and you are
+        not using a fossil driver, then I suggest you try using a fossil
+        if it is possible.
+
+     If you are running a high speed modem (9600 baud or above), then I
+  suggest you run your bbs/mailer/doors at a locked baud rate. On high
+  speed error correcting modems, locking the baud rate will have a noticeable
+  increase on the speed of text that is sent. It's beyond the scope of
+  these docs to discuss configuring your bbs and mailer for a locked baud
+  rate; you may wish consult those docs for information on that. Here
+  are a few things to keep in mind when setting up LOD with a locked
+  baud rate:
+
+     #1: You may need to use the /B switch on the LOD command line to specify
+         the locked baud. For 19,200 this would be "/B19200" and for 38,400
+         this would be "/B38400". Please note there is no space between the
+         /B and the baud rate. This is only necessary in some instances. First
+         try LOD without the switch and then add the switch and see what
+         happens.
+
+     #2: When using a locked baud rate, I highly recommend using a FOSSIL
+         driver. In fact, I don't even know if LOD will work at high speeds
+         without one. BNU is a good fossil driver which can even be loaded
+         and unloaded before/after you run LOD.
+
+     #3: If you are using a fossil, then make sure to tell the fossil that
+         the port is locked. For BNU, to lock com1: at 38,400, you would
+         use something like "L0=38400" on BNU's command line.
+
+     #4: Please note: If you lock the baud for one program, it must be locked
+         for everything. You can't lock the baud for just LOD, but not
+         your bbs/mailer.
+
+     If you are running at high speeds without locking the baud rate, then
+  LOD should function fine. Without a locked baud, there should be no need
+  for the use of the /Bxxxx switch.
+
+     What follows is some information on possible strange situations that
+  may occur:
+
+     #1: Low speed users can play LOD, but high speed users get garbage.
+
+             - If you are not using the DORINFOx.DEF or DOOR.SYS drop file
+               then you may wish to find a converter program to convert
+               whatever drop file your bbs produces to the DORINFOx.DEF
+               or DOOR.SYS format and tell LOD to use that.
+
+               Several converter programs are readily available on most
+               bbs systems. QKDoor is a good one if you can find it.
+
+             - If you are not using a fossil (i.e. you have LOD's "internal"
+               line un commented in GAME.CTL), then I suggest trying a fossil.
+
+     #2: High speed users can play LOD, but low speed users get garbage.
+
+             - You may be specifying the /Bxxxx parameter when you don't
+               need to. Only use /Bxxxx if you are using LOD with a locked
+               baud rate.
+
+     #3: Everyone gets garbage!
+
+             - You may be using the /Bxxxx parameter when it's not needed,
+               or you may have the the wrong baud rate specified in the
+               /Bxxxx parameter.
+
+             - Try switching to DORINFOx.DEF as described in #1 above.
+
+             - Try using a fossil (make sure the "INTERNAL" line in
+               GAME.CTL is commented out.
+
+     #4: LOD hangs up when a user enters the game.
+
+             - Sounds like LOD is getting the wrong baud rate somehow.
+               Try switching over to the DORINFOx.DEF drop file method
+               if possible.
+
+     #5: Text and screens are getting cut off.
+
+             - If you are running with a locked baud, then this could
+               be caused by some sort of FLOW CONTROL problem. Try using
+               a fossil if you aren't already.
+
+     General trouble shooting hints: The following may help you clear up
+  some of the problems outlined above:
+
+     #1: You can use the ALT-D command in the EGA (GAME /EGA) version
+         of LOD or the ALT-I command in the normal (GAME.EXE) version of
+         LOD to get a display of the current serial port setup.
+
+         If what is displayed differs greatly from what it should be,
+         then you've found your problem!
+
+     #2: If you're using something other than the DORINFOx.DEF drop file,
+         then I always suggest trying to use DORINFOx.DEF if possible. It is
+         the most reliable method and has had the most testing.
+
+     Problems related to the sound system:
+
+     #1: When remote users log on and the /FR option is enabled, the system
+         hangs.
+
+               a) Remove the /FR option (you probably don't want music
+                  playing while remote users are on anyway)
+
+     #2: Whenever I use sound (with /AUDIOSB, etc..) options, LOD locks
+         up in the game.
+
+               a) Try manually specifying irq/dma/baseio settings.
+
+               b) If sound keeps locking up your computer, then you may
+                  have to simply not use the sound capability. There are
+                  huge variations in computer hardware, sound cards in
+                  particular and LOD just isn't compatible with everything.
+
+
+Restarting the Game
+-------------------
+     To manually reset the game, you can use the supplied program RESET.EXE.
+ This will automatically delete all of the proper files. You should use this
+ method rather than deleting the *.DAT files yourself, since some files,
+ such as LODREG.DAT, should not be deleted.
+
+     There is a provision in the game for the users to reset the game
+ themselves when all of the puritron parts have been retrieved. But, if your
+ users do not reset the game themselves, then the above method will work.
+
+     If you want to configure with another Data Set, then see the section
+ on Data Sets below.
+
+
+Alternate Data Sets
+-------------------
+     With recent versions of LOD, I have put into effect the concept of data
+ sets. A Data Set includes it's own maps, monsters, NPCs, cities, and other
+ items. Most Data Sets are written by sysops who like to customize LOD.
+ Information on creating custom data sets is contained in LODxxxE.ZIP.
+
+     I have requested that game designers follow a standardized naming
+ convention for LOD data sets. The format is a four character name followed
+ by the version number of LOD that it was written for. For example,
+ FUTR361.ZIP would be for the "future" data set, compiled for LOD version
+ 3.61.
+
+     IMPORTANT! When switching to a new data set, you will probably need
+ to re-start the LOD game (by running RESET.EXE). Most new data sets include
+ an entirely new map and possibly new inventory items. Just dropping
+ a new data set into an existing game could really screw things up.
+
+     To install an alternate data set, just unzip the file into your LOD
+ directory and over-write and existing files. Most likely you'll see a
+ GAME.DEF be unzipped and possibly a ANSI.DEF or a GTSTRS.DEF. Remember,
+ you'll probably need to restart the game by running RESET.EXE.
+
+     A few important notes about Data Sets:
+
+     1) Installing a data set for an old version of LOD into a new version
+        may not work. For example, installing FUTR361a.ZIP into LOD version
+        4.00 could cause some strange problems. When you upgrade your
+        version of LOD, you may wish to contact the author of the Data
+        Set and request a newer copy.
+
+     2) Installing a new data set into an old version of LOD may also
+        cause trouble.
+
+
+     3) You will probably need to restart (RESET.EXE) when switching
+        to a new data set.
+
+
+Unfinished Things
+-----------------
+     There are a lot of things that I really wanted to get done for this
+version, but I just didn't get time. College is really taking up a lot of
+time this semester and it's been hard to get time to work on LOD.
+     Anyways, here is what isn't done:
+
+     - Multiple grenade packs.
+
+     - Several more special quests.
+
+     - I wanted to add some more time limit stuff - 2-minute log off warnings,
+       daily time limit features, etc, but I just didn't get the chance
+       to finish them up for this version.
+
+     - Multiple level maps - you walk into the nuclear missile base and
+       there is a whole map to it, not just a menu.
+
+     These are not things that are DISABLED, but rather are things which just
+aren't completed. Most of them are at least partly enabled, but not fully
+yet.
+     I plan to work on these pretty soon - probably either version 4.20 or
+5.00 depending on how many more enhancements I am able to complete.
+     Also, remember, the more donations, the more incentive for me to get
+this game finished! (grin)
+
+
+Error Codes
+-----------
+       4    -  Too many open files (try adjusting the FILES= line in your
+               config.sys file)
+
+     100    -  Read past end of file. Something has gone wrong in one of
+               the LOD data files. Please see "corrupted data files"
+               below.
+
+     200    -  Division by zero.
+
+     203    -  Insufficient memory.
+
+     205    -  Floating point overflow. Something has gone wrong in one
+               of LOD's variables. You may need to reset the game, or
+               possibly you could find the error with GAMEEDIT.EXE and
+               correct it.
+
+     252    -  Error while accessing EMS driver.
+
+     253    -  Insufficient memory.
+
+     254    -  Programming error [EAalloc block request > 16k]. This
+               shouldn't happen!
+
+"Corrupted" data files
+----------------------
+     It is possible that something could happen to your LOD data files. A
+power outage, LOD crash, or other event could damage one of the data
+files. For most of the files, LOD will display a "Data file is corrupted"
+and the name of the file.
+     If you get one of these messages, then the best thing to do is start
+the game over with a clean copy of LOD.
+     There are a few files which LOD can re-generate itself. CASSTATS.DAT
+and DAYSTATS.DAT. If one of these is corrupted, then you can simply delete
+the file and LOD will re-create it for you.
+
+
+Revision History
+----------------
+    Version 3.80   - Fixed a problem with the miniraft no longer
+                     working after CUSTOM.EXE was run.
+
+                   - Fixed a bug with the base teleporter price.
+
+                   - Fixed a problem with finding the overlay
+                     file on systems where the path had a "."
+                     in it.
+
+                   - Renamed the MAXTIME parameter to MAXLODTIME
+                     in game.ctl. Problem should be fixed.
+
+                   - Fixed problem with CUSTOM.EXE not allowing
+                     terrain entries above 30 to be saved.
+
+                   - Major alterations to the way resource.002
+                     works.
+
+                   - Added an option under the advancement menu
+                     in CUSTOM.EXE to set the maximum number of
+                     deaths per day. Defaults to 3.
+
+                   - NOSELL and NOSURR options added to monster
+                     file.
+
+                   - LANDWATER and WATERONLY options added to
+                     monster file.
+
+                   - Added lava rivers and the Cryo-Unit.
+
+                   - Did some work on GMAPEDIT - should work better
+                     now.
+
+                   - MAJOR changed to VAR1 parameter for weapons,
+                     mines, grenades, base weapons, and base moats.
+                     Now support up to 999 hp of damage. See
+                     CUSTOM.DOC for more info.
+
+                   - Added robomines! Now located at Kill, Inc, these
+                     are much meaner mines than before.
+
+                   - A few more special quests. (Added a SpWeap ROM)
+
+                   - Two more puritron parts.
+
+                   - Fixed message system; should no longer be
+                     double spaced.
+
+                   - I raised the default price of the "Trasporter"
+                     from 1,000,000 to 20,000,000 because I felt it
+                     was too easy for players to buy them.
+
+                   - EMWarpMine option added to dataset.txt - control
+                     the probability that the EMWarp device will work
+                     when player steps on mine.
+
+                   - Players can no longer log on under duplicate
+                     names of other players.
+
+                   - When a player chooses the "Create Character"
+                     option after dieing, any saved clone will be
+                     lost.
+
+                   - When uses the exc. teleporter to fight xeboc
+                     and dies, he will now die properly.
+
+                   - Loans are now properly subtracted from the
+                     players worth in the rankings and financial
+                     statement sections.
+
+
+ Version 4.00
+
+     - Completely revamped fortress devices. Forts now
+       have eight "specialty" device slots which can
+       hold a multitude of fortress devices.
+
+     - Increased fort for sale slots from 5 to 8.
+
+     - Added Wanderer device to forts.
+
+     - Added Toll Station devices to forts.
+
+     - Added Proximity devices to forts.
+
+     - Added Cloaking (SFG) device to forts.
+
+     - Added Factories to forts.
+
+     - Added Mine Spreaders to forts.
+
+     - Raised default experience levels.
+
+     - Lowered default monster exp points for some
+       zone 3+ monsters.
+
+     - May have fixed a bug that had to do with
+       removing the starting player inventory items
+       and having players end up with "UNKNOWN"
+       items.
+
+     - Fixed a bug that had to do with isreal monsters
+       not working.
+
+     - GAMEEGA.EXE and GAME.EXE combined into one
+       executable. Use "GAME /EGA" to load in EGA
+       mode.
+
+     - Redid the Sacre Base corner of the map a little
+       bit to make things a bit more interesting.
+
+     - Pylon key removed from Sacre Base supply
+       station. Now only available at Freedom City
+       and on a few monsters.
+
+     - Added device lock device to forts.
+
+     - Added anti-self-destruct device to forts.
+
+     - Added autoseller device to forts. (see Terra
+       Labs)
+
+     - Improved waitkeys in fortress storage room.
+
+     - Default standard account interest reduced to
+       7%.
+
+     - Default game account interest reduced to
+       14%.
+
+     - Default bank loan interest reduced to 20%.
+
+     - Rewrite of EGA scrolling routines; Background
+       colors now mostly supported in the EGA version
+       and GTERM.
+
+     - Expanded max # of device definitions to 350.
+
+     - Improved waitkeys in fortress.
+
+     - Major rewriting to the Fortress "Energy Forsale" and
+       "Medical Forsale" sections. Now, instead of only being
+       able to sell the first Power Pack / Medkit, forts can
+       sell any power pack or medkit belonging to the
+       BaseEne or BaseMed stores respectively.
+
+     - ACME weapons added (registered sysops only). Sells
+       advanced weapons, and has a gunsmith on hand.
+
+     - 3 round burst weapons added.
+
+     - "UZI 9mm" changed to "UZI SMG" and made into a 3-round
+       burst weapon.
+
+     - Base teleporters updated to use Chris Darque's new
+       teleporter pictures.
+
+     - Major work done to CSTATS ROM. More information about
+       weapons plus some command line parameters (see laptop
+       help)
+
+     - Command line parameters added for COPY. (see laptop
+       help)
+
+     - Two more inventory slots added to players. (total=18)
+
+     - Inventory display reworked a little bit. Now displays
+       in columns instead of rows (can be toggled in ANSI
+       options in troop quarters)
+
+     - "Crsbw blts" renamed to "Crossbow bolts"
+
+     - WEAPSMTH ROM added to ACME weapons. (registered only)
+
+     - Major updates to gameedit. User Editor modernized,
+       base, puritron, and clone editors added. DumpDev and
+       Advancement options modernized.
+
+     - BAD slot removed and replaced with laptop slot.
+
+     - Major work done on scanner device. Now reports many
+       more terrain types as well as forts and such.
+
+     - Scanner can be adapted with "decloaking upgrade",
+       available at ACME Weapons.
+
+     - Team discount of 5% given to new teams.
+
+     - Additional tax level added (25% to level 20+ players)
+
+     - Puritron part experience levels dropped slightly. Done
+       to prevent top player from ascending too rapidly.
+
+     - Fixed bug with log file not being closed when log is
+       viewed.
+
+
+ Version 4.01
+
+     - Fixed MAXUSE bug in custom.exe once and for all!
+
+     - Fixed problems with Loki/Serpine cities not resetting
+       when game was reset. (MDATA.DAT needs to be deleted!)
+
+
+ Version 4.10
+
+     - Added NOSELL keyword to Earth Elemental
+
+     - Fixed problem with weapons that do over 250 damage.
+
+     - New experience rules for player-vs-player combat.
+
+     - LGPL compiler (see LGPL.DOC)
+
+     - OS/2, DPMI, and Windows versions available.
+
+     - COMPILE.EXE modified to support EMS memory. However,
+       it is SSSSLLLLOOOOWWWW. I suggest using the DPMI
+       version of COMPILE.EXE if possible.
+
+     - Added some code to catch radically out of bounds
+       experience levels.
+
+     - ANSILIB unit revised for more efficiency and less
+       memory waste.
+
+     - Fixed bug in the object-removal section of the
+       nightly maintenance. Possible out of bounds problem
+       was discovered, plus mines would be erroniously
+       removed.
+
+     - Random NPCFORT passwords are now a 8-digit hex
+       number rather than a 5-digit decimal number.
+
+     - New MOD player routines, supporting 16-bit sound
+       and stereo cards.
+
+     - New parameter added to GAME.CTL: "TIMESLICE". If
+       specified, then LOD _should_ release timeslices to
+       DV while LOD is waiting.
+
+     - Snazzed up the command line help screen and added
+       information on LOD-specific options.
+
+     - New registration form.
+
+     - Fixed a few visual quirks.
+
+     - New newplayer login section. Players may now choose
+       their sex.
+
+     - When attacking a female in Player-vs-Player combat,
+       the correct pic is now displayed.
+
+ Version 4.20
+
+     - Hopefully fixed problem with DV timeslicing
+
+     - LOD upgraded to 800x600x256 VGA. You will need a
+       video adapater with at least 512k of memory.
+
+     - Added new 5x5 ANSI wastelands display. 5x5 is now
+       the default; users can switch back to 3x3 using the
+       ANSI Options command in the troop quarters menu.
+
+     - Fixed bug with ultrascan being displayed every time
+       a user uses any BGEN device in fortress.
+
+     - The user can now U)se the fortress communicator.
+
+     - Fixed problem with Fortslayer deluxe not requiring
+       ammunition
+
+     - Fixed a serious problem with GENOBJ's not working
+       properly, in particular the Technical tools.
+
+     - Fixed bug with base store room crashing the DPMI
+       version of LOD.
+
+     - Added mapper support for ANSI users
+
+     - Fixed a problem with LCDOS crashing when high ascii
+       characters where in the input file.
+
+     - Gameega.exe removed from package.
+
+     - Maximum number of devices increased to 500. DEVICES.BIN
+       now only includes the devices that have actually been
+       created - nil records are not saved to the file.
+
+     - Spellchecked the string base, sysop & user docs, and
+       various text files.
+
+     - Major improvements to GMAPEDIT.
+
+     - LGPL code is now demand paged into the system, reducing
+       memory requirements by about 8k. The LGPL interpreter
+       is overlaid, reducing memory requirements by about 10k.
+
+     - Modifications to Message System to reduce memory
+       requirements.
+
+     - Modifications to EMS disk blockread routine to reduce
+       memory requirements.
+
+     - [OS2] Fixed problem with REG_OS2.EXE not working
+       properly.
+
+     - [OS2] Raised stack size from 8192 to 16384. Seemed like
+       a good idea.
+
+     - [OS2PM] Fixed bitmap putimages that were chopping off
+       left and top borders.
+
+     - [OS2PM] Added "Resize Bigpics" pulldown option to
+       enable bigpics to be risized to full height.
+
+     - [OS2PM] Added last LR scan recall option
+
+     - [OS2PM] Added automap
+
+ Version 4.21
+
+     - Modified notes sort command to use less memory and to
+       include some additional error checking
+
+     - Added 8x12 and 8x14 font support. Use the /LARGEFONT
+       and /HUGEFONT commands respectively.
+
+     - S3 Coprocessor support added. Use /NOACCEL to disable.
+
+     - Added support for OAK SVGA chipset
+
+     - Fixed SVGA support on adapters which use 1024 bytes/line
+       in 800x600 mode (Diamond Stealth ISA)
+
+     - Fixed up VESA int flipper and added a dual-window vesa
+       flipper.
+
+     - Added /FORCEINT and /FORCEDUAL to force the appropriate
+       VESA flipper.
+
+     - LODVGA.PAL is now properly loaded. It wasn't before and
+       svga colors greater than 15 may have been erronious.
+
+     - Error checking on missing palette file (LODVGA.PAL) and
+       fonts (font8x8.fnt,font8x12.fnt,font8x14.fnt)
+
+     - Rankings routine modified to use approx 5k less memory.
+
+     - MAJOR BUG: The LGPL code was losing 4k of memory each
+       time it was activated. This manifested itself mainly
+       when players U)sed objects. Memory would run out,
+       U)se object commands would do nothing, and rankings
+       would refuse to display.
+
+     - Added rankings profile to GT display
+
+     - Added rankings listing to GT display
+
+     - Added drop file to GT display (LOD only)
+
+     - Added last lr scan to GT display
+
+     - Added graphics fallback to 640x480 if 800x600 is not
+       available. Fallback to 640x480 may be forced by using
+       the /640 switch.
+
+     - Fixed problem with async I/O being de-initialized when
+       then help (/? or /h) command line option was used.
+
+     - Minor changes to doordriver code.
+
+     - Additional error checking added to LGPL interpreter
+       code.
+
+     - RESET.EXE added to manually reset the game rather than
+       using the somewhat unsafe "DEL *.DAT"
+
+     - If ansi files cannot be found in ANSI.DEF, then the
+       current directory will be searched for the ansi file.
+
+     - Generic ATTACK pictured is now displayed during
+       combat if no specific picture is specified in
+       MONSTER.TXT.
+
+     - Fixed experience graph when player is level 1
+
+     - Fixed a small problem with the fortress owner name
+
+     - Lowered the maximum number of DESC/KILLHIM/FLEE/FLEERAN
+       strings per monster to 25 (was 50).
+
+     - Added error checking to the routine which loads combat
+       strings.
+
+     - Removed LASTGAMEDATA and LASTMISCDATA from GT code.
+       Replaced them with a CRC check & variable which consumes
+       a bit less memory.
+
+     - Minor change to overlay init routine. If the filename
+       cannot be determined from paramstr(0), then "GAME.OVR"
+       will be tried. If that fails, then LOD will abort.
+
+     - Added a pause after the "you have used up all your
+       deaths today" message during logon.
+
+     - Added LITE executables. Sound & graphics is hardcoded
+       out for minimal memory usage.
+
+     - Fixed a memory leak in the ANSI routines that was
+       double-allocating ansi buffers.
+
+     - Recoded "getmap" routine into assembly language for
+       optimal speed.
+
+     - [OS2] Added support for passing a serial port handle
+       on the command line via "/SERHAND".
+
+     - [OS2PM] Fixed incompatibility with CHRON. Possibly may
+       have corrected compatibility problems with other programs
+       as well.
+
+ Version 5.00
+
+     - Multiple map system. Up to 16 maps can be present in the game. Each
+       map may be up to 125x125 in size. Transitions between maps may be
+       implemented via the new pylon system, LGPL code, or various other
+       "tricks".
+
+     - Major overhaul of pylon system. Multiple pylon groups now supported.
+       Configurable keys, colors, and text for each pylon group.
+
+     - Major overhaul of terrain system. Up to 255 possible terrain types.
+       Configurable "enter" parameter for each terrain type - for example
+       stores, taverns, etc. Configurable "passibility" type for terrain
+       entries.
+
+     - LGPL callbacks provided for ENTER and MOVEOK routines. LGPL programmers
+       may now implement custom places to enter and create special
+       requirements for players to fulfill before they can enter a particular
+       terrain location (i.e. like the MiniRaft/Cryounit/etc)
+
+     - [DEFAULT DATASET] A special city map is now used for Sacre Base, rather
+       than the somewhat dull menu system.
+
+     - [DEFAULT DATASET] Added "hell" level, an intermediate level required to
+       get to BloodLust city.
+
+     - Players may no longer "log off" at a city menu. They must now C)amp in
+       a city, on the city's map. Thus, they are visible to other players.
+
+     - Modification to devicetype/devdeftype: Var3 variable
+       added, to be used as a capabilities variable. Var3
+       represents an array of 64 boolean flags.
+
+     - Fortress BGEN devices modified to use VAR3 instead of
+       VAR1.
+
+     - Laptop & ROM's used modified to use VAR3.
+
+     - Weapon modifications (Intensify,Accurize,etc) modified
+       to use VAR3 flags.
+
+     - ACME Weapon modifications SHOCK and LAUNCHER added.
+
+     - ACME Weapon modification ARMOR BURNER added.
+
+     - ACME Weapon modification DEATHPULSE added.
+
+     - Added new combat options: Heal, Opponent-Cstats, Flashbomb. Heal and
+       Warp are now implemented via LGPL callbacks.
+
+     - Fortress toll booth now requires user to press "Y" or
+       "N". It won't default if enter is pressed.
+
+     - Added pauses to messages in fortress finance menu.
+
+     - Moved mine flags into VAR3 variable.
+
+     - Fixed problem with mine spreaders not setting proper
+       owner on smart mines.
+
+     - Added another monster file: FORTROBO.TXT.
+
+     - Added fortress robo defenders.
+
+     - Beefed up fortress combat system a bit. Added a lot of
+       playernews messages so that players know what happens
+       when their forts are attacked.
+
+     - Fixed BMP loader to use less memory.
+
+     - [LGPL] Modified LGPL compiler to use stringdef system
+       for storing strings greater than 8 bytes.
+
+     - [LGPL] Added extra status information to LGPL compiler.
+
+     - [LGPL] Added compiler revision field to LGPL compiler.
+
+     - [DEFAULT DATASET] Raised fortress scavenger droid sale percent from
+       20% to 35%.
+
+     - Smart scavengers now only abort the current square rather than all
+       squares when a hostile mine is detected.
+
+     - Fixed quickheal on medkits over 1,000.
+
+     - Monster definitions are now compiled by COMPILE.EXE into a binary
+       format rather than a quasi-text format.
+
+     - TALK definitions are now compiled into a binary format.
+
+     - TAVERN.TXT has been removed. Tavern definitions are now specified in
+       the "#" field of the TALK.TXT file. For example: "#TAV1 Defs Sacre".
+
+     - Combat string table now stored in binary format in game.def rather
+       than in text format.
+
+     - [LGPL] Added data registry for user LGPL additions. The data registry
+       allows dataset designers to "save" data to disk in LGPL code.
+
+     - Added sample LGPL device: Warper Waypoint Bank. The waypoint bank
+       allows the player to store several Warper Anchor Points and switch
+       between them. Implemented in LGPL as an example/tutorial of the new
+       registry functions.
+
+     - Added sample LGPL device: HyperVault. The hypervault allows users to
+       move items to/from a special hyperspace storage location. Implemented in
+       LGPL as an example/tutorial of the new registry functions.
+
+     - Added LGPL device: Tricorder.
+
+     - Added LGPL devices: Chemicals & Chem Labeller.
+
+     - [LGPL] Fixed bug with return parameters not working correctly. For
+       example "if ~checkyesno(...) then ..." was not working right.
+
+     - Added NUKEITEM parameter to monster definitions.
+
+     - [LGPL] String concatenation will automatically be performed if two
+       strings are added with the "+" operator.
+
+     - [LGPL] Added support for LVARARGS procedures (needed to implement new
+       registry functions)
+
+     - [LGPL] Cleanup and optimization of LGPL runtime interpreter
+
+     - Major revisions to player doccumentation
+
+     - LR-Scan and Scanner now report location of camped players.
+
+     - Addition of shields. If configured in the "aux weapon" slot, then a
+       shield will act as an additional piece of armor. Having a shield
+       equipped also makes the P)arry command possible.
+
+     - Removed HH, HS, HM, and HA codes from combat text. If a player has no
+       weapon selected, then the WH/WS/WM/WA codes will be used and the
+       weaponname supplied by %3/%4 will be set to the FISTNAME (defined in
+       monster.txt) of the monster.
+
+     - CSTATS combat ratings now take armor into account, as well ammo
+       availability and weapon accurization.
+
+     - The Sacre Base guards will now inform new players to do certain
+       things, such as equipping weapons, when they exit to the wastelands.
+
+     - Each map may have 3 different rent levels associated with it.
+
+     - The Hotels-R-Us rep will inform players of rent charges when they
+       A)-camp on a map that charges rent.
+
+     - Added the SSSS (Sam's Super Surplus Store). The primary purpose of the
+       SSSS is to buy used items without the player having to run through the
+       tedious process of navigating the cities :). The SSSS also has a daily
+       special which is selected randomly during maintenance each night.
+
+     - Friendly monsters. Specify "friendly xx" in monster.txt, where xx is
+       the % chance of friendly status being set. Also use "friendtxt" lines
+       to set friendly depart text.
+
+     - Added W)arp, F)-depart as friends, Q)-equip, and M)-inv.maint options
+       to LR combat menu.
+
+     - Fixed problem with "BMPPUT slideshow" locking up sometimes.
+
+     - Configurable menu system - see menu.txt. Most (if not all) game menus
+       now operate via this system, so now you can move options around as
+       you please.
+
+     - Fixed bug with team discounts. Team discounts now require a team to
+       have at least two players on it.
+
+     - Raised length of terrain tile names from 12 characters to 16. Re-did
+       the terrain name portions of the ANSI and EGA displays.
+
+     - Added keyring device. It'll store anything of type "pylonkey".
+
+     - Raised number of devicedef entries to 1024.
+
+     - Fixed a bug in the RLE compress routine which was adding useless
+       bytes.
+
+     - Added PING and ANTIPING roms. Documented their existance at Tavern
+       in freedom city (whiz).
+
+     - Added subdirectory support for laptop (placed all "basic" functions
+       in the DOS subdir).
+
+     - Added SLOTHACK rom (to hack slot machines).
+
+     - Added SAMLIST rom to list Sam's Surplus (SSSS) locations, buy %, and
+       specials.
+
+     - Added DEL command to subdirectory (after all, how long do you need to
+       keep TETRIS and WINDOWS eating up space!!!)
+
+     - Added FORTSPY rom to report on the contents of fortresses.
+
+     - Added MINESCAN rom.
+
+     - MASSIVE speedup of LCDOS.EXE. Compiling LGPL.IN went from 30 seconds
+       to 5 seconds on my machine.
+
+     - Fixed needless updating of three inventory pics in GAME/VGA that
+       occurred every time the player moved.
+
+     - Reduced memory size per bitmap in GAME/VGA by ~768 bytes.
+
+     - Added several fountains to Sacre Base, DWHQ, and Widow base.
+
+     - Added Fountain Doors and Fountain Key to Sacre Base.
+
+     - New LR Weapon: Stun Gun placed on valley girl.
+
+     - Changed Thick Weeds to an unusable armor type.
+
+     - Updated Custom's MAPEDIT to support additional terrain numbers and
+       multiple map levels.
+
+     - Added INSERT, DELETE, and FIND options to Custom's device editor.
+
+     - Added diagnostics mode (see CUSTOM.DOC).
+
+     - Devices given to monsters in MONSTER.TXT can now have a few modifiers.
+       For example, "WEAPON1 (BURST) Gravblast" would give the monster a
+       gravblast with burst mode enabled.
+
+     - Added Shrine of Hercules (on underground map). Has a nice fountain,
+       but lots of stone golems.
+
+     - Major rewrite of the dupe-checker in COMPILE.EXE. Memory usage has been
+       drastically reduced, and the DOS version of COMPILE.EXE should no
+       longer require EMS memory.
+
+     - REGISTER.EXE rewritten to be more user-friendly.
+
+     - New utility included: RESCOMP.EXE. Allows end-users to compress and/or
+       decompress the graphics resources.
+
+     - Boat Plans / Sticks / Hide. Using these items together allows the
+       user to make a home-made boat.
+
+     - Beefed up the Boss monsters a bit. Boosted their weapons slightly.
+       Xeboc's TerrorBlast now has grenade launching capability.
+
+     - Added "ALL" keyword to vortex battery add command. This will add
+       all usable ammunition in the player's inventory.
+
+     - ANSI.DEF maximum number of ansi files increased to 1024.
+
+     - ANSI.DEF index table is stored in sorted form, and 0th node contains
+       count of actual pictures.
+
+     - [OS/2 PM] Fixed several bugs in GAME_PM.EXE that were causing
+       problems.
+
+     - Added Russian Roulette game to the casino.
+
+     - Added casino storage room. 10% of casino winnings will be deposited
+       into storage room nightly. Any items dropped by players who die in
+       russian roulette will be sent to Casino Storage room.
+
+     - Added DELAPPCODE(...) routine to LGPL. It will delete all entries with
+       a given appcode. Primarilly used in makenew() to erase the registry
+       data for the new player.
+
+     - SamSurp will buy chests/money bags at full price since they contain
+       actual cash.
+
+     - If players have any $$ when they die, then a money bag will be created
+       and dropped with their normal inventory.
+
+     - When taking out a loan, the bank will grant you more credit if you are
+       on a team with other powerful players.
+
+     - New format for rankings display.
+
+     - Added several new monster modifiers to monster definition: THIEF,
+       SCAVENGER, BRIEFLOG, NOSELLWEAP, RESURRECT, REGENINV.
+
+     - (Default Dataset) Added Deputy Fife and Freedom Cops to freedom
+       city.
+
+     - Added Fortress Computers: Targetting (DEX), Shield (AGL), and
+       Mutliplex (DEX/AGL)
+
+     - Reworked recharger and ultracharger devices.
+
+     - Moved fortress USE command to LGPL (baseuse.inc)
+
+     - Added Vortex Link fortress device. [Fort Misc Store]
+
+     - Added Armor Burner devices for fortresses. [Fort Misc Store]
+
+     - Added Corbomite Device for fortresses. [Fort Misc Store]
+
+     - Added two additional fortress device slots.
+
+     - New mail now has a prompt to read during logon.
+
+     - Sorted device list for more convenient access.
+
+     - We are now using the registed version of BWSB 1.21 to play mods in the
+       music versions of LOD.
+
+     - MSE mod players modified to use the pascal memory allocater. Should
+       work better.
+
+     - No longer need "SET RTM = REALLEAVE ..." line to operate music with
+       dpmi version.
+
+     - Ported "raise level" routine to LGPL so dataset designers may modify
+       it.
+
+     - Made raise level routine not display the menu all the time (should
+       increase speed over the modem)
+
+     - Removed redundant blank lines when being shot while running and
+       when receiving bonus points after combat.
+
+     - Moved prox/toll attack and random monster attack routines so they
+       are executed BEFORE the map screen is drawn.
+
+ Version 5.01
+
+     - Added numeric code to mod failure report routine if no text message
+       is available.
+
+     - Fixed massive bug with ACME weapons modifications being sometimes
+       counted at incorrect values.
+
+     - Fixed bug in GAMEEDIT with the fortress editor setting holostore
+       registration to false whenever a base was edited.
+
+ Version 5.11
+
+     - Updated GTERM's ansilib routines to latest version.
+
+     - Made GTERM so it supports 115,200 baud (hopefully!)
+
+     - DPMI executable for gterm is now included in gterm archive.
+
+     - Added check to enable ANSI color when user is logging on if ANSI
+       is reported as OFF by the bbs.
+
+     - Fixed up color change and map format change options in the troop
+       quarters.
+
+     - Added LGPL procedures to determine version number of LOD that a
+       dataset is running under.
+
+     - Fixed bug with message system adding spurious blank lines to
+       messages.
+
+     - Added Video Poker game to the casino.
+
+     - Added Double-Up game to the casino.
+
+     - Replaced "use fortress communicator" item on fort misc menu with
+       "use fortress device" option.
+
+     - Fixed prox/toll fort devices so they won't work when too close to
+       Sacre Base.
+
+     - Intro screens updated with new phone number, etc. (D. Rosson)
+
+     - Robomine monsters given new descriptions (D. Rosson)
+
+     - Fixed BMPPUT/RESCOMP to handle up to 1,024 images.
+
+     - Added Dave Rosson's new mountain tile set.
+
+     - BIGPIC libraries removed from GTERM archive. GTERM users should now
+       download LODxxxD1.ZIP, LODxxxD2.ZIP, etc.
+
+     - Added LGPL functions:
+
+           doplayercombat(un: word): boolean; intiates pvp combat
+           dobasecombat(bn: word): boolean; low-level fort combat driver
+           basecombat(bn: word): boolean; high-level fort combat driver
+
+     - Added LGPL "querylodint" codes:
+
+           querylod_gmenuplayernum: user rec num of player in pvp encounter
+                                    menu.
+
+     - LR Weapons and SR Weapons store now display the ammunition names from
+       the general struct, rather than finding the lowest valued item in
+       the devicedef.
+
+     - Since I can't get LCDOS to work under win95, I have included
+       LCWIN, a native windows compiler as well.
+
+     - Added SFG master toggle switch.
+
+     - Stealing has been added. (D. Rosson)
+
+     - Fixed LRScan so it doesn't display junk when near the edge of a map.
+
+     - Fixed wall tiles so pillars work properly.
+
+     - Changed mountains in city pics to empty space.
+
+     - Added some additional floor tile textures.
+
+     - GMAPEDIT and BMPPUT added the following switches:
+          /640 - operate in 640x480
+          /1024 - operate in 800x600
+          /NOACCEL - disable s3 support
+          /NOVESA - disable vesa support
+
+     - [OS/2] May have fixed problem with objects not being removed from
+       the wastelands when exiting the game.
+
+Credits
+-------
+   ANDY WEBER           EGA/SVGA Pictures
+
+   CHRIS AZURE          Composer of most of our MOD music.
+
+   CHRISTOPHER DARQUE   EGA/SVGA Pictures
+
+   DAVE ROSSON          EGA/SVGA Pictures
+
+   DOUG MERHA           EGA/SVGA Pictures
+
+   TRISTAN WALLING      EGA/SVGA Pictures
+
+   RICK ARMSTRONG       EGA/SVGA Pictures
+
+   SHANE CHAMBERS       EGA/SVGA Pictures
+
+   RAY BACON            Got the LAND echo on the fidonet backbone!
+
+   MARK COX             Author of MOD-OBJ, used up until LOD vers 4.00
+
+   Edward Schlunder     Author of BWSB, used for MOD music in LOD vers 4.10
+
+   [A listing of the pictures drawn by the above EGA artists is available in
+   the file PICTURES.IDX]
+
+
+Where to reach me
+-----------------
+     I can usually be reached at my bbs system, which should be listed in the
+ section entitled "registration" near the end of this document.
+
+     Note: Since I am in college and do not have much time to hang around the
+ house during the day, I prefer to answer all questions/comments via the
+ bbs rather than my voice line.
+
+     We also have a national land of devastation echomail area with the area
+ tag "LAND". It is presently on the fidonet backbone.
+
+
+Registration
+------------
+     If you or your users enjoy this game, then please send me in a
+ registration/donation. I am currently a college student and programming
+ my income is pretty scarce. To justify the time I spend programming
+ and maintaining LOD, I really do need some compensation for my
+ efforts. Donations of any amount are greatly welcome, but donations of
+ $20 or more will be considered a registration.
+
+     Due to my busy schedule (I am a full time student, plus I'm trying to
+ handle a full time job), I don't have the time necessary to do all of the
+ disk copying, addressing, mailing, etc required to send out updated
+ copies of LOD to every registered user. In the past, I tried to send out the
+ disks, but I always got behind, which meant the registered users got their
+ packages late, and it lead to a real mess. Therefore, I have come up
+ with what I believe to be a fair and efficient system.
+
+     Here is what you do to register:
+
+     #1: Send me $20 (or more!) in the mail. (Smaller donations are always
+         appreciated, but I usually don't issue reg codes)
+
+     #2: Call up my bbs about a week later and use the "Reg look" command to
+         look up your registration code online. You don't need to be
+         "validated" or "verified" or anything - you can get your code on
+         your first logon.
+
+     #3: Run the program REGISTER.EXE which will prompt you for the
+         information and create lodreg.dat itself.
+
+     When you have entered your registration code, the following will happen
+ automatically:
+
+     #1: Instead of saying "unregistered", the game will now say "Registered
+         to <your name>".
+
+     #2: The seven second delay and other registration nags will go away.
+
+     #3: ACME Weapons will become functional.
+
+     Included in the LOD distribution archives is a file called
+ "REGISTER.FRM". This file contains a registration form which may be
+ printed out and mailed to me with your donation. Filling out this form
+ is optional, but it does provide me with some useful information
+ about you and your system.
+
+     Please note, under this policy I will not be mailing you a package in
+ the mail. Please make your check payable to "Scott Baker" and send it to
+ the address below.
+
+     Please send registrations to the following address:
+
+     Scott Baker
+     2241 W Labriego
+     Tucson, Az 85741
+
+     You may call the following to use Reg look to look up your reg code about
+ a week after you have mailed the donation:
+
+     The Not-Yet-Named bbs (USA)
+     (520) 544-4655  (USR Dual - 14.4kbaud max)            Fidonet 1:300/9
+     (520) 797-8573  (USR Sportster v.34 - 28.8kbaud max)  Fidonet 1:300/29
+
+     You can also try connecting with my homepage on the web at the url:
+ "http://www.primenet.com/~smbaker". I have provided an online method to
+ lookup regcodes there.
+
+     Reminder: You WILL NOT be mailed a letter with your registration code.
+ Just allow an appropriate amount of time (a week or so) after dropping your
+ check in the mail for it to arrive to me and then give my bbs a call as
+ outlined above. The process to get your Reg Code is really very simple and
+ takes no time at all.
+

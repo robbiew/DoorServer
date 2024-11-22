@@ -1,0 +1,481 @@
+@<<TITLE: The Haunted Ship by Ken Albert, Level 5+, 4 Days>>
+@<<DAY 1>>
+                                                             
+`bright blue`Your body is about to drop from all of the days excitement.  And
+`bright blue`the sun above shows no signs of giving in.  You are sure that
+`bright blue`this is the place, where some fortunate warrior will find your
+`bright blue`belongings...
+
+@<<PAUSE>>
+`bright red`And Rotting Corpse!!!
+
+@<<PAUSE>>
+`bright blue`You enter the thick brush marking the edge of the forest.
+`bright blue`When all of a sudden....they come from nowhere...
+
+@<<MONSTER: Brush Dweller,100,105,46,173,35,3>>
+
+`bright blue`Wow! You didn't know you had it in you.
+
+@<<PAUSE>>
+`bright blue`With your last burst of energy, you break through the dense
+`bright blue`thicket brush, to one of the most beautiful and inviting views
+`bright blue`you have ever seen.
+
+@<<PAUSE>>
+`bright blue`Before you is one of the most luscious lagoons of crystal clear
+`bright blue`blue water.
+
+`bright blue`Without even a thought, you sprint for the water and dive right
+`bright blue`into...
+
+@<<PAUSE>>
+`bright cyan`THE GHOST OF THOR!
+
+@<<PAUSE>>
+`bright yellow`"Halt <<NAME>>!", `bright blue`boomed the ghastly figure.
+`bright yellow`"Take not another step towards this cursed place."
+
+`bright blue`Your dry lips crack, as you weakly convey to him your need for
+`bright blue`water.
+
+@<<PAUSE>>
+`bright blue`His reply cuts you in two.  `bright yellow`"I am the protector
+`bright yellow`of this god forsaken oasis, and cannot allow you to pass by."
+
+@<<PAUSE>>
+`bright blue`Your blood pressure starts to rise.
+`bright blue`And from deep within you gain enough strength to lift your
+`bright blue`weapon.
+`bright magenta`"Then you will die!", `bright blue`you angrily hollar.
+
+`bright blue`He snickers a hellish grin and says, `bright yellow`"You fool,
+`bright yellow`I am already dead.  And I'll have no problem making you
+`bright yellow`likewise to protect you from the torment that this place will
+`bright yellow`wreak upon your mortal soul."
+
+`bright blue`He lunges at you fiercely.
+
+@<<PAUSE>>
+
+@<<MONSTER: Ghost of Thor,143,93,63,146,86,1>>
+
+`bright blue`But it doesn't end here...
+
+@<<PAUSE>>
+`bright blue`He disappears right in front of you...
+`bright blue`You spin around swiftly
+
+@<<PAUSE>>
+@<<MONSTER: Ghost of Thor,76,65,39,75,43,1>>
+
+@<<PAUSE>>
+`bright blue`As you pull your weapon out of his tattered rags, he pulls you
+`bright blue`close.
+
+`bright yellow`"Thank you for ending my eternal torment.  I have witnessed
+`bright yellow`the destruction of many trained warriors here.  Once again,
+`bright yellow`pay heed to my warning, and go no further.
+`bright yellow`But if you must, please take this...
+
+@<<PAUSE>>
+`bright blue`He gives you the Pitcher of Gideon.
+
+`bright blue`You shove it into your sack and plunge into the cool clear water.
+
+`bright blue`Once refreshed, you lie back on the shore and fall asleep to the
+`bright blue`sound of the water lapping against your tired and fatigued body.
+
+@<<DAY END>>
+
+@<<DAY 2>>
+
+`bright blue`You are awakened by the sweet singing of an Elven Crane.
+
+`bright blue`You are slow to your feet, and even more dazed as you turn to
+`bright blue`look at the spot where the Ghost of Thor lay.
+
+@<<PAUSE>>
+`bright white`HE IS GONE!
+
+`bright blue`You crumble to the ground wondering if it was just a dream.
+
+`bright blue`How could it be?  Your body still aches from the heated battle
+`bright blue`against him.  You lean over and lap up some more of the clear
+`bright blue`water to try and kill the nausea in your gut.
+
+`bright blue`As you are bent over, the sun suddenly disappears and your bones
+`bright blue`are chilled by a cold eerie breeze.
+
+@<<PAUSE>>
+`bright blue`Quickly, you jump up, hand on weapon, to see that you stand
+`bright blue`shadowed by the form of an Orcish ship.
+
+`bright blue`Was it always there, you wonder?  There is no way possible
+`bright blue`that it could have sailed in here.  The water is completely
+`bright blue`surrounded by land and rock.
+
+`bright blue`But how could you have missed something so big???
+
+@<<PAUSE>>
+`bright blue`You decide to heed the warning of the ghostly protector and
+`bright blue`leave this place.  You get the feeling that something is WRONG!
+                                                                          
+@<<PAUSE>>
+`bright blue`But as fate would have it, you don't even take one step when you
+`bright blue`hear it.
+
+@<<PAUSE>>
+`Bright green`A Voice!
+
+@<<PAUSE>>
+`bright green`Her Voice!
+
+@<<PAUSE>>
+`bright cyan`"<<NAME>>, I am Mariah, your faithful hand maiden from <<MANOR>>.
+`bright cyan`I am being held captive aboard this ship, and need your help.
+`bright cyan`Please don't go."
+
+`bright blue`You don't remember any such girl from your manor.
+`bright blue`BUT...
+`bright blue`imagine the hero you would be when you return her home safely.
+
+@<<PAUSE>>
+`bright blue`So, it's into the water again.
+
+@<<PAUSE>>
+@<<ANSI: Ths1.ans>>
+
+@<<PAUSE>>
+`bright blue`The boat doesn't seem any closer.
+
+@<<PAUSE>>
+`bright blue`You feel something brush your leg.
+
+@<<PAUSE>>
+@<<MONSTER: Rattlesnake,55,75,25,30,10,5>>
+
+@<<PAUSE>>
+`bright blue`How did these things learn to swim?
+
+@<<PAUSE>>
+@<<ANSI: ths1.ans>>
+
+@<<PAUSE>>
+`bright blue`The boat still seems no closer.
+
+@<<PAUSE>>
+@<<MONSTER: Rattlesnake,55,45,25,30,10,3>>
+@<<PAUSE>>
+
+`bright blue`You see something shimmering from under the water.
+`bright blue`You dive under and find a sword stuck in the mud.
+@<<ITEM: 11>>
+
+@<<PAUSE>>
+`bright blue`Something grabs you from behind and pulls you under the water.
+
+@<<PAUSE>>
+`bright blue`The last thing you remember is
+
+@<<PAUSE>>
+`red`BLACKNESS....
+
+@<<DAY END>>
+
+@<<DAY 3>>
+
+`bright yellow`"Get Up Slime!!!"
+
+`bright blue`It was not a nice sound to wake up to.  But, it didn't seem like
+`bright blue`you had much of a choice.
+
+`bright blue`It takes your eyes quite some time to open in the bright sun
+`bright blue`light.  And even more time to focus.  However, it doesn't take
+`bright blue`much time for you to wish they hadn't.
+
+`bright blue`For in front of you is standing one of the biggest and meanest
+`bright blue`looking Orcish creatures you have ever seen.
+
+@<<PAUSE>>
+`bright blue`He gives you another blunt kick to the side and pulls you to
+`bright blue`your feet.
+
+`bright yellow`"Get up I said!"
+`bright blue`He sets you to your wobbly feet.
+
+`bright blue`Struggling to stand, you ask, `bright magenta`"Where am I, and
+`bright magenta`how did I get here?"
+                                                  
+`bright yellow`"You, slug, are on my boat.  And as my prisoner, you will
+`bright yellow`serve me for eternity."
+
+`bright blue`You reach for your weapon and find it is missing.
+
+@<<PAUSE>>
+`bright yellow`"Ha Ha!  Are you looking for this?"
+`bright blue`He holds up your weapon in his boney claw.
+`bright yellow`"I took the liberty of freeing you of all your possesions when
+`bright yellow`I pulled you from the water."
+`bright blue`He grins a disheartening grin and steers you toward the back
+`bright blue`of the ship.
+
+@<<PAUSE>>
+`bright blue`You can't remember too much of anything.  But the pain in your
+`bright blue`side tells you that he was sure trying to wake you for sometime.
+
+`bright blue`Finally you get the nerve up to ask, `bright magenta`"Where
+`bright magenta`are we going?"
+
+`bright blue`Through his evil laughter he tells you that this ship never goes
+`bright blue`anywhere, yet it never stops.
+
+`bright yellow`"We are doomed!", `bright blue`he says.  `bright yellow`"None of us
+`bright yellow`can ever get off.  We are forced to spend eternity plundering
+`bright yellow`and being plundered.
+
+@<<PAUSE>>
+`bright yellow`"And now you are part of our ghostly crew.  Now get below!"
+
+`bright blue`You turn to look off the port and see that the boat is moving at
+`bright blue`a frightening speed.  There doesn't seem to be any land in sight,
+`bright blue`but this may be your only chance.
+
+@<<PAUSE>>
+`bright blue`You jump off the boat and into the...
+
+@<<PAUSE>>
+
+`bright red`BOAT?????
+
+`bright blue`How Could this be?, you wonder.
+`bright blue`Your enemy begins laughing out loud.
+`bright blue`You jump off again, only to fall right back into your same spot
+`bright blue`of the weather worn deck.
+
+`bright yellow`"Ha Ha", `bright blue`he laughs.  `bright yellow`"No one escapes
+`bright yellow`from the ship of sorrow.  Now get below and start rowing you
+`bright yellow`slime!"
+
+@<<PAUSE>>
+`bright blue`You quickly calculate the angles and numbers in your mind as he
+`bright blue`advances towards you with the shackles.
+`bright blue`With a last minute dash, you jump over the edge of the boat again
+`bright blue`hoping you figured everything out right.
+
+@<<PAUSE>>
+@<<ANSI: ths2.ans>>
+
+@<<PAUSE>>
+`bright blue`It worked
+`bright blue`The force of your body hitting his, knocks him off his feet just
+`bright blue`long enough for you to grab your weapon.
+
+@<<PAUSE>>
+
+@<<MONSTER: Orchish Boat Captain,300,170,80,1000,500,1>>
+
+@<<PAUSE>>
+`bright white`"Hey turn around", `bright blue`you hear a voice say.
+`bright blue`And you are mighty glad you heard her.
+
+@<<PAUSE>>
+
+@<<MONSTER: Skeleton Swordsmen,150,100,75,150,90,10>>
+
+`bright blue`You are standing in a pile of rotting bones, quite glad that it's
+`bright blue`over.  Where did they come from?
+
+@<<PAUSE>>
+`Bright red`BANG!!!!
+
+@<<PAUSE>>
+
+`bright blue`Your body slumps to the ground.
+
+@<<DAY END>>
+
+@<<DAY 4>>
+
+`bright blue`You wake up to a pounding headache!
+`bright blue`Of course when your eyes finally focus, the pain seems minimal
+`bright blue`to the sight before your eyes.
+
+`bright white`"Hello <<NAME>>, I am Mariah.  Thank you so much for saving me."
+
+`bright blue`You rub the back of your head, still wondering what happened.
+
+@<<PAUSE>>
+`bright white`"Sorry about that", `bright blue`she says.  `bright white`"I thought
+`bright white`you were one of the swordsmen coming for me.  Guess I got a little
+`bright white`carried away."
+
+`bright magenta`"Just a little", `bright blue`you say.  `bright magenta`"That
+`bright magenta`really hurts, what did you hit me with?"
+
+`bright white`"A cannon ball", `bright blue`she says through one of the most
+`bright blue`beautiful smiles you have ever seen.
+
+`bright blue`How can you be mad at something so beautiful?
+`bright blue`You slowly climb to your feet.
+
+@<<PAUSE>>
+`bright magenta`"We've got to get off of this ship!"
+
+`bright white`"I'm with you", `bright blue`she says.  `bright white`"Any Ideas?"
+
+`bright blue`You take some time to think, or at least make it look like that's
+`bright blue`what you are doing.  However, your gut feeling is that you may be
+`bright blue`stuck on this haunted ship forever.
+
+`bright white`"How about we make a jump for it?  The shore can't be that far away."
+
+@<<PAUSE>>
+`bright blue`Mariah listens, as you calmly yet nervously explain to her the
+`bright blue`outcome of the man overboard scenario.
+
+`bright blue`You offer another option.  `bright magenta`"Let's see if we can
+`bright magenta`find out how this boat is controlled.  Maybe we can sail it back
+`bright magenta`to shore ourselves."
+
+`bright white`"It doesn't sound like we've got too much of a choice, does it now?",
+`bright blue`she asks.
+
+`bright blue`You both split up inspecting the upper deck.  Of course it is no
+`bright blue`surprise to you that there is no type of steering device, or any
+`bright blue`other type of control to be seen.
+
+@<<PAUSE>>
+`bright red`It's then that you hear the scream!
+
+@<<PAUSE>>
+`bright blue`Quickly, you run to the back of the ship and down the rope ladder
+`bright blue`into the hold.
+
+`bright blue`You can't believe the sight you are beholding.  It is full of gold
+`bright blue`and expensive gems.
+
+`bright green`JACKPOT!!!
+
+`bright blue`You hollar out, but your excitement doesn't last long as you see
+`bright blue`what it was that made your fair maiden scream.
+
+@<<PAUSE>>
+@<<MONSTER: Skeleton Swordsmen,150,150,75,150,90,10>>
+
+`bright blue`They are like locusts, and never seem to stop coming.
+
+@<<PAUSE>>
+@<<MONSTER: Skeleton Swordsmen,150,150,75,150,90,10>>
+
+`bright blue`The bones are really piling up now....
+`bright blue`Where are they coming from????
+
+@<<PAUSE>>
+@<<MONSTER: Skeleton Swordsmen,150,150,75,150,90,10>>
+
+`bright blue`You look around in unbelief.  Then you look at your body and see
+`bright blue`the bright scarlet wounds that your enemy has inflicted on you.
+`bright blue`You begin to wonder just how much more you can endure.
+
+@<<PAUSE>>
+`bright blue`But one glance over in Mariahs direction, gives you the adrenaline
+`bright blue`rush that you need.
+
+`bright blue`You raise your weapon for the next assault!
+
+@<<PAUSE>>
+
+`cyan`NOTHING!!!
+
+`bright blue`Could it be that you have won the victory?
+
+`bright blue`You grab Mariahs hand and quickly usher her up the ladder onto the
+`bright blue`main deck.
+
+@<<PAUSE>>
+`bright blue`You look over the side and almost get dizzy as you see the waves
+`bright blue`rushing by at such a speed.
+
+`bright blue`You step back to catch your breath and trip over something piled
+`bright blue`on the deck.
+
+@<<PAUSE>>
+`bright blue`It's your goodie bag!  You pick it up and hear the tinkle of metal.
+`bright blue`It's the Pitcher of Gideon that Thor gave to you.
+
+`bright blue`Upon further inspection, you realize that it's got water in it.
+`bright blue`You could use a drink right about now.  You pour a little bit into
+`bright blue`your hand to see how it tastes.  `bright red`It's actually pretty
+`bright red`good.
+
+`bright blue`You tip it upside down to drink up the last bit and get soaked
+`bright blue`from the flood of water that pours out.  In fact, you have to turn
+`bright blue`the pitcher back up to stop the flow.
+
+@<<PAUSE>>
+`bright green`HMMMMMMM!!!  You get an idea!
+
+@<<PAUSE>>
+`bright blue`You take the pitcher and heave it into the waves below you.
+
+@<<PAUSE>>
+`bright blue`You back up a step and cover your head to shield it from the falling
+`bright blue`pitcher on it's cursed return to the ship.
+
+@<<PAUSE>>
+@<<ANSI: ths2.ans>>
+
+@<<PAUSE>>
+`bright blue`The ship stops dead with a terrible racket.  It feels like it has
+`bright blue`run straight into a wall.
+
+`bright blue`It takes a while for Mariah and you to get up from the jolt.
+`bright blue`She looks over the side and hollars, `bright white`"It's gone...
+`bright white`It's gone!!"
+
+`bright blue`You ask, `bright magenta`"What's Gone?!
+`bright blue`But as you look over her shoulder you see that the ship has run
+`bright blue`upon dry land.
+
+@<<PAUSE>>
+`bright blue`In fact, there is not a drop of water in sight.
+`bright blue`You find it hard to believe, that little pitcher could hold that
+`bright blue`much water...but who knows?  This has not been a very ordinary
+`bright blue`week.
+
+@<<PAUSE>>
+`bright blue`You help Mariah out of the ship and onto the dry, cracked ground.
+
+`bright blue`You both start to walk towards the forest when it hits you.
+`bright blue`As a matter of fact, as you turn towards the ship, she is already
+`bright blue`back on board.
+
+@<<PAUSE>>
+`bright red`THE MONEY!!!!
+`bright red`WE CAN'T LEAVE THAT HERE!
+
+@<<PAUSE>>
+`bright blue`Soon you and your new friend are walking towards the forest, hand
+`bright blue`in hand, with radiating smiles.
+
+@<<PAUSE>>
+`bright blue`Is that sound you hear your heart beating...
+
+@<<PAUSE>>
+`bright blue`...Or the jingling of the money bags hanging from your waists?
+
+@<<PAUSE>>
+`bright blue`Well Done <<NAME>>
+
+@<<STAT: 3,100>>
+@<<STAT: 5,50>>
+@<<STAT: 7,20,000>>
+
+`bright blue`You recieve:
+   100 Experience
+    50 Wisdom
+20,000 Gold
+
+For finishing this Quest!!!
+@<<END OF QUEST>>

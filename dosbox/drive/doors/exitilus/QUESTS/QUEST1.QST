@@ -1,0 +1,254 @@
+@<<TITLE: `cyan`The Long Road Home By: TML,Easy,3 days>>
+@<<DAY 1>>
+@<<CLEAR>>
+
+---------------------------------------------------------------
+`red`      The old EXITILUS, as we knew it, has crumbled and it's
+`red`                    maker Tao Ge has fallen!
+---------------------------------------------------------------
+@<<PAUSE>>
+
+`cyan`       Join me now as we begin to explore this new EMPIRE of
+`white`                 EXITILUS v3.1  By: ECI SOFTWARE...
+@<<PAUSE>>
+
+`green`Do Not Sit Back And Relax! This is a "two hands on" new
+`green`learning experience.
+@<<PAUSE>>
+
+Before you go`green` <<NAME>>`bright yellow` here is 
+a simple challenge for you...
+@<<PAUSE>>
+@<<CLEAR>>
+
+@<<MONSTER: Petty Thief,12,15,10,40,4,6>>
+@<<PAUSE>>
+@<<CLEAR>>
+
+`magenta`             Beating these Thieves have earned you 
+`magenta`             some valuable stats, use them wisely! 
+@<<PAUSE>>
+
+@<<DAY END>>
+@<<DAY 2>>
+
+---------------------------------------------------------------
+`green`                          Day 2 of:
+`green`                     The Long Road Home
+`green`                           By: TML
+---------------------------------------------------------------
+@<<PAUSE>>
+
+`bright blue`I see that you have risen early 'O Great
+`cyan`<<PROFESSION>> `bright blue`I would suggest you travel to the
+`bright blue`NORTH, for it is there you will find your destiny...
+@<<PAUSE>>
+
+You decide you are not going anywhere until you have had 
+breakfast, so you set about preparing a meal of boiled Genia
+hen eggs and hardtack biscuits.
+@<<PAUSE>>
+
+`blue`Your breakfast is cut short by...
+@<<MONSTER: Petty Thief,12,15,10,40,4,6>>
+
+This must be a very poor Nation to have so many Thieves!
+@<<PAUSE>>
+
+`red`After you break camp you saddle THUNDERHEAD, your great
+`red`black stallion and slowly head NORTH...
+@<<MONSTER: Petty Thief,12,15,10,40,4,6>>
+
+"This is getting sorta old", you mutter under your breath.
+@<<PAUSE>>
+
+`green` Riding
+`green`     Riding
+`green`          Riding
+`green`               And, Riding some more!
+@<<PAUSE>>
+
+Finally you stand atop a small knoll overlooking what appears
+to be a small Township...
+@<<PAUSE>>
+
+`cyan`You descend to the flatlands below and come upon a sign
+`cyan`that reads:
+@<<PAUSE>>
+@<<CLEAR>>
+
+---------------------------------------------------------------
+`white`                         Township of:
+`white`                           Blaggard
+
+`white`                         Population 10
+---------------------------------------------------------------
+@<<PAUSE>>
+
+The original population figure had been 1750, but, there were
+a dwindling set of numbers crossed out until there were only
+10 left.
+@<<PAUSE>>
+
+`bright red`As you start past the sign you are attacked...
+@<<MONSTER: Rabid Dog,12,15,12,10,4,5>>
+
+At least this attack was not from those pitiful Thieves!
+@<<PAUSE>>
+
+`bright blue`Tying THUNDERHEAD to the hitching rail, you
+`bright blue`enter what was once the Township's Tavern...
+@<<PAUSE>>
+
+From the depths of the dimly lit room you hear, 
+`white`"Who are you Great Knight?"
+@<<PAUSE>>
+
+"I am`green` <<NAME>>`bright yellow` of the Kingdom`green` <<MANOR>>
+of the`white` EMPIRE of EXITILUS V2.05`bright yellow`", you exclaim!
+@<<PAUSE>>
+
+`cyan`"Well, in this`bright white` EMPIRE 
+`cyan`you are `green`<<NAME>> 
+`cyan`of the Race`green` <<RACE>> 
+`cyan`and of the Class`green` <<CLASS>>
+`cyan`with a Professional Title of`green` <<PTITLE>>-<<PROFESSION>> 
+`cyan`answers the voice, of what you think is a beautiful maiden.
+@<<PAUSE>>
+
+Coming into the light you are pleased to gaze upon a 
+very beautiful woman with long flowing black hair and a 
+`white`Short Sword`bright yellow` strapped to her waist.
+@<<PAUSE>>
+@<<CLEAR>>
+
+@<<ANSI: maiden>>
+@<<PAUSE>>
+@<<CLEAR>>
+
+"Are there more Townships and Kingdoms in this new EMPIRE?", you
+ask her.
+@<<PAUSE>>
+
+`magenta`"Yes, There are more Townships and Kingdoms in this Realm, but, 
+`magenta`they are just now coming into their own", she answers.
+@<<PAUSE>>
+
+"Who are you pretty maiden?", you ask with a broad grin.
+@<<PAUSE>
+
+`magenta`"I am`yellow` LEEZA: WOMAN WARRIOR`magenta`!"
+`magenta`"It is my`red` BLADE`magenta` that has kept this place
+`magenta`together throughout the horrible`red` CHAOS`magenta` of
+`magenta`Tao Ge's ruthless rule of our old EMPIRE", she answers.
+@<<PAUSE>>
+
+As you and LEEZA leave the Tavern, you are set upon...
+@<<MONSTER: MOOR WARRIOR,10,5,10,15,10,10>>
+
+You notice that LEEZA is truly a Warrior to be reckoned with
+and you are glad to have her fighting by your side...
+@<<PAUSE>>
+
+`magenta`"Those were fighters from the Village just 10 miles 
+`magenta`from here, to the SOUTH", LEEZA informs you.
+@<<PAUSE>>
+
+`green`"I am lost in this new land LEEZA and need a place 
+`green`in which I can plant my`bright white` ROOTS`green`, can I 
+`green`become part of your Township?", you ask.
+@<<PAUSE>>
+
+"I shall call a TOWN MEETING and have it put to a vote", she answers.
+@<<DAY END>>
+@<<DAY 3>>
+
+--------------------------------------------------------------
+`red`                          TOWN MEETING
+
+`red`                      Topic of discussion:
+`cyan`            Acceptance of new Knight to our Township
+--------------------------------------------------------------
+@<<PAUSE>>
+
+`bright white` Bang!
+`bright white`      Bang!!
+`bright white`            Bang!!!
+@<<PAUSE>>
+
+LEEZA bangs the wooden mallet announcing 
+that the meeting should come to order.
+@<<PAUSE>>
+
+`cyan`"The first order of business is should  
+`cyan`we allow this Knight`green` <<NAME>>`cyan` to become a part  
+`cyan`of our society?", the`white` Book Keeper`cyan` of the town asks.
+@<<PAUSE>>
+
+LEEZA rises from her chair and speaks to the gathering, "I
+am the only Warrior this Township has and I have served it to
+the best of my ability."
+@<<PAUSE>>
+
+`magenta`"But, in the raid today by the MOORs, it was great 
+`magenta`to have another capable fighter by my side, I vote we 
+`magenta`should be very grateful to accept`green` <<NAME>>
+`magenta`to become a resident of our Town", says LEEZA with a smile.
+@<<PAUSE>>
+
+`cyan`"All in favor", asks the Town Book Keeper.
+@<<PAUSE>>
+
+It was hard to hear over the loud cheering and unanimous approval! 
+@<<PAUSE>>
+
+`cyan`"The second order of business", announces the Book Keeper, is
+`cyan`what shall we do about today's unprovoked raid?"
+@<<PAUSE>>
+
+`green`Rising from your chair you address the townspeople, "We
+`green`are too few in number to leave our little Township. What we
+`green`need to do is to pair and marry all men and women of
+`green`child bearing age and start to multiply, thus, increasing
+`green`our population", you state with a voice of authority!
+@<<PAUSE>>
+
+And so it was, the town's folks began to pair off and marry.
+@<<PAUSE>>
+
+`white`"What will become of this little
+`bright white` Township`white`", one might ask?
+@<<PAUSE>>
+
+@<<CLEAR>>
+              The answer, of course, lies in 
+`yellow`                     what you make it
+   as you continue to play this wonderful game of EXITILUS!
+@<<PAUSE>>
+
+@<<CLEAR>>
+`cyan`Here are your AWARDS:
+@<<PAUSE>>
+
+`green`   A Short Sword for your right hand
+
+`green`  10 STRENGTH POINTS
+`green`  10 DEFENSE POINTS
+`green`  10 LEADERSHIP POINTS
+`green` 100 GOLD
+`green`   5 HITPOINTS
+`green`  10 Acres of LAND
+`green`  20 SERFS to work that LAND
+@<<PAUSE>>
+
+@<<ITEM: 5>>
+@<<STAT: 0,10>>
+@<<STAT: 1,10>>
+@<<STAT: 4,10>>
+@<<STAT: 7,100>>
+@<<STAT: 10,5>>
+@<<STAT: 11,10>>
+@<<STAT: 12,20>>
+@<<PAUSE>>
+
+@<<END OF QUEST>>

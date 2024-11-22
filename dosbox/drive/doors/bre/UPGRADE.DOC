@@ -1,0 +1,18 @@
+Barren Realms Elite Upgrade Information
+---------------------------------------
+
+Upgrading to any new version of BRE:
+------------------------------------
+  Generally, BRE can be upgraded simply by extracting the new archive into your
+  BRE directory and running UNPACK.BAT.  However, some versions have special
+  upgrade instructions.  If you are upgrading to (or past) any of these
+  versions, please make sure you read all pertinent instructions carefully.
+
+Upgrading to v0.98* Series
+--------------------------
+Important:
+  This version requires a reset from the v0.97* series.
+    (All members of a league must upgrade)
+  You must run UNPACK.BAT to unpack all of the other BRE game files into
+    their proper directories
+

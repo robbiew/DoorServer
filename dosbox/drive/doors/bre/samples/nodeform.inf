@@ -1,0 +1,82 @@
+IF YOU ARE NOT THE LEAGUE COORDINATOR, YOU SHOULD NOT BE MODIFYING THE
+BRNODES.DAT FILE IN ANY CASE.
+
+Note:  The BRNODES.DAT file should be stored in your main BRE directory
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+1 HOST 2               <== BBS Number with optional HOST routing system
+Solaria City           <== BBS or Nation Name
+106/900                <== Zone:Net/Node Number
+Houston                <== City
+TX                     <== 2 Letter State Code
+USA                    <== Country
+                       <== Blank Line
+2
+Shark Waters
+106/890
+Houston
+TX
+USA
+
+Etc, etc...
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+BBS Number = Number assigned to any BBS in the game.  BBS #1 is the manager
+of the game and will automatically send out BRNODES.DAT update to the BBS's.
+
+(HOST routing explained below)
+
+Nation Name = The Name of the BBS or Nation.  To make the game more
+              enjoyable for the players, we recommend that BBSes create
+              "nation" names such as "USA" or "Canada" or "Solaria"
+              instead of their BBS name to create a game atmosphere.
+              Each BBS, of course, should choose a different name.
+
+Zone:Net/Node Number = Your FrontEnd Zone:Net/Node Number.  This game should
+work on any fido-net compatible network.
+
+City, State, Country = Self Explanatory
+
+HOST routing system
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+If your league uses a centralized routing system with Hubs, the safest and
+simplest way of maintaining this routing is by having the League Coordinator
+manage it.  If BBS 2 has systems 3,4, and 8 sending all of their data to it,
+you should have, for BBS #2, the following for its first line:
+
+2 HOST 3 4 8
+Shark Waters
+1:106/890
+etc.
+
+Suppose this is the routing structure:
+
+                               BBS #1
+                             /        \
+                          BBS #2     BBS #4
+                        / |  |  \    |  |  \
+                       3  5  7  8    6  9  11
+                                            |
+                                            10
+
+BBSes 3, 5, 7, 8, 6, 9, and 10 would not be HOSTs and would therefore not
+have any routing information.  BBS #2 would list 3, 5, 7, and 8 after it.
+BBS #4 would list 6, 9, and 10 only.  BBS #11 would list only 10, and BBS #1
+would list only 2 and 4.   So the entire nodelist would have [Line #1 shown
+only for each BBS]:
+
+1 HOST 2 4
+2 HOST 3 5 7 8
+3
+4 HOST 6 9 11
+5
+6
+7
+8
+9
+10
+11 HOST 10
+
+Barren Realms Elite will then determine the necessary data routing for
+each BBS.
+
+
