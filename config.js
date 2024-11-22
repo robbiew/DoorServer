@@ -14,7 +14,7 @@ const doorSchema = {
   items: {
     type: "object",
     properties: {
-      name: { type: "string" },
+      code: { type: "string" },
       doorCmd: { type: "string" },
       dropFileFormat: { type: "string" },
       dropFileDir: { type: "string" },
@@ -32,7 +32,7 @@ const doorSchema = {
         maximum: new Date().getFullYear() // Optional field with valid range
       }
     },
-    required: ["name", "doorCmd", "dropFileFormat", "description", "category", "gameTitle"] // yearCreated is NOT required
+    required: ["code", "doorCmd", "dropFileFormat", "description", "category", "gameTitle"] // yearCreated is NOT required
   }
 };
 

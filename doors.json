@@ -1,6 +1,6 @@
 [
     {
-      "name": "BRE",
+      "code": "BRE",
       "gameTitle": "Barren Realms Elite",
       "doorCmd": "C:\\doors\\bin\\bre.bat",
       "dropFileFormat": "DoorFileSR",
@@ -11,7 +11,7 @@
       "yearCreated": 1992
     },
     {
-      "name": "Exitilus",
+      "code": "Exitilus",
       "gameTitle": "Exitilus RPG",
       "doorCmd": "C:\\doors\\bin\\exitilus.bat",
       "multiNode": true,
@@ -21,7 +21,7 @@
       "yearCreated": 1994
     },
     {
-      "name": "LOD",
+      "code": "LOD",
       "gameTitle": "Land of Devastation",
       "doorCmd": "C:\\doors\\bin\\lod.bat",
       "multiNode": true,
@@ -30,7 +30,7 @@
       "category": "Role Playing Game"
     },
     {
-      "name": "TW2002",
+      "code": "TW2002",
       "gameTitle": "Trade Wars 2002",
       "doorCmd": "C:\\doors\\bin\\tw2002.bat",
       "dropFileFormat": "DoorSys",
@@ -40,7 +40,7 @@
       "yearCreated": 1986
     },
     {
-      "name": "Usurper",
+      "code": "Usurper",
       "gameTitle": "Usurper Dungeon Crawl",
       "doorCmd": "C:\\doors\\bin\\usurper.bat",
       "dropFileFormat": "DorInfo",

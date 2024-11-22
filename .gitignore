@@ -13,3 +13,6 @@ dosbox/drive/doors/*
 
 # Ensure that files directly in /drive/doors/ are not ignored 
 !dosbox/drive/doors/*.*
+
+# Ignore all log files
+log/*
