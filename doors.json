@@ -9,7 +9,19 @@
       "removeLockFile": "/doors/bre/INUSE.FLG",
       "description": "A turn-based strategy game where players compete to conquer territories.",
       "category": "Strategy",
-      "yearCreated": 1992
+      "yearCreated": 1992,
+      "isNative": false
+    },
+    {
+      "code": "GD2",
+      "gameTitle": "Galactic Dynasty II",
+      "doorCmd": "/home/bbs/git/doorserver/dosbox/drive/doors/galactic-dynasty-2/GalacticDynasty2/launch.sh",
+      "dropFileFormat": "DoorSys",
+      "multiNode": true,
+      "description": "A turn-based strategy game where players compete to conquer territories.",
+      "category": "Strategy",
+      "yearCreated": 1992,
+      "isNative": true
     },
     {
       "code": "Exitilus",
@@ -19,7 +31,8 @@
       "dropFileFormat": "DorInfo",
       "description": "A role-playing game where players complete quests and battle monsters.",
       "category": "Role Playing Game",
-      "yearCreated": 1994
+      "yearCreated": 1994,
+      "isNative": false
     },
     {
       "code": "LOD",
@@ -28,7 +41,8 @@
       "multiNode": true,
       "dropFileFormat": "DorInfo",
       "description": "Land of Devastation is an immersive fantasy adventure game.",
-      "category": "Role Playing Game"
+      "category": "Role Playing Game",
+      "isNative": false
     },
     {
       "code": "TW2002",
@@ -38,7 +52,8 @@
       "multiNode": true,
       "description": "Trade Wars 2002 is a space trading and combat simulation game.",
       "category": "Simulation",
-      "yearCreated": 1986
+      "yearCreated": 1986,
+      "isNative": false
     },
     {
       "code": "Usurper",
@@ -48,7 +63,8 @@
       "multiNode": true,
       "description": "A competitive dungeon crawl where players vie for supremacy.",
       "category": "Adventure",
-      "yearCreated": 1993
+      "yearCreated": 1993,
+      "isNative": false
     }
   ]
   
